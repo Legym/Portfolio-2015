@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png') repeat;
+}
+
+li, ul, a {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#box {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: none;
+    padding: 10px 0;
+
+    @media only screen and (min-width: 40.063em) { 
+        height: 52px;
+        padding-top: 30px;
+    }
+
+    /*@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+        height: 92px;
+    }*/
+}
+
+.BoxContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: 32px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#hamburger {
+    width: 30px;
+    height: 32px;
+    background: url('../img/1.png') no-repeat;
+    float: right;
+
+    @media only screen and (min-width: 40.063em) { 
+        display: none;
+    }
+}
+
+#Navigation {
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    text-align: center;
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    li {
+        padding: 10px 0;
+    }
+
+    a {
+        color: white;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        position: relative;
+        width: 350px;
+        top: 0;
+        background-color: transparent;
+        float: right;
+
+
+        li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        li:hover {
+            background-color: green;
+        }
+    }
+}
+
+
+
+.HomepageIndex {
+    background-color: white;
+    height: 180px;
+    width: 100%;
+}
+
+.HomepageProjects {
+    text-align: center;
+    padding: 0 10%;
+
+    h3 {
+        font-size: 16px;
+        padding: 20px 0;       
+    }
+}
+
+.HomepageProjectBox {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.AboutBody {
+    background-color: white;
+    padding: 30px 30px;
+
+    h1 {
+        margin: 0;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 0 10%;
+    }
+
+}
+
+.FaceImage {
+    background-color: green;
+    width: 100%;
+    height: 200px;
+}
+
+.FaceSmallImages {
+    ul {
+        padding: 0;
+    }
+}
+
+.image1 {
+    background-color: red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
+
+.image2 {
+    background-color: red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
+
+.image3 {
+    background-color: red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
+
+.image4 {
+    background-color: red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
+
+.image5 {
+    background-color: red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
+
+
+.image6 {
+    background-color: red;
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+}
+
+.InterestImage {
+    text-align: center;
+    padding: 30px;
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 30px;
+    }
+
+}
+
+.Interest1 {
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+}
+
+.Interest2 {
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+}
+
+.Interest3 {
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+.PortfolioGithub {
+    text-align: center;
+    padding: 10px 30px;
+
+    h3 {
+        border-top: 1px solid #333;
+        padding: 20px 0;
+    }
+}
+
+#GithubButton {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    padding-top: 10px;
+    color: white;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.ContactBody {
+    background-color: white;
+    padding: 30px 30px;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.ProcessBody {
+    background-color: white;
+    padding: 30px 30px;
+
+    h1 {
+        margin: 0;
+    }
+
+
+}
+
+.ProcessContainer {
+    @media only screen and (min-width: 40.063em) { 
+        padding: 0 10%;
+    }
+}
+
+.ProcessList {
+    text-align: center;
+
+    h1 {
+
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.TheFlow {
+    padding: 0 30px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    text-align: center;
+}
