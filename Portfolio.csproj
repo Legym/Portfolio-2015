@@ -83,20 +83,15 @@
     <Content Include="404.html" />
     <Content Include="apple-touch-icon.png" />
     <Content Include="browserconfig.xml" />
-    <Content Include="Content\css\main.css" />
     <Content Include="Content\css\normalize.css" />
+    <Content Include="Content\css\PrimaryDir.css" />
     <Content Include="Content\css\Styled.css" />
-    <Content Include="Content\img\1.png" />
+    <Content Include="Content\img\Awesome-%281-of-1%29-2.png" />
+    <Content Include="Content\img\Logo.svg" />
     <Content Include="Content\js\main.js" />
     <Content Include="Content\js\plugins.js" />
     <Content Include="Content\js\vendor\jquery-1.11.2.min.js" />
     <Content Include="Content\js\vendor\modernizr-2.8.3.min.js" />
-    <Content Include="Content\sass\main.css">
-      <DependentUpon>main.scss</DependentUpon>
-    </Content>
-    <Content Include="Content\sass\main.min.css">
-      <DependentUpon>main.css</DependentUpon>
-    </Content>
     <Content Include="crossdomain.xml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -139,14 +134,19 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Content\config.rb" />
-    <Content Include="Content\sass\main.scss" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Portfolio\Index.cshtml" />
     <Content Include="Views\Process\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
-    <Content Include="Content\sass\main.css.map">
-      <DependentUpon>main.css</DependentUpon>
-    </Content>
+    <Content Include="Content\sass\PrimaryDir.scss" />
+    <Content Include="Content\sass\Partials\_Layout\_Layout.scss" />
+    <Content Include="Content\sass\Partials\_Layout\_Universal.scss" />
+    <Content Include="Content\sass\Partials\Homepage\_Index.scss" />
+    <Content Include="Content\sass\Partials\About\_Index.scss" />
+    <Content Include="Content\sass\Partials\Contact\_Index.scss" />
+    <Content Include="Content\sass\Partials\Portfolio\_Index.scss" />
+    <Content Include="Content\sass\Partials\Workflow\_Index.scss" />
+    <Content Include="Content\sass\Modules\_WidthContainers.scss" />
     <None Include="Properties\PublishProfiles\MygelBergstresser.pubxml" />
     <None Include="Properties\PublishProfiles\PortfolioMygel.pubxml" />
     <None Include="Web.Debug.config">
@@ -158,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\css\Partials\About\" />
+    <Folder Include="Content\css\Partials\_Layout\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

@@ -8,28 +8,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
-    <link href="~/Content/css/main.css" rel="stylesheet" />
+    <link href="~/Content/css/PrimaryDir.css" rel="stylesheet" />
     <link href="~/Content/css/normalize.css" rel="stylesheet" />
     <link href="~/Content/css/Styled.css" rel="stylesheet" />
     <script src="~/content/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <script src="//use.typekit.net/pxv3vqd.js"></script>
+    <script>try { Typekit.load(); } catch (e) { }</script>
+
 </head>
 <body>
 
-    <div id="box">
-        <div class="logo"><li><a href="/">Home</a></li>
-</div><!--
-        --><div id="hamburger">
+    <header id="header">
+        <div class="HeaderContainer">
+            <div class="logo">
+                <a href="/">
+                    <img src="/Content/img/Logo.svg">
+                </a>
+            </div>
+
+            <div id="hamburger"></div>
+
             <nav id="Navigation">
                 <ul>
-                    <li><a href="/About/">About Me</a></li>
+                    <li><a href="/About/">About</a></li>
                     <li><a href="/Portfolio/">Portfolio</a></li>
-                    <li><a href="/Process/">Process</a></li>
+                    <li><a href="/Process/">Workflow</a></li>
                     <li><a href="/Contact/">Contact</a></li>
 
                 </ul>
             </nav>
         </div>
-    </div>
+    </header>
 
         @RenderBody()
 

@@ -1,0 +1,580 @@
+/* line 1, ../sass/Partials/_Layout/_Layout.scss */
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: none;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../sass/Partials/_Layout/_Layout.scss */
+  #header {
+    height: 52px;
+    padding-top: 20px;
+  }
+}
+
+/* line 14, ../sass/Partials/_Layout/_Layout.scss */
+.HeaderContainer {
+  width: 90%;
+  padding: 5px 5%;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 14, ../sass/Partials/_Layout/_Layout.scss */
+  .HeaderContainer {
+    padding: 0 5%;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 14, ../sass/Partials/_Layout/_Layout.scss */
+  .HeaderContainer {
+    padding: 0 5%;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 14, ../sass/Partials/_Layout/_Layout.scss */
+  .HeaderContainer {
+    padding: 0 20%;
+    width: 60%;
+  }
+}
+
+/* line 32, ../sass/Partials/_Layout/_Layout.scss */
+.logo {
+  display: inline-block;
+  width: 50%;
+  margin-top: -5px;
+}
+/* line 37, ../sass/Partials/_Layout/_Layout.scss */
+.logo img {
+  height: 40px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 32, ../sass/Partials/_Layout/_Layout.scss */
+  .logo {
+    display: inline-block;
+    margin-top: -7px;
+    width: 30%;
+  }
+  /* line 46, ../sass/Partials/_Layout/_Layout.scss */
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 32, ../sass/Partials/_Layout/_Layout.scss */
+  .logo {
+    display: inline-block;
+    margin-top: -7px;
+  }
+  /* line 56, ../sass/Partials/_Layout/_Layout.scss */
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 32, ../sass/Partials/_Layout/_Layout.scss */
+  .logo {
+    display: inline-block;
+    width: auto;
+    margin-top: -7px;
+  }
+  /* line 67, ../sass/Partials/_Layout/_Layout.scss */
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 32, ../sass/Partials/_Layout/_Layout.scss */
+  .logo {
+    display: inline-block;
+    width: auto;
+    margin-top: -7px;
+  }
+  /* line 78, ../sass/Partials/_Layout/_Layout.scss */
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+}
+
+/* line 87, ../sass/Partials/_Layout/_Layout.scss */
+#hamburger {
+  width: 30px;
+  height: 32px;
+  background: url("../img/1.png") no-repeat;
+  float: right;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 87, ../sass/Partials/_Layout/_Layout.scss */
+  #hamburger {
+    display: none;
+  }
+}
+
+/* line 98, ../sass/Partials/_Layout/_Layout.scss */
+#Navigation {
+  display: none;
+  width: 100%;
+  height: auto;
+  background-color: #222;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  text-align: center;
+}
+/* line 108, ../sass/Partials/_Layout/_Layout.scss */
+#Navigation ul {
+  text-decoration: none;
+  list-style: none;
+}
+/* line 113, ../sass/Partials/_Layout/_Layout.scss */
+#Navigation li {
+  border-top: #212121 solid 1px;
+  border-bottom: #363636 solid 1px;
+}
+/* line 118, ../sass/Partials/_Layout/_Layout.scss */
+#Navigation a {
+  color: white;
+  display: block;
+  height: 70px;
+  line-height: 70px;
+}
+/* line 127, ../sass/Partials/_Layout/_Layout.scss */
+#Navigation a:hover {
+  color: gray;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 98, ../sass/Partials/_Layout/_Layout.scss */
+  #Navigation {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    top: 0;
+    background-color: transparent;
+    float: right;
+  }
+  /* line 140, ../sass/Partials/_Layout/_Layout.scss */
+  #Navigation li {
+    display: inline-block;
+    padding: 0 10px;
+    border-top: none;
+    border-bottom: none;
+  }
+  /* line 147, ../sass/Partials/_Layout/_Layout.scss */
+  #Navigation a {
+    line-height: 40px;
+  }
+  /* line 152, ../sass/Partials/_Layout/_Layout.scss */
+  #Navigation a:hover {
+    color: GrayText;
+  }
+}
+
+/* line 158, ../sass/Partials/_Layout/_Layout.scss */
+.footer {
+  text-align: center;
+}
+
+/* line 1, ../sass/Partials/_Layout/_Universal.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png") repeat;
+}
+
+/* line 7, ../sass/Partials/_Layout/_Universal.scss */
+li, ul, a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1, ../sass/Partials/About/_Index.scss */
+.AboutContainer {
+  background-color: white;
+  padding: 50px 30px;
+}
+/* line 5, ../sass/Partials/About/_Index.scss */
+.AboutContainer h1 {
+  font-family: "crete-round";
+  margin: 0;
+  font-size: 3em;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 5, ../sass/Partials/About/_Index.scss */
+  .AboutContainer h1 {
+    font-size: 4em;
+  }
+}
+/* line 15, ../sass/Partials/About/_Index.scss */
+.AboutContainer h2 {
+  font-size: 1.5rem;
+  color: #888888;
+  line-height: 1.4em;
+  margin-bottom: 0.7em;
+  font-weight: normal;
+}
+/* line 23, ../sass/Partials/About/_Index.scss */
+.AboutContainer p {
+  color: #555555;
+  margin-bottom: 1.4em;
+  line-height: 1.6em;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../sass/Partials/About/_Index.scss */
+  .AboutContainer {
+    padding: 60px 5%;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 1, ../sass/Partials/About/_Index.scss */
+  .AboutContainer {
+    padding: 60px 10%;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 1, ../sass/Partials/About/_Index.scss */
+  .AboutContainer {
+    padding: 60px 20%;
+  }
+}
+
+/* line 42, ../sass/Partials/About/_Index.scss */
+.AboutTop {
+  margin-bottom: 3em;
+  border-bottom: 1px solid lightgray;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 42, ../sass/Partials/About/_Index.scss */
+  .AboutTop {
+    margin-bottom: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 52, ../sass/Partials/About/_Index.scss */
+  .AboutIntro {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 52, ../sass/Partials/About/_Index.scss */
+  .AboutIntro {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 52, ../sass/Partials/About/_Index.scss */
+  .AboutIntro {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+/* line 73, ../sass/Partials/About/_Index.scss */
+.FaceImage {
+  width: 100%;
+}
+/* line 76, ../sass/Partials/About/_Index.scss */
+.FaceImage img {
+  width: 100%;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 73, ../sass/Partials/About/_Index.scss */
+  .FaceImage {
+    display: inline-block;
+    text-align: right;
+  }
+  /* line 84, ../sass/Partials/About/_Index.scss */
+  .FaceImage img {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 73, ../sass/Partials/About/_Index.scss */
+  .FaceImage {
+    width: 59%;
+  }
+  /* line 91, ../sass/Partials/About/_Index.scss */
+  .FaceImage img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 73, ../sass/Partials/About/_Index.scss */
+  .FaceImage {
+    width: 59%;
+  }
+}
+
+/* line 103, ../sass/Partials/About/_Index.scss */
+.FaceSmallImages ul {
+  padding: 0;
+  text-align: center;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 102, ../sass/Partials/About/_Index.scss */
+  .FaceSmallImages {
+    margin-top: 4em;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 102, ../sass/Partials/About/_Index.scss */
+  .FaceSmallImages {
+    margin-top: 2em;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 102, ../sass/Partials/About/_Index.scss */
+  .FaceSmallImages {
+    margin-top: 2em;
+  }
+}
+
+/* line 122, ../sass/Partials/About/_Index.scss */
+.image {
+  background-color: red;
+  width: 146px;
+  height: 75px;
+  display: inline-block;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 122, ../sass/Partials/About/_Index.scss */
+  .image {
+    width: 176px;
+  }
+}
+
+/* line 133, ../sass/Partials/About/_Index.scss */
+.InterestImageContainer {
+  text-align: center;
+  padding: 30px;
+}
+/* line 137, ../sass/Partials/About/_Index.scss */
+.InterestImageContainer ul {
+  padding: 0;
+}
+/* line 141, ../sass/Partials/About/_Index.scss */
+.InterestImageContainer li {
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 133, ../sass/Partials/About/_Index.scss */
+  .InterestImageContainer {
+    padding: 30px 20%;
+  }
+}
+
+/* line 151, ../sass/Partials/About/_Index.scss */
+.Interest {
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* line 1, ../sass/Partials/Contact/_Index.scss */
+.ContactContainer {
+  background-color: white;
+  padding: 30px 30px;
+}
+/* line 5, ../sass/Partials/Contact/_Index.scss */
+.ContactContainer h1 {
+  margin: 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../sass/Partials/Contact/_Index.scss */
+  .ContactContainer {
+    padding: 30px 20%;
+  }
+}
+
+/* line 1, ../sass/Partials/Homepage/_Index.scss */
+.HomepageContainer {
+  background-color: white;
+  height: 180px;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageContainer {
+    padding: 30px 20%;
+    height: 480px;
+  }
+}
+
+/* line 11, ../sass/Partials/Homepage/_Index.scss */
+.HomepageProjects {
+  text-align: center;
+  padding: 0 10%;
+}
+/* line 15, ../sass/Partials/Homepage/_Index.scss */
+.HomepageProjects h3 {
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+/* line 22, ../sass/Partials/Homepage/_Index.scss */
+.HomepageBottomContainer {
+  padding: 30px 5%;
+  text-align: center;
+}
+/* line 26, ../sass/Partials/Homepage/_Index.scss */
+.HomepageBottomContainer h1 {
+  padding: 20px 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 22, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageBottomContainer {
+    padding: 30px 5%;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 22, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageBottomContainer {
+    padding: 30px 5%;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 22, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageBottomContainer {
+    padding: 30px 20%;
+  }
+}
+
+/* line 45, ../sass/Partials/Homepage/_Index.scss */
+.HomepageProjectBox {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 45, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageProjectBox {
+    width: 38.1923076923%;
+    padding: 0.7692307692% 0.7692307692% 0 0.7692307692%;
+    margin: 0 2.4038461538% 2.4038461538% 0;
+    display: inline-block;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 45, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageProjectBox {
+    width: 28.1923076923%;
+    padding: 0.7692307692% 0.7692307692% 0 0.7692307692%;
+    margin: 0 2.4038461538% 2.4038461538% 0;
+    display: inline-block;
+    height: 300px;
+  }
+}
+
+/* line 1, ../sass/Partials/Portfolio/_Index.scss */
+.PortfolioContainer {
+  padding: 30px 30px;
+  text-align: center;
+}
+/* line 5, ../sass/Partials/Portfolio/_Index.scss */
+.PortfolioContainer h1 {
+  padding: 20px 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../sass/Partials/Portfolio/_Index.scss */
+  .PortfolioContainer {
+    padding: 30px 20%;
+  }
+}
+
+/* line 15, ../sass/Partials/Portfolio/_Index.scss */
+.PortfolioProjectBox {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* line 23, ../sass/Partials/Portfolio/_Index.scss */
+.PortfolioGithubContainer {
+  padding: 30px 30px;
+  text-align: center;
+}
+/* line 27, ../sass/Partials/Portfolio/_Index.scss */
+.PortfolioGithubContainer h1 {
+  padding: 20px 0;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 23, ../sass/Partials/Portfolio/_Index.scss */
+  .PortfolioGithubContainer {
+    padding: 30px 20%;
+  }
+}
+
+/* line 37, ../sass/Partials/Portfolio/_Index.scss */
+#GithubButton {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  padding-top: 10px;
+  color: white;
+}
+/* line 44, ../sass/Partials/Portfolio/_Index.scss */
+#GithubButton h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/Partials/Workflow/_Index.scss */
+.WorkflowBody {
+  background-color: white;
+  padding: 30px 30px;
+}
+/* line 5, ../sass/Partials/Workflow/_Index.scss */
+.WorkflowBody h1 {
+  margin: 0;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 12, ../sass/Partials/Workflow/_Index.scss */
+  .WorkflowContainer {
+    padding: 0 20%;
+  }
+}
+
+/* line 18, ../sass/Partials/Workflow/_Index.scss */
+.WorkflowList {
+  text-align: center;
+}
+/* line 25, ../sass/Partials/Workflow/_Index.scss */
+.WorkflowList ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../sass/Partials/Workflow/_Index.scss */
+.TheFlow {
+  padding: 0 30px;
+}
+/* line 36, ../sass/Partials/Workflow/_Index.scss */
+.TheFlow ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 41, ../sass/Partials/Workflow/_Index.scss */
+.TheFlow li {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+}

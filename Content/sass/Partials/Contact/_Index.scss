@@ -1,0 +1,156 @@
+﻿.ContactContainer {
+    background-color: white;
+    padding: 50px 30px;
+    border-bottom: #dddddd solid 1px;
+
+    h1 {
+        font-family: "ff-prater-sans-web";
+        margin: 0;
+        font-size: 3em;
+
+        @media only screen and (min-width: 40.063em) { 
+            font-size: 4em;
+        }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #888888;
+        line-height: 1.4em;
+        margin-bottom: 0.7em;
+        font-weight: normal;
+    }
+
+    p {
+        color: #555555; 
+        margin-bottom: 1.4em;
+        line-height: 1.6em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 60px 5%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 60px $ContactContainerDesktop
+    }    
+}
+
+.ContactTop {
+    margin-bottom: 3em;
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-bottom: 1.5em;    
+
+    }
+}
+
+.ContactIntro {
+
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 100%; 
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.ContactDetailsTop {
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.ContactMessage {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.FaceImageContact {
+    width: 100%;
+    vertical-align: bottom;
+
+
+    img {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;        
+
+        img {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 59%;
+
+        img {
+            width: 100%;
+            margin-left: 10%;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 69%;
+        margin-top: 0;
+
+        img {
+            margin-left: 20%;
+            text-align: right;
+            width: 100%;
+        }
+
+    }
+}
+
+.Social {
+
+    span {
+        margin-left: 10px;
+    }
+
+    ul li .fa-3x {
+        color: black;
+        vertical-align: middle;
+    }
+
+    a {
+        display: block;
+    }
+
+    h3 {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+}
+
+.ContactSmallHeader {
+    margin: 20px 0;
+
+    h3 {
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+    }
+}

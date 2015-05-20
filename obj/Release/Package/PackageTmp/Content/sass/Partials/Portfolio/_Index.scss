@@ -1,0 +1,48 @@
+﻿.PortfolioContainer {
+    padding: 30px 30px;
+    text-align: center;
+
+    h1 {
+        padding: 20px 0;   
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 30px $PortfolioContainerDesktop;
+    }
+
+}
+
+.PortfolioProjectBox {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.PortfolioGithubContainer {
+    padding: 30px 30px;
+    text-align: center;
+
+    h1 {
+        padding: 20px 0;   
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 30px $PortfolioGitHubContainerDesktop;
+    }
+
+}
+
+#GithubButton {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    padding-top: 10px;
+    color: white;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+}
