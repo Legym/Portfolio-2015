@@ -1,24 +1,32 @@
-﻿.AboutContainer {
+﻿li.image a:hover {
+    background-color: rgb(230, 242, 250);
+    -webkit-transition: .5s ease-in-out;
+}
+
+.AboutContainer {
     background-color: white;
     padding: 50px 30px;
     border-bottom: #dddddd solid 1px;
 
     h1 {
-        font-family: "crete-round";
+        font-family: "ff-prater-sans-web";
         margin: 0;
-        font-size: 3em;
+        font-size: 5em;
+        color: black;
 
         @media only screen and (min-width: 40.063em) { 
-            font-size: 4em;
+            font-size: 6em;
+            color: black;
         }
     }
 
     h2 {
-        font-size: 1.5rem;
-        color: #888888;
-        line-height: 1.4em;
-        margin-bottom: 0.7em;
-        font-weight: normal;
+      font-family: "ff-prater-sans-web";
+      font-size: 1.6em;
+      font-weight: 100;
+      margin-top: 0;
+      color: cadetblue;
+      line-height: 1.3em;
     }
 
     p {
@@ -62,6 +70,11 @@
         width: 40%; 
         display: inline-block;
         vertical-align: top;
+
+        h2 {
+            margin-top: 0;
+            color: #888888;
+        }
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -76,6 +89,7 @@
     img {
         width: 100%;
         margin-left: 5%;
+        padding-bottom: 2em;
     }
 
     @media only screen and (min-width: 40.063em) { 
@@ -84,7 +98,7 @@
 
         img {
             width: 60%;
-            margin-right: 20%;
+            margin-right: 10%;
             margin-left: 0;
         }
     }
@@ -94,6 +108,7 @@
 
         img {
             width: 80%;
+            margin-left: 20%;
         }
     }
 
@@ -129,9 +144,12 @@
 
 
 .image {
-    width: 140px;
-    height: 75px;
+    margin-right: 2px;
+    width: 130px;
     display: inline-block;
+    background-color: rgba(247, 247, 247, 0.44);
+    margin-bottom: 10px;
+    border: 1px solid rgb(239, 239, 239);
 
     img {
         max-width: 100%;
@@ -186,19 +204,374 @@
     }
 
     li {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        margin: 0;
+        display: inline-block;
+        padding: 0;
+        color: black;
+        font-family: 'League-Gothic';
+        font-size: 5em;
+        line-height: 1em;
+    }
+
+    h3 {
+        font-family: "ff-prater-sans-web";
+        font-size: 1.6em;
+        margin: 15px 0;
+        color: cadetblue;
+        font-weight: 100;
     }
 
     @media only screen and (min-width: 40.063em) { 
-        padding: 30px $InterestImageContainerDesktop;
+        padding: 140px $InterestImageContainerDesktop 140px $InterestImageContainerDesktop;
+        text-align: center;
+
+        h1 {
+            margin-top: 0;
+            display: inline-block;
+            font-size: 6em;
+        }
+
+        h3 {
+          font-family: "ff-prater-sans-web";
+          font-size: 2.4em;
+          margin: 15px 0;
+        }
     }
 
 }
 
-.Interest {
-    background-color: white;
-    width: 100%;
-    height: 300px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+.JunkieFixTop {
+    padding: 80px 5% 80px 5%;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 80px 5% 120px 5%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 80px $InterestImageContainerDesktop 120px $InterestImageContainerDesktop;  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 80px $InterestImageContainerXDesktop 120px $InterestImageContainerXDesktop;
+
+    }
 }
 
+
+
+.InterestImageContainerL {
+    text-align: center;
+    padding: 40px 5% 80px 5%;
+    position: relative;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 120px $InterestImageContainerTablet 120px $InterestImageContainerTablet;
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 90px $InterestImageContainerDesktop 120px $InterestImageContainerDesktop;  
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 90px $InterestImageContainerXDesktop 120px $InterestImageContainerXDesktop;
+        text-align: left;
+
+    }
+}
+
+.InterestLeftContainer {
+
+    @media only screen and (min-width: 40.063em) { 
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 50%;
+        display: inline-block;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 50%;
+        float: left;
+        margin-right: 3em;
+    }
+}
+
+.InterestRightContainer {
+    z-index: 99;
+    display: inline-block;
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+        float: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        float: right;
+        width: 40%;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        float: none;
+        width: 40%;
+    }
+}
+
+.tableCoffee {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+
+    @media only screen and (min-width: 40.063em) { 
+        background-image: url('/Content/img/AboutMe/Poly.png');
+        margin-top: 30px;
+        padding: 60px 10% 90px 25%;
+        box-shadow: 2px 3px 2px;
+        position: relative;
+        z-index: 1;
+        width: 65%;      }
+
+    @media only screen and (min-width: 64.063em) {
+        box-shadow: 2px 3px 2px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        /*padding: 60px 120px 110px 120px;*/
+        box-shadow: 2px 3px 2px;
+        position: relative;
+        z-index: 1;
+        float: right;
+    }
+}
+
+
+
+
+.Interest01 {
+    height: auto;
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Interest02 {
+    background-color: white;
+    height: auto;
+    width: 100%;
+
+    img {
+        width: 90%;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        background-color: white;
+        width: 100%;
+
+        img {
+            float: right;
+            display: block;
+            height: auto;
+            width: 30%;
+        }
+
+        .InterestText02 {
+            float: left;
+
+            h1 {
+                  font-family: "ff-prater-sans-web";
+                  font-size: 2.8em;
+            }
+        }
+    }
+
+}
+
+.CoffeeText {
+
+    h1 {
+        display: inline-block;
+        background-color: green;
+        padding: 20px;
+        color: white;
+        font-size: 1.4em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+
+}
+
+.MarvelText {
+    h1 {
+        display: inline-block;
+        color: black;
+        font-family: 'League-Gothic';
+        font-size: 5em;
+        line-height: 1em;
+    }
+}
+
+.Interest03 {
+    height: auto;
+    width: 100%;
+
+    img {
+        float: left;
+        width: 100%;
+    }
+
+    .InterestText03 {
+        display: inline-block;
+
+        h1 {
+              font-family: "ff-prater-sans-web";
+              font-size: 2.8em;
+        }
+
+        li {
+            color: #555;
+        }
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        height: 600px;
+
+        img {
+            float: left;
+            width: 40%;
+        }
+
+        .InterestText03 {
+            float: left;
+            padding-left: 80px;
+
+            h1 {
+                  font-family: "ff-prater-sans-web";
+                  font-size: 2.8em;
+            }
+        }
+    }
+}
+
+
+.BottomAlign {
+
+}
+
+.heroes {
+  display: inline-block;
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-left: 0;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        position: relative;
+        right: 100px;
+        top: 50px;
+        margin-left: 0;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+        display: inline-block;
+        position: relative;
+        right: 100px;
+        top: 50px;
+        
+        
+    } 
+}
+
+.InterestLeftContainerMarvel {    
+  float: left;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  width: 50%;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  margin-top: 3em;
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 49%; 
+        margin-top: 0;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+      text-align: left;
+      width: 40%;
+      display: inline-block;
+      float: left;
+      left: 30%;
+      position: static;
+      margin-top: 6em;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+          margin-right: 4em;
+          margin-top: 6em;
+    } 
+}
+
+.InterestRightContainerMarvel {
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+      width: 50%;
+      display: inline-block;
+        float: right;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+        width: 50%;
+        float: right;
+    } 
+}

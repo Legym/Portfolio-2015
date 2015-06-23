@@ -1,8 +1,19 @@
 $(document).ready(function () {
-    $("#header").slideDown("slow");
 
-    $("#hamburger").click(function () {
-        $("#Navigation").slideToggle("fast");
+    $("#header").ready(function () {
+        $("#header").slideDown(1000, function () {
+            // Animation complete.
+        });
     });
+ 
+
+    document.querySelector("#nav-toggle")
+      .addEventListener("click", function () {
+          this.classList.toggle("active");
+          $("#Navigation").slideToggle("fast");
+      });
+
+
+
 
 });

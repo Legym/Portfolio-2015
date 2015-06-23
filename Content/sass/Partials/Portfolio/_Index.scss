@@ -1,49 +1,275 @@
-﻿.PortfolioContainer {
-    padding: 30px 30px;
-    text-align: center;
-    border-bottom: #dddddd solid 1px;
-
-    h1 {
-        padding: 20px 0;   
-    }
+﻿.PortHeader {
+    padding: 0 5%;
+    margin-top: 10px;
 
     @media only screen and (min-width: 40.063em) { 
-        padding: 30px $PortfolioContainerDesktop;
+
     }
 
-}
+    @media only screen and (min-width: 64.063em) {
 
-.PortfolioProjectBox {
-    background-color: white;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-}
-
-.PortfolioGithubContainer {
-    padding: 30px 30px;
-    text-align: center;
-
-    h1 {
-        padding: 20px 0;   
     }
 
-    @media only screen and (min-width: 40.063em) { 
-        padding: 30px $PortfolioGitHubContainerDesktop;
+    @media only screen and (min-width: 90.063em) { 
+        padding: 0 20%;
     }
-
 }
 
-#GithubButton {
-    width: 100%;
-    height: 50px;
+.Project1 {
     background-color: green;
-    padding-top: 10px;
-    color: white;
+    height: 120px;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 3px black;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/Port.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/Port.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Project2 {
+    background-color: blue;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 3px black;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/BreatheDotA.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16.5em;
+        height: 12em;
+        top: 1.5em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 13em;       
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/BreatheDotA.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16.5em;
+        height: 12em;
+        top: 1.5em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 13em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Project3 {
+    background-color: orange;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 3px black;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/CounterStrike.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        top: 19em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;    
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/CounterStrike.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        top: 13em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 13em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Project4 {
+    background-color: red;
+    height: 120px;
+    width: 100%;
+    box-shadow: 2px 3px 3px black;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/Github.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16.5em;
+        height: 12em;
+        top: 13.5em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 13em;   
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/Github.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16.5em;
+        height: 12em;
+        top: 12.7em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 24.5em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.PRojectEffect {
+-webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+@keyframes PortBounce {
+	20% { transform: translateX(-4px); }
+	100% { transform: translateX(0px); }
+
+	20% { -moz-transform: translateX(-4px); }
+	100% { -moz-transform: translateX(0px); }
+
+    20% { -ms-transform: translateX(-4px); }
+    100% { -ms-transform: translateX(0px); }
+}
+
+.PRojectEffect:hover {
+    filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    
+    transition: ease-in 1s;
+    animation: PortBounce 3s infinite;
+    transform: translateX(0);
+
+     -moz-transition: ease-in 1s;
+     -moz-animation: PortBounce 3s infinite;
+     -moz-transform: translateX(0);
+
+    -o-transition: ease-in 1s;
+    -o-animation: PortBounce 3s infinite;
+    -o-transform: translateX(0);
+
+
+}
+
+.PortText {
+    width: 100%;
 
     h1 {
-        margin: 0;
-        padding: 0;
+        font-size: 7em;
+        color: #111;
+        margin: .3em 0;
+        line-height: 1em;
+        font-family: 'league-Gothic';       
+    }
+
+    p {
+        color: rgb(145, 144, 144);
+        font-family: 'league-Gothic';
+        font-size: 1.6em;
+    }
+
+    
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 40%;
+        display: inline-block;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+.PortContent {
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 70%;
+        margin: 0 auto;
+        height: 300px;
+        position: relative;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 58%;
+        display: inline-block;
+        height: 300px;
+        position: relative;
+        left: 2em;
+        padding-left: 2%;
+        vertical-align: top;
+        margin-top: 2em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 40%;
+        display: inline-block;
     }
 }

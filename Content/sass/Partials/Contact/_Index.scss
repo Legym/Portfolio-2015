@@ -39,7 +39,51 @@
     }    
 }
 
+.ContactContainerBottom {
+    padding: 30px 30px;
+    border-bottom: #dddddd solid 1px;
+
+    h1 {
+        font-family: "ff-prater-sans-web";
+        margin: 0;
+        font-size: 3em;
+
+        @media only screen and (min-width: 40.063em) { 
+            font-size: 3em;
+        }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #888888;
+        line-height: 1.4em;
+        margin-bottom: 0.7em;
+        font-weight: normal;
+    }
+
+    p {
+        color: #555555; 
+        margin-bottom: 1.4em;
+        line-height: 1.6em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 60px 5%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 60px $ContactContainerDesktop
+    }    
+}
+
 .ContactTop {
+
+}
+
+.ContactTopBottom {
     margin-bottom: 3em;
 
     @media only screen and (min-width: 40.063em) { 
@@ -68,14 +112,21 @@
     }
 }
 
-.ContactDetailsTop {
-    margin-top: 20px;
-    border-bottom: 1px solid lightgray;
-}
-
 .ContactMessage {
     display: inline-block;
     vertical-align: top;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+
+    }
+
+    @media only screen and (min-width: 90.063em) {         
+        width: 30%;
+    }
 }
 
 
@@ -84,13 +135,24 @@
     width: 100%;
     vertical-align: bottom;
 
+    width: 100%;
+    margin-top: 2em;
+    padding-top: 1em;
+    vertical-align: bottom;
+    border-top: 1px solid lightgray;
+
 
     img {
         width: 100%;
+          border-bottom: 2px solid #999;
     }
 
     @media only screen and (min-width: 40.063em) { 
-        display: inline-block;        
+        display: inline-block;           
+        margin-top: 0;
+        padding-top: 0;
+        vertical-align: bottom;
+        border-top: none;             
 
         img {
             width: 100%;
@@ -98,16 +160,19 @@
     }
 
     @media only screen and (min-width: 64.063em) {
-        width: 59%;
+        width: 73%;
+        vertical-align: top;
+        margin-left: 40px;
+        vertical-align: top;
 
         img {
-            width: 100%;
-            margin-left: 10%;
+          max-width: 80%;
+          margin-left: 10%;
         }
     }
 
     @media only screen and (min-width: 90.063em) { 
-        width: 69%;
+        width: 65%;
         margin-top: 0;
 
         img {
@@ -120,14 +185,20 @@
 }
 
 .Social {
+    margin-bottom: 60px;
 
     span {
-        margin-left: 10px;
+        margin-left: 15px;
+        font-family: "league-gothic";
+        color: #262B2F;
+        letter-spacing: 1.2px;
+        font-size: 1.5em;
+        vertical-align: middle;
     }
 
     ul li .fa-3x {
-        color: black;
         vertical-align: middle;
+        text-shadow: 1px 2px 2px rgb(29, 29, 29);
     }
 
     a {
@@ -135,14 +206,30 @@
     }
 
     h3 {
-        margin: 0;
-        padding-top: 20px;
-        padding-bottom: 5px;
+        margin: 20px 0;
+        color: black;
+        border-bottom: 2px solid lightgray;
+        font-size: 1.6em;
+        font-family: "ff-prater-sans-web";
     }
 
     ul {
         margin-top: 10px;
     }
+
+    li {
+        margin: 7px 0;
+    }
+
+    input {
+        font-size: 15px;
+        vertical-align: sub;
+        width: 14em;
+    }
+}
+
+.emailMargin {
+    margin-right: 10px;
 }
 
 .ContactSmallHeader {
@@ -153,4 +240,25 @@
         margin: 0;
         padding: 0;
     }
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+
+.fa-twitter-square {
+    color: #4099FF;
+}
+
+.fa-google-plus-square {
+    color: #dd4b39;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-file-pdf-o {
+    color: red;
 }
