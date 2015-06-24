@@ -199,6 +199,15 @@
   transform: rotate(-45deg);
 }
 
+/* line 175, ../sass/Partials/_Layout/_Layout.scss */
+.FotterColor a {
+  color: gray;
+}
+/* line 179, ../sass/Partials/_Layout/_Layout.scss */
+.FotterColor a:hover {
+  color: black;
+}
+
 /* line 1, ../sass/Partials/_Layout/_Universal.scss */
 body {
   margin: 0;
@@ -250,14 +259,14 @@ li.image a:hover {
   font-size: 1.6em;
   font-weight: 100;
   margin-top: 0;
-  color: cadetblue;
+  color: #3498db;
   line-height: 1.3em;
 }
 /* line 32, ../sass/Partials/About/_Index.scss */
 .AboutContainer p {
   color: #555555;
   margin-bottom: 1.4em;
-  line-height: 1.6em;
+  line-height: 1.9em;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 6, ../sass/Partials/About/_Index.scss */
@@ -307,7 +316,7 @@ li.image a:hover {
   /* line 74, ../sass/Partials/About/_Index.scss */
   .AboutIntro h2 {
     margin-top: 0;
-    color: #888888;
+    color: #3498db;
   }
 }
 @media only screen and (min-width: 90.063em) {
@@ -473,7 +482,7 @@ li.image a:hover {
   font-family: "ff-prater-sans-web";
   font-size: 1.6em;
   margin: 15px 0;
-  color: cadetblue;
+  color: #3498db;
   font-weight: 100;
 }
 @media only screen and (min-width: 40.063em) {
@@ -688,59 +697,70 @@ li.image a:hover {
 .Interest03 {
   height: auto;
   width: 100%;
+  padding-bottom: 44em;
 }
-/* line 452, ../sass/Partials/About/_Index.scss */
+/* line 453, ../sass/Partials/About/_Index.scss */
 .Interest03 img {
   float: left;
   width: 100%;
 }
-/* line 457, ../sass/Partials/About/_Index.scss */
+/* line 458, ../sass/Partials/About/_Index.scss */
 .Interest03 .InterestText03 {
   display: inline-block;
 }
-/* line 460, ../sass/Partials/About/_Index.scss */
+/* line 461, ../sass/Partials/About/_Index.scss */
 .Interest03 .InterestText03 h1 {
   font-family: "ff-prater-sans-web";
   font-size: 2.8em;
 }
-/* line 465, ../sass/Partials/About/_Index.scss */
+/* line 466, ../sass/Partials/About/_Index.scss */
 .Interest03 .InterestText03 li {
   color: #555;
 }
-@media only screen and (min-width: 90.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 448, ../sass/Partials/About/_Index.scss */
   .Interest03 {
-    height: 600px;
+    padding-bottom: 22em;
   }
-  /* line 481, ../sass/Partials/About/_Index.scss */
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 448, ../sass/Partials/About/_Index.scss */
+  .Interest03 {
+    height: 490px;
+    width: 100%;
+    padding-bottom: 10em;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 483, ../sass/Partials/About/_Index.scss */
   .Interest03 img {
     float: left;
     width: 40%;
   }
-  /* line 486, ../sass/Partials/About/_Index.scss */
+  /* line 488, ../sass/Partials/About/_Index.scss */
   .Interest03 .InterestText03 {
     float: left;
     padding-left: 80px;
   }
-  /* line 490, ../sass/Partials/About/_Index.scss */
+  /* line 492, ../sass/Partials/About/_Index.scss */
   .Interest03 .InterestText03 h1 {
     font-family: "ff-prater-sans-web";
     font-size: 2.8em;
   }
 }
 
-/* line 503, ../sass/Partials/About/_Index.scss */
+/* line 505, ../sass/Partials/About/_Index.scss */
 .heroes {
   display: inline-block;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 503, ../sass/Partials/About/_Index.scss */
+  /* line 505, ../sass/Partials/About/_Index.scss */
   .heroes {
     margin-left: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 503, ../sass/Partials/About/_Index.scss */
+  /* line 505, ../sass/Partials/About/_Index.scss */
   .heroes {
     display: inline-block;
     position: relative;
@@ -750,7 +770,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 503, ../sass/Partials/About/_Index.scss */
+  /* line 505, ../sass/Partials/About/_Index.scss */
   .heroes {
     display: inline-block;
     position: relative;
@@ -759,7 +779,7 @@ li.image a:hover {
   }
 }
 
-/* line 528, ../sass/Partials/About/_Index.scss */
+/* line 530, ../sass/Partials/About/_Index.scss */
 .InterestLeftContainerMarvel {
   float: left;
   position: absolute;
@@ -772,14 +792,14 @@ li.image a:hover {
   margin-top: 3em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 528, ../sass/Partials/About/_Index.scss */
+  /* line 530, ../sass/Partials/About/_Index.scss */
   .InterestLeftContainerMarvel {
     width: 49%;
     margin-top: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 528, ../sass/Partials/About/_Index.scss */
+  /* line 530, ../sass/Partials/About/_Index.scss */
   .InterestLeftContainerMarvel {
     text-align: left;
     width: 40%;
@@ -791,19 +811,19 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 528, ../sass/Partials/About/_Index.scss */
+  /* line 530, ../sass/Partials/About/_Index.scss */
   .InterestLeftContainerMarvel {
     margin-right: 4em;
     margin-top: 6em;
   }
 }
 
-/* line 560, ../sass/Partials/About/_Index.scss */
+/* line 562, ../sass/Partials/About/_Index.scss */
 .InterestRightContainerMarvel {
   width: 100%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 560, ../sass/Partials/About/_Index.scss */
+  /* line 562, ../sass/Partials/About/_Index.scss */
   .InterestRightContainerMarvel {
     width: 50%;
     display: inline-block;
@@ -811,10 +831,25 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 560, ../sass/Partials/About/_Index.scss */
+  /* line 562, ../sass/Partials/About/_Index.scss */
   .InterestRightContainerMarvel {
     width: 50%;
     float: right;
+  }
+}
+
+/* line 581, ../sass/Partials/About/_Index.scss */
+.JunkieCol {
+  width: 100%;
+  text-align: left;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 581, ../sass/Partials/About/_Index.scss */
+  .JunkieCol {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-right: 4em;
   }
 }
 
@@ -866,21 +901,20 @@ li.image a:hover {
 /* line 42, ../sass/Partials/Contact/_Index.scss */
 .ContactContainerBottom {
   padding: 30px 30px;
-  border-bottom: #dddddd solid 1px;
 }
-/* line 46, ../sass/Partials/Contact/_Index.scss */
+/* line 45, ../sass/Partials/Contact/_Index.scss */
 .ContactContainerBottom h1 {
   font-family: "ff-prater-sans-web";
   margin: 0;
   font-size: 3em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 46, ../sass/Partials/Contact/_Index.scss */
+  /* line 45, ../sass/Partials/Contact/_Index.scss */
   .ContactContainerBottom h1 {
     font-size: 3em;
   }
 }
-/* line 56, ../sass/Partials/Contact/_Index.scss */
+/* line 55, ../sass/Partials/Contact/_Index.scss */
 .ContactContainerBottom h2 {
   font-size: 1.5rem;
   color: #888888;
@@ -888,7 +922,7 @@ li.image a:hover {
   margin-bottom: 0.7em;
   font-weight: normal;
 }
-/* line 64, ../sass/Partials/Contact/_Index.scss */
+/* line 63, ../sass/Partials/Contact/_Index.scss */
 .ContactContainerBottom p {
   color: #555555;
   margin-bottom: 1.4em;
@@ -900,6 +934,12 @@ li.image a:hover {
     padding: 60px 5%;
   }
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 42, ../sass/Partials/Contact/_Index.scss */
+  .ContactContainerBottom {
+    padding-bottom: 5em;
+  }
+}
 @media only screen and (min-width: 90.063em) {
   /* line 42, ../sass/Partials/Contact/_Index.scss */
   .ContactContainerBottom {
@@ -907,26 +947,26 @@ li.image a:hover {
   }
 }
 
-/* line 86, ../sass/Partials/Contact/_Index.scss */
+/* line 87, ../sass/Partials/Contact/_Index.scss */
 .ContactTopBottom {
   margin-bottom: 3em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 86, ../sass/Partials/Contact/_Index.scss */
+  /* line 87, ../sass/Partials/Contact/_Index.scss */
   .ContactTopBottom {
     margin-bottom: 1.5em;
   }
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 95, ../sass/Partials/Contact/_Index.scss */
+  /* line 96, ../sass/Partials/Contact/_Index.scss */
   .ContactIntro {
     display: inline-block;
     vertical-align: top;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 95, ../sass/Partials/Contact/_Index.scss */
+  /* line 96, ../sass/Partials/Contact/_Index.scss */
   .ContactIntro {
     width: 100%;
     display: inline-block;
@@ -934,26 +974,39 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 95, ../sass/Partials/Contact/_Index.scss */
+  /* line 96, ../sass/Partials/Contact/_Index.scss */
   .ContactIntro {
     display: inline-block;
     vertical-align: top;
   }
 }
 
-/* line 115, ../sass/Partials/Contact/_Index.scss */
+/* line 116, ../sass/Partials/Contact/_Index.scss */
 .ContactMessage {
   display: inline-block;
   vertical-align: top;
+  width: 100%;
 }
-@media only screen and (min-width: 90.063em) {
-  /* line 115, ../sass/Partials/Contact/_Index.scss */
+@media only screen and (min-width: 40.063em) {
+  /* line 116, ../sass/Partials/Contact/_Index.scss */
   .ContactMessage {
     width: 30%;
   }
 }
+@media only screen and (min-width: 64.063em) {
+  /* line 116, ../sass/Partials/Contact/_Index.scss */
+  .ContactMessage {
+    width: 18%;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 116, ../sass/Partials/Contact/_Index.scss */
+  .ContactMessage {
+    width: 20%;
+  }
+}
 
-/* line 134, ../sass/Partials/Contact/_Index.scss */
+/* line 136, ../sass/Partials/Contact/_Index.scss */
 .FaceImageContact {
   width: 100%;
   vertical-align: bottom;
@@ -963,58 +1016,61 @@ li.image a:hover {
   vertical-align: bottom;
   border-top: 1px solid lightgray;
 }
-/* line 145, ../sass/Partials/Contact/_Index.scss */
+/* line 147, ../sass/Partials/Contact/_Index.scss */
 .FaceImageContact img {
   width: 100%;
   border-bottom: 2px solid #999;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 134, ../sass/Partials/Contact/_Index.scss */
+  /* line 136, ../sass/Partials/Contact/_Index.scss */
   .FaceImageContact {
     display: inline-block;
     margin-top: 0;
     padding-top: 0;
-    vertical-align: bottom;
+    vertical-align: top;
     border-top: none;
+    width: 60%;
+    margin-left: 3em;
   }
-  /* line 157, ../sass/Partials/Contact/_Index.scss */
+  /* line 161, ../sass/Partials/Contact/_Index.scss */
   .FaceImageContact img {
     width: 100%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 134, ../sass/Partials/Contact/_Index.scss */
+  /* line 136, ../sass/Partials/Contact/_Index.scss */
   .FaceImageContact {
     width: 73%;
     vertical-align: top;
     margin-left: 40px;
     vertical-align: top;
   }
-  /* line 168, ../sass/Partials/Contact/_Index.scss */
+  /* line 172, ../sass/Partials/Contact/_Index.scss */
   .FaceImageContact img {
     max-width: 80%;
     margin-left: 10%;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 134, ../sass/Partials/Contact/_Index.scss */
+  /* line 136, ../sass/Partials/Contact/_Index.scss */
   .FaceImageContact {
-    width: 65%;
+    width: 70%;
     margin-top: 0;
+    margin-left: 5em;
   }
-  /* line 178, ../sass/Partials/Contact/_Index.scss */
+  /* line 183, ../sass/Partials/Contact/_Index.scss */
   .FaceImageContact img {
-    margin-left: 20%;
     text-align: right;
     width: 100%;
+    margin-left: 0;
   }
 }
 
-/* line 187, ../sass/Partials/Contact/_Index.scss */
+/* line 192, ../sass/Partials/Contact/_Index.scss */
 .Social {
   margin-bottom: 60px;
 }
-/* line 190, ../sass/Partials/Contact/_Index.scss */
+/* line 195, ../sass/Partials/Contact/_Index.scss */
 .Social span {
   margin-left: 15px;
   font-family: "league-gothic";
@@ -1023,16 +1079,16 @@ li.image a:hover {
   font-size: 1.5em;
   vertical-align: middle;
 }
-/* line 199, ../sass/Partials/Contact/_Index.scss */
+/* line 204, ../sass/Partials/Contact/_Index.scss */
 .Social ul li .fa-3x {
   vertical-align: middle;
   text-shadow: 1px 2px 2px #1d1d1d;
 }
-/* line 204, ../sass/Partials/Contact/_Index.scss */
+/* line 209, ../sass/Partials/Contact/_Index.scss */
 .Social a {
   display: block;
 }
-/* line 208, ../sass/Partials/Contact/_Index.scss */
+/* line 213, ../sass/Partials/Contact/_Index.scss */
 .Social h3 {
   margin: 20px 0;
   color: black;
@@ -1040,58 +1096,58 @@ li.image a:hover {
   font-size: 1.6em;
   font-family: "ff-prater-sans-web";
 }
-/* line 216, ../sass/Partials/Contact/_Index.scss */
+/* line 221, ../sass/Partials/Contact/_Index.scss */
 .Social ul {
   margin-top: 10px;
 }
-/* line 220, ../sass/Partials/Contact/_Index.scss */
+/* line 225, ../sass/Partials/Contact/_Index.scss */
 .Social li {
   margin: 7px 0;
 }
-/* line 224, ../sass/Partials/Contact/_Index.scss */
+/* line 229, ../sass/Partials/Contact/_Index.scss */
 .Social input {
   font-size: 15px;
   vertical-align: sub;
-  width: 14em;
+  width: 100%;
 }
 
-/* line 231, ../sass/Partials/Contact/_Index.scss */
+/* line 249, ../sass/Partials/Contact/_Index.scss */
 .emailMargin {
   margin-right: 10px;
 }
 
-/* line 235, ../sass/Partials/Contact/_Index.scss */
+/* line 253, ../sass/Partials/Contact/_Index.scss */
 .ContactSmallHeader {
   margin: 20px 0;
 }
-/* line 238, ../sass/Partials/Contact/_Index.scss */
+/* line 256, ../sass/Partials/Contact/_Index.scss */
 .ContactSmallHeader h3 {
   font-size: 2em;
   margin: 0;
   padding: 0;
 }
 
-/* line 245, ../sass/Partials/Contact/_Index.scss */
+/* line 263, ../sass/Partials/Contact/_Index.scss */
 .fa-facebook-square {
   color: #3b5998;
 }
 
-/* line 250, ../sass/Partials/Contact/_Index.scss */
+/* line 268, ../sass/Partials/Contact/_Index.scss */
 .fa-twitter-square {
   color: #4099FF;
 }
 
-/* line 254, ../sass/Partials/Contact/_Index.scss */
+/* line 272, ../sass/Partials/Contact/_Index.scss */
 .fa-google-plus-square {
   color: #dd4b39;
 }
 
-/* line 258, ../sass/Partials/Contact/_Index.scss */
+/* line 276, ../sass/Partials/Contact/_Index.scss */
 .fa-github {
   color: #333;
 }
 
-/* line 262, ../sass/Partials/Contact/_Index.scss */
+/* line 280, ../sass/Partials/Contact/_Index.scss */
 .fa-file-pdf-o {
   color: red;
 }
@@ -1422,15 +1478,29 @@ li.image a:hover {
 .PortHeader {
   padding: 0 5%;
   margin-top: 10px;
+  padding-bottom: 7em;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1, ../sass/Partials/Portfolio/_Index.scss */
+  .PortHeader {
+    padding-bottom: 25em;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 1, ../sass/Partials/Portfolio/_Index.scss */
+  .PortHeader {
+    padding-bottom: 7em;
+  }
 }
 @media only screen and (min-width: 90.063em) {
   /* line 1, ../sass/Partials/Portfolio/_Index.scss */
   .PortHeader {
     padding: 0 20%;
+    height: 50em;
   }
 }
 
-/* line 18, ../sass/Partials/Portfolio/_Index.scss */
+/* line 20, ../sass/Partials/Portfolio/_Index.scss */
 .Project1 {
   background-color: green;
   height: 120px;
@@ -1438,7 +1508,7 @@ li.image a:hover {
   box-shadow: 2px 3px 3px black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 18, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 20, ../sass/Partials/Portfolio/_Index.scss */
   .Project1 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/Port.png");
@@ -1453,7 +1523,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 18, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 20, ../sass/Partials/Portfolio/_Index.scss */
   .Project1 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/Port.png");
@@ -1468,7 +1538,7 @@ li.image a:hover {
   }
 }
 
-/* line 55, ../sass/Partials/Portfolio/_Index.scss */
+/* line 57, ../sass/Partials/Portfolio/_Index.scss */
 .Project2 {
   background-color: blue;
   height: 120px;
@@ -1477,7 +1547,7 @@ li.image a:hover {
   box-shadow: 2px 3px 3px black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 55, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 57, ../sass/Partials/Portfolio/_Index.scss */
   .Project2 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/BreatheDotA.png");
@@ -1494,7 +1564,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 55, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 57, ../sass/Partials/Portfolio/_Index.scss */
   .Project2 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/BreatheDotA.png");
@@ -1507,11 +1577,11 @@ li.image a:hover {
     margin-bottom: 0;
     box-shadow: none;
     background-color: transparent;
-    left: 13em;
+    left: 15em;
   }
 }
 
-/* line 97, ../sass/Partials/Portfolio/_Index.scss */
+/* line 99, ../sass/Partials/Portfolio/_Index.scss */
 .Project3 {
   background-color: orange;
   height: 120px;
@@ -1520,7 +1590,7 @@ li.image a:hover {
   box-shadow: 2px 3px 3px black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 97, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 99, ../sass/Partials/Portfolio/_Index.scss */
   .Project3 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/CounterStrike.png");
@@ -1536,7 +1606,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 97, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 99, ../sass/Partials/Portfolio/_Index.scss */
   .Project3 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/CounterStrike.png");
@@ -1544,16 +1614,16 @@ li.image a:hover {
     background-size: contain;
     width: 11.5em;
     height: 100%;
-    top: 13em;
+    top: 15em;
     display: block;
     margin-bottom: 0;
     box-shadow: none;
     background-color: transparent;
-    left: 13em;
+    left: 15em;
   }
 }
 
-/* line 138, ../sass/Partials/Portfolio/_Index.scss */
+/* line 140, ../sass/Partials/Portfolio/_Index.scss */
 .Project4 {
   background-color: red;
   height: 120px;
@@ -1561,7 +1631,7 @@ li.image a:hover {
   box-shadow: 2px 3px 3px black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 138, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 140, ../sass/Partials/Portfolio/_Index.scss */
   .Project4 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/Github.png");
@@ -1578,7 +1648,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 138, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 140, ../sass/Partials/Portfolio/_Index.scss */
   .Project4 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/Github.png");
@@ -1595,51 +1665,39 @@ li.image a:hover {
   }
 }
 
-/* line 179, ../sass/Partials/Portfolio/_Index.scss */
-.PRojectEffect {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
 @keyframes PortBounce {
-  /* line 188, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 182, ../sass/Partials/Portfolio/_Index.scss */
   20% {
     transform: translateX(-4px);
   }
 
-  /* line 189, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 183, ../sass/Partials/Portfolio/_Index.scss */
   100% {
     transform: translateX(0px);
   }
 
-  /* line 191, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 185, ../sass/Partials/Portfolio/_Index.scss */
   20% {
     -moz-transform: translateX(-4px);
   }
 
-  /* line 192, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 186, ../sass/Partials/Portfolio/_Index.scss */
   100% {
     -moz-transform: translateX(0px);
   }
 
-  /* line 194, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 188, ../sass/Partials/Portfolio/_Index.scss */
   20% {
     -ms-transform: translateX(-4px);
   }
 
-  /* line 195, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 189, ../sass/Partials/Portfolio/_Index.scss */
   100% {
     -ms-transform: translateX(0px);
   }
 }
-/* line 198, ../sass/Partials/Portfolio/_Index.scss */
+/* line 192, ../sass/Partials/Portfolio/_Index.scss */
 .PRojectEffect:hover {
-  filter: none;
-  -webkit-filter: none;
-  -moz-filter: none;
   transition: ease-in 1s;
   animation: PortBounce 3s infinite;
   transform: translateX(0);
@@ -1651,41 +1709,47 @@ li.image a:hover {
   -o-transform: translateX(0);
 }
 
-/* line 218, ../sass/Partials/Portfolio/_Index.scss */
+/* line 208, ../sass/Partials/Portfolio/_Index.scss */
 .PortText {
   width: 100%;
 }
-/* line 221, ../sass/Partials/Portfolio/_Index.scss */
+/* line 211, ../sass/Partials/Portfolio/_Index.scss */
 .PortText h1 {
-  font-size: 7em;
+  font-size: 5em;
   color: #111;
   margin: .3em 0;
+  margin-top: .5em;
   line-height: 1em;
-  font-family: 'league-Gothic';
+  font-family: "ff-prater-sans-web";
 }
-/* line 229, ../sass/Partials/Portfolio/_Index.scss */
+/* line 220, ../sass/Partials/Portfolio/_Index.scss */
 .PortText p {
-  color: #919090;
+  color: #969696;
   font-family: 'league-Gothic';
-  font-size: 1.6em;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 3px white;
+}
+/* line 227, ../sass/Partials/Portfolio/_Index.scss */
+.PortText span {
+  color: rgba(38, 124, 188, 0.97);
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: 'league-Gothic';
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 218, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 208, ../sass/Partials/Portfolio/_Index.scss */
   .PortText {
-    width: 40%;
+    width: 50%;
     display: inline-block;
   }
-}
-@media only screen and (min-width: 90.063em) {
-  /* line 218, ../sass/Partials/Portfolio/_Index.scss */
-  .PortText {
-    width: 40%;
-    display: inline-block;
+  /* line 243, ../sass/Partials/Portfolio/_Index.scss */
+  .PortText h1 {
+    margin-top: 1em;
   }
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 251, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 255, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent {
     width: 70%;
     margin: 0 auto;
@@ -1694,9 +1758,9 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 251, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 255, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent {
-    width: 58%;
+    width: 48%;
     display: inline-block;
     height: 300px;
     position: relative;
@@ -1707,7 +1771,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 251, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 255, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent {
     width: 40%;
     display: inline-block;
@@ -1966,13 +2030,15 @@ i.fa.fa-wrench.fa-5x {
   width: 75%;
   padding: 5%;
   display: inline-block;
+  text-align: left;
 }
-/* line 244, ../sass/Partials/Workflow/_Index.scss */
+/* line 245, ../sass/Partials/Workflow/_Index.scss */
 .StepsContainer h1 {
   margin: 0;
   font-family: "ff-prater-sans-web";
   font-size: 1.9em;
   color: black;
+  text-align: left;
 }
 @media only screen and (min-width: 64.063em) {
   /* line 239, ../sass/Partials/Workflow/_Index.scss */
@@ -1980,11 +2046,8 @@ i.fa.fa-wrench.fa-5x {
     padding: 3.5%;
     font-size: 1.8em;
     float: left;
-    /*p {
-        font-size: .7em;
-    }*/
   }
-  /* line 260, ../sass/Partials/Workflow/_Index.scss */
+  /* line 262, ../sass/Partials/Workflow/_Index.scss */
   .StepsContainer h1 {
     font-size: 1.4em;
     line-height: 1.3em;
@@ -1997,7 +2060,7 @@ i.fa.fa-wrench.fa-5x {
     float: left;
     padding: 3.5%;
   }
-  /* line 275, ../sass/Partials/Workflow/_Index.scss */
+  /* line 273, ../sass/Partials/Workflow/_Index.scss */
   .StepsContainer h1 {
     margin: 0;
     font-family: "ff-prater-sans-web";
@@ -2005,11 +2068,11 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 
-/* line 288, ../sass/Partials/Workflow/_Index.scss */
+/* line 286, ../sass/Partials/Workflow/_Index.scss */
 .Step1Images {
   padding-bottom: 90px;
 }
-/* line 291, ../sass/Partials/Workflow/_Index.scss */
+/* line 289, ../sass/Partials/Workflow/_Index.scss */
 .Step1Images img {
   display: block;
   width: 100%;
@@ -2019,21 +2082,21 @@ i.fa.fa-wrench.fa-5x {
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 301, ../sass/Partials/Workflow/_Index.scss */
+  /* line 299, ../sass/Partials/Workflow/_Index.scss */
   .Step1Images img {
     display: inline-block;
     width: 32%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 308, ../sass/Partials/Workflow/_Index.scss */
+  /* line 306, ../sass/Partials/Workflow/_Index.scss */
   .Step1Images img {
     display: inline-block;
     width: 33%;
   }
 }
 
-/* line 319, ../sass/Partials/Workflow/_Index.scss */
+/* line 317, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep2Section {
   background-color: white;
   width: 100%;
@@ -2041,37 +2104,37 @@ i.fa.fa-wrench.fa-5x {
   /*padding-bottom: 80px;*/
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 327, ../sass/Partials/Workflow/_Index.scss */
+  /* line 325, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep2Section p {
     font-size: .65em;
   }
 }
 
-/* line 335, ../sass/Partials/Workflow/_Index.scss */
+/* line 333, ../sass/Partials/Workflow/_Index.scss */
 .Step2Images {
   width: 100%;
 }
-/* line 338, ../sass/Partials/Workflow/_Index.scss */
+/* line 336, ../sass/Partials/Workflow/_Index.scss */
 .Step2Images img {
   width: 100%;
   display: inline-block;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 347, ../sass/Partials/Workflow/_Index.scss */
+  /* line 345, ../sass/Partials/Workflow/_Index.scss */
   .Step2Images img {
     margin-right: 7px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 335, ../sass/Partials/Workflow/_Index.scss */
+  /* line 333, ../sass/Partials/Workflow/_Index.scss */
   .Step2Images {
     display: inline-block;
     width: 48%;
     vertical-align: top;
     margin-right: 20px;
   }
-  /* line 358, ../sass/Partials/Workflow/_Index.scss */
+  /* line 356, ../sass/Partials/Workflow/_Index.scss */
   .Step2Images img {
     display: inline-block;
     margin-bottom: 20px;
@@ -2080,12 +2143,12 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 
-/* line 371, ../sass/Partials/Workflow/_Index.scss */
+/* line 369, ../sass/Partials/Workflow/_Index.scss */
 .Step2TopBox {
   margin-top: 20px;
   text-align: center;
 }
-/* line 375, ../sass/Partials/Workflow/_Index.scss */
+/* line 373, ../sass/Partials/Workflow/_Index.scss */
 .Step2TopBox h3 {
   font-family: "ff-prater-sans-web";
   display: inline;
@@ -2095,29 +2158,29 @@ i.fa.fa-wrench.fa-5x {
   border: 1px solid #e2e2e2;
   font-weight: 100;
 }
-/* line 385, ../sass/Partials/Workflow/_Index.scss */
+/* line 383, ../sass/Partials/Workflow/_Index.scss */
 .Step2TopBox p {
   margin-top: 30px;
   font-size: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 371, ../sass/Partials/Workflow/_Index.scss */
+  /* line 369, ../sass/Partials/Workflow/_Index.scss */
   .Step2TopBox {
     margin-top: 0;
     text-align: left;
   }
 }
 
-/* line 400, ../sass/Partials/Workflow/_Index.scss */
+/* line 398, ../sass/Partials/Workflow/_Index.scss */
 .Step5Text h3 {
   font-family: "ff-prater-sans-web";
 }
-/* line 404, ../sass/Partials/Workflow/_Index.scss */
+/* line 402, ../sass/Partials/Workflow/_Index.scss */
 .Step5Text p {
   font-size: .95em;
 }
 
-/* line 411, ../sass/Partials/Workflow/_Index.scss */
+/* line 409, ../sass/Partials/Workflow/_Index.scss */
 .Step2BottomBox h3 {
   font-family: "ff-prater-sans-web";
   display: inline;
@@ -2126,18 +2189,18 @@ i.fa.fa-wrench.fa-5x {
   background-color: #f8f8f8;
   border: 1px solid #e2e2e2;
 }
-/* line 420, ../sass/Partials/Workflow/_Index.scss */
+/* line 418, ../sass/Partials/Workflow/_Index.scss */
 .Step2BottomBox p {
   margin-top: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 409, ../sass/Partials/Workflow/_Index.scss */
+  /* line 407, ../sass/Partials/Workflow/_Index.scss */
   .Step2BottomBox {
     text-align: left;
   }
 }
 
-/* line 429, ../sass/Partials/Workflow/_Index.scss */
+/* line 427, ../sass/Partials/Workflow/_Index.scss */
 ul.step2ul {
   -webkit-column-count: 2;
   -webkit-column-gap: 2.5em;
@@ -2148,41 +2211,41 @@ ul.step2ul {
   margin-top: 1.8em;
   font-family: 'Open-Sans';
 }
-/* line 444, ../sass/Partials/Workflow/_Index.scss */
+/* line 442, ../sass/Partials/Workflow/_Index.scss */
 ul.step2ul li {
   padding: 5px 0;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 449, ../sass/Partials/Workflow/_Index.scss */
+  /* line 447, ../sass/Partials/Workflow/_Index.scss */
   .Step2Box {
     display: inline-block;
     width: 47%;
   }
 }
 
-/* line 466, ../sass/Partials/Workflow/_Index.scss */
+/* line 464, ../sass/Partials/Workflow/_Index.scss */
 .Step2BottomBox {
   margin-top: 40px;
 }
 
-/* line 470, ../sass/Partials/Workflow/_Index.scss */
+/* line 468, ../sass/Partials/Workflow/_Index.scss */
 .Step2LeftBox {
   text-align: center;
 }
-/* line 473, ../sass/Partials/Workflow/_Index.scss */
+/* line 471, ../sass/Partials/Workflow/_Index.scss */
 .Step2LeftBox h3 {
   margin: 0;
   font-weight: 100;
 }
-/* line 478, ../sass/Partials/Workflow/_Index.scss */
+/* line 476, ../sass/Partials/Workflow/_Index.scss */
 .Step2LeftBox a {
   display: block;
   color: #333;
   text-decoration: underline;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 470, ../sass/Partials/Workflow/_Index.scss */
+  /* line 468, ../sass/Partials/Workflow/_Index.scss */
   .Step2LeftBox {
     display: inline-block;
     width: 49%;
@@ -2191,7 +2254,7 @@ ul.step2ul li {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 470, ../sass/Partials/Workflow/_Index.scss */
+  /* line 468, ../sass/Partials/Workflow/_Index.scss */
   .Step2LeftBox {
     display: inline-block;
     vertical-align: top;
@@ -2200,21 +2263,21 @@ ul.step2ul li {
   }
 }
 
-/* line 504, ../sass/Partials/Workflow/_Index.scss */
+/* line 502, ../sass/Partials/Workflow/_Index.scss */
 .Step2RightBox {
   width: 100%;
   margin-top: 40px;
   text-align: center;
   padding-bottom: 2em;
 }
-/* line 510, ../sass/Partials/Workflow/_Index.scss */
+/* line 508, ../sass/Partials/Workflow/_Index.scss */
 .Step2RightBox h3 {
   margin: 0;
   text-align: center;
   font-weight: 100;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 504, ../sass/Partials/Workflow/_Index.scss */
+  /* line 502, ../sass/Partials/Workflow/_Index.scss */
   .Step2RightBox {
     display: inline-block;
     width: 49%;
@@ -2223,7 +2286,7 @@ ul.step2ul li {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 504, ../sass/Partials/Workflow/_Index.scss */
+  /* line 502, ../sass/Partials/Workflow/_Index.scss */
   .Step2RightBox {
     display: inline-block;
     padding-left: 30px;
@@ -2234,30 +2297,30 @@ ul.step2ul li {
   }
 }
 
-/* line 541, ../sass/Partials/Workflow/_Index.scss */
+/* line 539, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep3Section {
   border-bottom: 1px solid #eaeaea;
   /*padding-bottom: 120px;*/
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 547, ../sass/Partials/Workflow/_Index.scss */
+  /* line 545, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep3Section p {
     font-size: .65em;
   }
 }
 
-/* line 553, ../sass/Partials/Workflow/_Index.scss */
+/* line 551, ../sass/Partials/Workflow/_Index.scss */
 .WorkflowPaddingStep3 {
   padding: 0 5% 0 5%;
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 553, ../sass/Partials/Workflow/_Index.scss */
+  /* line 551, ../sass/Partials/Workflow/_Index.scss */
   .WorkflowPaddingStep3 {
     padding: 0 20% 0 20%;
   }
 }
 
-/* line 569, ../sass/Partials/Workflow/_Index.scss */
+/* line 567, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowLeft {
   background-color: white;
   width: 100%;
@@ -2268,7 +2331,7 @@ ul.step2ul li {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 579, ../sass/Partials/Workflow/_Index.scss */
+/* line 577, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowLeft h1 {
   margin: 0;
   text-align: center;
@@ -2281,18 +2344,18 @@ ul.step2ul li {
   font-weight: 100;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 569, ../sass/Partials/Workflow/_Index.scss */
+  /* line 567, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft {
     height: 400px;
     background-position: center;
   }
-  /* line 595, ../sass/Partials/Workflow/_Index.scss */
+  /* line 593, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft h1 {
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 569, ../sass/Partials/Workflow/_Index.scss */
+  /* line 567, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft {
     display: inline-block;
     width: 45%;
@@ -2302,20 +2365,20 @@ ul.step2ul li {
     background-position: top;
     background-position: left;
   }
-  /* line 609, ../sass/Partials/Workflow/_Index.scss */
+  /* line 607, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft h1 {
     font-size: 1.2em;
     text-align: center;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 616, ../sass/Partials/Workflow/_Index.scss */
+  /* line 614, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft h1 {
-    text-align: left;
+    text-align: center;
   }
 }
 
-/* line 624, ../sass/Partials/Workflow/_Index.scss */
+/* line 622, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowDesign {
   display: inline-block;
   right: 20px;
@@ -2325,14 +2388,14 @@ ul.step2ul li {
   top: 260px;
   left: 8%;
 }
-/* line 633, ../sass/Partials/Workflow/_Index.scss */
+/* line 631, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowDesign h2 {
   color: white;
   font-family: "ff-prater-sans-web";
   font-size: 1.5em;
 }
 
-/* line 640, ../sass/Partials/Workflow/_Index.scss */
+/* line 638, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowCross {
   display: inline-block;
   width: 50%;
@@ -2340,19 +2403,19 @@ ul.step2ul li {
   top: 260px;
   left: 6%;
 }
-/* line 647, ../sass/Partials/Workflow/_Index.scss */
+/* line 645, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowCross h2 {
   color: white;
   font-family: "ff-prater-sans-web";
   font-size: 1.5em;
 }
 
-/* line 655, ../sass/Partials/Workflow/_Index.scss */
+/* line 653, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowRight {
   height: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 655, ../sass/Partials/Workflow/_Index.scss */
+  /* line 653, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowRight {
     display: inline-block;
     width: 50%;
@@ -2360,18 +2423,18 @@ ul.step2ul li {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 655, ../sass/Partials/Workflow/_Index.scss */
+  /* line 653, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowRight {
     width: 49%;
   }
 }
 
-/* line 674, ../sass/Partials/Workflow/_Index.scss */
+/* line 672, ../sass/Partials/Workflow/_Index.scss */
 .Step3List {
   padding: 0;
   margin-top: 40px;
 }
-/* line 678, ../sass/Partials/Workflow/_Index.scss */
+/* line 676, ../sass/Partials/Workflow/_Index.scss */
 .Step3List h3 {
   margin: 0;
   font-family: "ff-prater-sans-web";
@@ -2382,23 +2445,23 @@ ul.step2ul li {
   text-align: center;
   font-weight: 100;
 }
-/* line 689, ../sass/Partials/Workflow/_Index.scss */
+/* line 687, ../sass/Partials/Workflow/_Index.scss */
 .Step3List ul {
   padding: 0;
   margin: .5em 0;
 }
-/* line 695, ../sass/Partials/Workflow/_Index.scss */
+/* line 693, ../sass/Partials/Workflow/_Index.scss */
 .Step3List li {
   padding: 1em 0;
   font-family: 'Open-Sans';
 }
-/* line 700, ../sass/Partials/Workflow/_Index.scss */
+/* line 698, ../sass/Partials/Workflow/_Index.scss */
 .Step3List span {
   color: gray;
   font-family: 'Open-Sans';
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 708, ../sass/Partials/Workflow/_Index.scss */
+  /* line 706, ../sass/Partials/Workflow/_Index.scss */
   .Step3List ul {
     -webkit-column-count: 2;
     -webkit-column-gap: 2.5em;
@@ -2407,63 +2470,63 @@ ul.step2ul li {
     column-count: 2;
     column-gap: 2.5em;
   }
-  /* line 719, ../sass/Partials/Workflow/_Index.scss */
+  /* line 717, ../sass/Partials/Workflow/_Index.scss */
   .Step3List h3 {
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 674, ../sass/Partials/Workflow/_Index.scss */
+  /* line 672, ../sass/Partials/Workflow/_Index.scss */
   .Step3List {
     margin-top: 0;
     height: 340px;
   }
-  /* line 728, ../sass/Partials/Workflow/_Index.scss */
+  /* line 726, ../sass/Partials/Workflow/_Index.scss */
   .Step3List li {
     padding: 10px 0;
   }
-  /* line 732, ../sass/Partials/Workflow/_Index.scss */
+  /* line 730, ../sass/Partials/Workflow/_Index.scss */
   .Step3List ul {
     height: auto;
     padding-left: 15px;
   }
-  /* line 738, ../sass/Partials/Workflow/_Index.scss */
+  /* line 736, ../sass/Partials/Workflow/_Index.scss */
   .Step3List h3 {
     text-align: center;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 744, ../sass/Partials/Workflow/_Index.scss */
+  /* line 742, ../sass/Partials/Workflow/_Index.scss */
   .Step3List h3 {
     text-align: center;
   }
 }
 
-/* line 750, ../sass/Partials/Workflow/_Index.scss */
+/* line 748, ../sass/Partials/Workflow/_Index.scss */
 .Step3Padd {
   padding-bottom: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 750, ../sass/Partials/Workflow/_Index.scss */
+  /* line 748, ../sass/Partials/Workflow/_Index.scss */
   .Step3Padd {
     padding-bottom: 0;
     height: 250px;
   }
 }
 
-/* line 761, ../sass/Partials/Workflow/_Index.scss */
+/* line 759, ../sass/Partials/Workflow/_Index.scss */
 .Step3Style {
   font-size: 3em;
   margin-right: 20px;
   vertical-align: text-bottom;
 }
 
-/* line 767, ../sass/Partials/Workflow/_Index.scss */
+/* line 765, ../sass/Partials/Workflow/_Index.scss */
 .Step3Box {
   display: inline-block;
   text-align: left;
 }
-/* line 771, ../sass/Partials/Workflow/_Index.scss */
+/* line 769, ../sass/Partials/Workflow/_Index.scss */
 .Step3Box h2 {
   margin: 0;
   font-size: 1.4em;
@@ -2471,45 +2534,45 @@ ul.step2ul li {
   font-weight: 100;
 }
 
-/* line 782, ../sass/Partials/Workflow/_Index.scss */
+/* line 780, ../sass/Partials/Workflow/_Index.scss */
 ul.Step3Lang img {
   max-width: 15%;
   height: 15%;
   margin-right: 10px;
 }
 
-/* line 790, ../sass/Partials/Workflow/_Index.scss */
+/* line 788, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj1 {
-  color: green;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 795, ../sass/Partials/Workflow/_Index.scss */
+/* line 793, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj2 {
-  color: red;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 800, ../sass/Partials/Workflow/_Index.scss */
+/* line 798, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj3 {
-  color: lightblue;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 805, ../sass/Partials/Workflow/_Index.scss */
+/* line 803, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj4 {
-  color: orange;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 810, ../sass/Partials/Workflow/_Index.scss */
+/* line 808, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Col {
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 810, ../sass/Partials/Workflow/_Index.scss */
+  /* line 808, ../sass/Partials/Workflow/_Index.scss */
   .Steps4Col {
     width: 48%;
     display: inline-block;
@@ -2517,10 +2580,10 @@ ul.Step3Lang img {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 810, ../sass/Partials/Workflow/_Index.scss */
+  /* line 808, ../sass/Partials/Workflow/_Index.scss */
   .Steps4Col {
     display: inline-block;
-    width: 20%;
+    width: 25%;
     height: 250px;
     padding: 0 20px;
     vertical-align: top;
@@ -2528,10 +2591,15 @@ ul.Step3Lang img {
   }
 }
 
-/* line 835, ../sass/Partials/Workflow/_Index.scss */
+/* line 833, ../sass/Partials/Workflow/_Index.scss */
+.AlignFix {
+  text-align: center;
+}
+
+/* line 837, ../sass/Partials/Workflow/_Index.scss */
 .Step4Filler {
   display: inline-block;
-  background-color: #e8e8e8;
+  background-color: #2B9CD1;
   padding: 3em;
   width: 5em;
   border-radius: 100%;
@@ -2539,28 +2607,28 @@ ul.Step3Lang img {
   margin-bottom: 1em;
 }
 
-/* line 845, ../sass/Partials/Workflow/_Index.scss */
+/* line 847, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep4Section {
   border-bottom: 1px solid #eaeaea;
   background-color: white;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 845, ../sass/Partials/Workflow/_Index.scss */
+  /* line 847, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep4Section {
     padding-bottom: 220px;
   }
-  /* line 852, ../sass/Partials/Workflow/_Index.scss */
+  /* line 854, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep4Section p {
     font-size: .65em;
   }
 }
 
-/* line 859, ../sass/Partials/Workflow/_Index.scss */
+/* line 861, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep5Section {
   padding-bottom: 60px;
 }
 
-/* line 863, ../sass/Partials/Workflow/_Index.scss */
+/* line 865, ../sass/Partials/Workflow/_Index.scss */
 .Steps5Col {
   display: inline-block;
   width: 100%;
@@ -2568,7 +2636,7 @@ ul.Step3Lang img {
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 863, ../sass/Partials/Workflow/_Index.scss */
+  /* line 865, ../sass/Partials/Workflow/_Index.scss */
   .Steps5Col {
     display: inline-block;
     width: 29%;
@@ -2579,13 +2647,13 @@ ul.Step3Lang img {
   }
 }
 
-/* line 888, ../sass/Partials/Workflow/_Index.scss */
+/* line 890, ../sass/Partials/Workflow/_Index.scss */
 .Step5Filler {
   height: 150px;
   width: 100%;
 }
 
-/* line 893, ../sass/Partials/Workflow/_Index.scss */
+/* line 895, ../sass/Partials/Workflow/_Index.scss */
 .Step5IMGTag {
   height: 300px;
   display: inline-block;
@@ -2596,7 +2664,7 @@ ul.Step3Lang img {
   background-position-x: 50%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 893, ../sass/Partials/Workflow/_Index.scss */
+  /* line 895, ../sass/Partials/Workflow/_Index.scss */
   .Step5IMGTag {
     background-position-x: 0;
     width: 30%;
@@ -2604,12 +2672,12 @@ ul.Step3Lang img {
   }
 }
 
-/* line 917, ../sass/Partials/Workflow/_Index.scss */
+/* line 919, ../sass/Partials/Workflow/_Index.scss */
 .Step5IMGText {
   display: inline-block;
   text-align: center;
 }
-/* line 921, ../sass/Partials/Workflow/_Index.scss */
+/* line 923, ../sass/Partials/Workflow/_Index.scss */
 .Step5IMGText h3 {
   color: #333;
   margin: 0;
@@ -2619,7 +2687,7 @@ ul.Step3Lang img {
   font-weight: 100;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 917, ../sass/Partials/Workflow/_Index.scss */
+  /* line 919, ../sass/Partials/Workflow/_Index.scss */
   .Step5IMGText {
     display: inline-block;
     text-align: left;
@@ -2630,29 +2698,22 @@ ul.Step3Lang img {
   }
 }
 
-/* line 950, ../sass/Partials/Workflow/_Index.scss */
+/* line 952, ../sass/Partials/Workflow/_Index.scss */
 .Step5LeftCol {
   width: 100%;
   height: auto;
   text-align: left;
   vertical-align: top;
 }
-/* line 956, ../sass/Partials/Workflow/_Index.scss */
+/* line 958, ../sass/Partials/Workflow/_Index.scss */
 .Step5LeftCol p {
   font-size: 1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 950, ../sass/Partials/Workflow/_Index.scss */
+  /* line 952, ../sass/Partials/Workflow/_Index.scss */
   .Step5LeftCol {
     display: inline-block;
     width: 60%;
-    border-bottom: 2px solid lightgray;
-  }
-}
-@media only screen and (min-width: 90.063em) {
-  /* line 950, ../sass/Partials/Workflow/_Index.scss */
-  .Step5LeftCol {
-    border-bottom: 2px solid lightgray;
   }
 }
 
@@ -2734,6 +2795,105 @@ ul.Step5Listing h2 {
   font-size: 1em;
 }
 
+@media only screen and (min-width: 64.063em) {
+  /* line 1070, ../sass/Partials/Workflow/_Index.scss */
+  .Step4Fix {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+  }
+}
+
+/* line 1086, ../sass/Partials/Workflow/_Index.scss */
+.footer {
+  background-color: #e4e4e4;
+  width: 90%;
+  padding: 0 5%;
+  margin-top: 3em;
+  border-top: 1px solid #C8C8C8;
+  height: 6em;
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 1086, ../sass/Partials/Workflow/_Index.scss */
+  .footer {
+    padding: 0 15%;
+    width: 70%;
+  }
+}
+
+/* line 1108, ../sass/Partials/Workflow/_Index.scss */
+.Arrow {
+  text-align: center;
+  height: 4.5em;
+}
+/* line 1113, ../sass/Partials/Workflow/_Index.scss */
+.Arrow img {
+  height: 6em;
+  position: relative;
+  bottom: 3em;
+}
+
+/* line 1120, ../sass/Partials/Workflow/_Index.scss */
+.Copyright {
+  position: relative;
+  bottom: 2em;
+}
+/* line 1124, ../sass/Partials/Workflow/_Index.scss */
+.Copyright p {
+  margin: 0;
+  font-family: 'Open-Sans';
+  color: gray;
+}
+/* line 1130, ../sass/Partials/Workflow/_Index.scss */
+.Copyright li {
+  display: inline-block;
+  margin-left: 1.4em;
+  font-family: 'Open-Sans';
+  color: gray;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 1120, ../sass/Partials/Workflow/_Index.scss */
+  .Copyright {
+    bottom: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  /* line 1148, ../sass/Partials/Workflow/_Index.scss */
+  .Copy {
+    float: left;
+  }
+}
+
+/* line 1156, ../sass/Partials/Workflow/_Index.scss */
+.Menu {
+  display: none;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 1156, ../sass/Partials/Workflow/_Index.scss */
+  .Menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 1156, ../sass/Partials/Workflow/_Index.scss */
+  .Menu {
+    float: right;
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 90.063em) {
+  /* line 1170, ../sass/Partials/Workflow/_Index.scss */
+  .Menu a {
+    color: gray;
+  }
+}
+
+/* line 1177, ../sass/Partials/Workflow/_Index.scss */
+#top img:hover {
+  transform: translateY(0);
+  animation: homepage1 1s infinite;
+}
+
 /* line 1, ../sass/Partials/About/_TechieAnimations.scss */
 .center {
   padding: 40px 0;
@@ -2742,10 +2902,11 @@ ul.Step5Listing h2 {
   width: 100%;
   text-align: center;
   box-shadow: 2px 3px 2px;
+  margin-top: 3em;
 }
 
 /* smartphone */
-/* line 12, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 13, ../sass/Partials/About/_TechieAnimations.scss */
 .smartphone {
   display: inline-block;
   width: 80px;
@@ -2759,7 +2920,7 @@ ul.Step5Listing h2 {
   -webkit-border-radius: 4px;
 }
 
-/* line 24, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 25, ../sass/Partials/About/_TechieAnimations.scss */
 .smartphone:before {
   content: '';
   display: block;
@@ -2772,7 +2933,7 @@ ul.Step5Listing h2 {
   -webkit-border-radius: 4px;
 }
 
-/* line 35, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 36, ../sass/Partials/About/_TechieAnimations.scss */
 .smartphone:after {
   content: '';
   display: block;
@@ -2785,7 +2946,7 @@ ul.Step5Listing h2 {
   -webkit-border-radius: 10px;
 }
 
-/* line 46, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 47, ../sass/Partials/About/_TechieAnimations.scss */
 .smartphone .content {
   width: 60px;
   height: 100px;
@@ -2797,7 +2958,7 @@ ul.Step5Listing h2 {
   overflow: hidden;
 }
 
-/* line 56, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 57, ../sass/Partials/About/_TechieAnimations.scss */
 .smartphone ul li {
   height: 6px;
   margin: 0 0 5px 0;
@@ -2805,7 +2966,7 @@ ul.Step5Listing h2 {
   background: #2980b9;
 }
 
-/* line 62, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 63, ../sass/Partials/About/_TechieAnimations.scss */
 .smartphone ul {
   animation: smartphone 4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
   -o-animation: smartphone 4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
@@ -2814,51 +2975,51 @@ ul.Step5Listing h2 {
 }
 
 @keyframes smartphone {
-  /* line 70, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 71, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     transform: translateY(-80%);
   }
 
-  /* line 71, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 72, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     margin-top: 0;
   }
 }
 @-o-keyframes smartphone {
-  /* line 75, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 76, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     -o-transform: translateY(-80%);
   }
 
-  /* line 76, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 77, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     margin-top: 0;
   }
 }
 @-moz-keyframes smartphone {
-  /* line 80, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 81, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     -moz-transform: translateY(-80%);
   }
 
-  /* line 81, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 82, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     margin-top: 0;
   }
 }
 @-webkit-keyframes smartphone {
-  /* line 85, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 86, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     -webkit-transform: translateY(-80%);
   }
 
-  /* line 86, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 87, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     margin-top: 0;
   }
 }
 /* tablet */
-/* line 91, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 92, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet {
   display: inline-block;
   width: 120px;
@@ -2873,7 +3034,7 @@ ul.Step5Listing h2 {
   margin-top: 50px;
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 91, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 92, ../sass/Partials/About/_TechieAnimations.scss */
   .tablet {
     display: inline-block;
     width: 120px;
@@ -2888,7 +3049,7 @@ ul.Step5Listing h2 {
   }
 }
 
-/* line 126, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 127, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet:before {
   content: '';
   display: block;
@@ -2901,7 +3062,7 @@ ul.Step5Listing h2 {
   -webkit-border-radius: 4px;
 }
 
-/* line 137, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 138, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet:after {
   content: '';
   display: block;
@@ -2914,7 +3075,7 @@ ul.Step5Listing h2 {
   -webkit-border-radius: 10px;
 }
 
-/* line 148, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 149, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet .content {
   width: 120px;
   height: 160px;
@@ -2926,12 +3087,12 @@ ul.Step5Listing h2 {
   z-index: 1000;
 }
 
-/* line 158, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 159, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet .wrap {
   width: 1000px;
 }
 
-/* line 162, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 163, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet ul {
   float: left;
   width: 100px;
@@ -2942,7 +3103,7 @@ ul.Step5Listing h2 {
   -webkit-animation: tablet 4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
 }
 
-/* line 172, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 173, ../sass/Partials/About/_TechieAnimations.scss */
 .tablet ul li {
   height: 6px;
   margin: 0 0 5px 0;
@@ -2951,51 +3112,51 @@ ul.Step5Listing h2 {
 }
 
 @keyframes tablet {
-  /* line 179, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 180, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     transform: translate(-120px);
   }
 
-  /* line 180, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 181, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     transform: translate(0);
   }
 }
 @-o-keyframes tablet {
-  /* line 183, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 184, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     -o-transform: translate(-120px);
   }
 
-  /* line 184, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 185, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     -o-transform: translate(0);
   }
 }
 @-moz-keyframes tablet {
-  /* line 187, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 188, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     -moz-transform: translate(-120px);
   }
 
-  /* line 188, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 189, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     -moz-transform: translate(0);
   }
 }
 @-webkit-keyframes tablet {
-  /* line 191, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 192, ../sass/Partials/About/_TechieAnimations.scss */
   20%,60% {
     -webkit-transform: translate(-120px);
   }
 
-  /* line 192, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 193, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     -webkit-transform: translate(0);
   }
 }
 /* laptop */
-/* line 197, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 198, ../sass/Partials/About/_TechieAnimations.scss */
 .laptop {
   display: inline-block;
   width: 200px;
@@ -3007,7 +3168,7 @@ ul.Step5Listing h2 {
   -webkit-border-radius: 2px;
 }
 
-/* line 207, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 208, ../sass/Partials/About/_TechieAnimations.scss */
 .laptop:before {
   content: '';
   display: block;
@@ -3025,7 +3186,7 @@ ul.Step5Listing h2 {
   z-index: 1;
 }
 
-/* line 223, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 224, ../sass/Partials/About/_TechieAnimations.scss */
 .laptop:after {
   content: '';
   display: block;
@@ -3045,7 +3206,7 @@ ul.Step5Listing h2 {
   -webkit-border-bottom-right-radius: 5px;
 }
 
-/* line 241, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 242, ../sass/Partials/About/_TechieAnimations.scss */
 .laptop .content {
   width: 180px;
   height: 100px;
@@ -3057,7 +3218,7 @@ ul.Step5Listing h2 {
   overflow: hidden;
 }
 
-/* line 251, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 252, ../sass/Partials/About/_TechieAnimations.scss */
 .laptop ul li {
   height: 6px;
   margin: 0 0 5px 0;
@@ -3065,7 +3226,7 @@ ul.Step5Listing h2 {
   background: #2980b9;
 }
 
-/* line 257, ../sass/Partials/About/_TechieAnimations.scss */
+/* line 258, ../sass/Partials/About/_TechieAnimations.scss */
 .laptop ul {
   animation: laptop 4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
   -o-animation: laptop 4s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
@@ -3074,65 +3235,65 @@ ul.Step5Listing h2 {
 }
 
 @keyframes laptop {
-  /* line 265, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 266, ../sass/Partials/About/_TechieAnimations.scss */
   20% {
     transform: translateY(-50%);
   }
 
-  /* line 266, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 267, ../sass/Partials/About/_TechieAnimations.scss */
   40%,60% {
     transform: translateY(-80%);
   }
 
-  /* line 267, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 268, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     transform: translateY(0);
   }
 }
 @-o-keyframes laptop {
-  /* line 271, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 272, ../sass/Partials/About/_TechieAnimations.scss */
   20% {
     -o-transform: translateY(-50%);
   }
 
-  /* line 272, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 273, ../sass/Partials/About/_TechieAnimations.scss */
   40%,60% {
     -o-transform: translateY(-80%);
   }
 
-  /* line 273, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 274, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     -o-transform: translateY(0);
   }
 }
 @-moz-keyframes laptop {
-  /* line 277, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 278, ../sass/Partials/About/_TechieAnimations.scss */
   20% {
     -moz-transform: translateY(-50%);
   }
 
-  /* line 278, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 279, ../sass/Partials/About/_TechieAnimations.scss */
   40%,60% {
     -moz-transform: translateY(-80%);
   }
 
-  /* line 279, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 280, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     -moz-transform: translateY(0);
   }
 }
 @-webkit-keyframes laptop {
-  /* line 283, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 284, ../sass/Partials/About/_TechieAnimations.scss */
   20% {
     -webkit-transform: translateY(-50%);
   }
 
-  /* line 284, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 285, ../sass/Partials/About/_TechieAnimations.scss */
   40%,60% {
     -webkit-transform: translateY(-80%);
   }
 
-  /* line 285, ../sass/Partials/About/_TechieAnimations.scss */
+  /* line 286, ../sass/Partials/About/_TechieAnimations.scss */
   80% {
     -webkit-transform: translateY(0);
   }

@@ -41,7 +41,6 @@
 
 .ContactContainerBottom {
     padding: 30px 30px;
-    border-bottom: #dddddd solid 1px;
 
     h1 {
         font-family: "ff-prater-sans-web";
@@ -72,10 +71,12 @@
     }
 
     @media only screen and (min-width: 64.063em) {
+        padding-bottom: 5em;
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 60px $ContactContainerDesktop
+        padding: 60px $ContactContainerDesktop;
+
     }    
 }
 
@@ -115,17 +116,18 @@
 .ContactMessage {
     display: inline-block;
     vertical-align: top;
+    width: 100%;
 
     @media only screen and (min-width: 40.063em) { 
-
+        width: 30%;
     }
 
     @media only screen and (min-width: 64.063em) {
-
+        width: 18%;
     }
 
     @media only screen and (min-width: 90.063em) {         
-        width: 30%;
+        width: 20%;
     }
 }
 
@@ -148,11 +150,13 @@
     }
 
     @media only screen and (min-width: 40.063em) { 
-        display: inline-block;           
+        display: inline-block;
         margin-top: 0;
         padding-top: 0;
-        vertical-align: bottom;
-        border-top: none;             
+        vertical-align: top;
+        border-top: none;
+        width: 60%;
+        margin-left: 3em;          
 
         img {
             width: 100%;
@@ -172,13 +176,14 @@
     }
 
     @media only screen and (min-width: 90.063em) { 
-        width: 65%;
+        width: 70%;
         margin-top: 0;
+        margin-left: 5em;
 
         img {
-            margin-left: 20%;
             text-align: right;
             width: 100%;
+            margin-left: 0;
         }
 
     }
@@ -224,7 +229,20 @@
     input {
         font-size: 15px;
         vertical-align: sub;
-        width: 14em;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+
     }
 }
 

@@ -25,14 +25,14 @@
       font-size: 1.6em;
       font-weight: 100;
       margin-top: 0;
-      color: cadetblue;
+      color: #3498db;
       line-height: 1.3em;
     }
 
     p {
         color: #555555; 
         margin-bottom: 1.4em;
-        line-height: 1.6em;
+        line-height: 1.9em;
     }
 
     @media only screen and (min-width: 40.063em) { 
@@ -61,7 +61,7 @@
 .AboutIntro {
 
 
-    @media only screen and (min-width: 40.063em) { 
+    @media only screen and (min-width: 40.063em) {
         display: inline-block;
         vertical-align: top;
     }
@@ -73,7 +73,7 @@
 
         h2 {
             margin-top: 0;
-            color: #888888;
+            color: #3498db;
         }
     }
 
@@ -221,7 +221,7 @@
         font-family: "ff-prater-sans-web";
         font-size: 1.6em;
         margin: 15px 0;
-        color: cadetblue;
+        color: rgb(52, 152, 219);
         font-weight: 100;
     }
 
@@ -448,6 +448,7 @@
 .Interest03 {
     height: auto;
     width: 100%;
+    padding-bottom: 44em;
 
     img {
         float: left;
@@ -468,15 +469,16 @@
     }
 
     @media only screen and (min-width: 40.063em) { 
-
+        padding-bottom: 22em;
     }
 
-    @media only screen and (min-width: 64.063em) {
-  
+    @media only screen and (min-width: 64.063em) {  
+        height: 490px;
+        width: 100%;
+        padding-bottom: 10em;
     }
 
     @media only screen and (min-width: 90.063em) { 
-        height: 600px;
 
         img {
             float: left;
@@ -573,5 +575,25 @@
     @media only screen and (min-width: 90.063em) {
         width: 50%;
         float: right;
+    } 
+}
+
+.JunkieCol {
+    width: 100%;
+    text-align: left;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin-right: 4em;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+
     } 
 }

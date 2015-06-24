@@ -34,8 +34,6 @@
     <script src="//use.typekit.net/cmg1ule.js"></script>
     <script>try { Typekit.load(); } catch (e) { }</script>
 
-    <script src="~/Content/js/jquery.waypoints.min.js"></script>
-
 </head>
 <body>
 
@@ -63,12 +61,31 @@
 
     @RenderBody()
 
-    @*<div class="footer">
-            © 2015 Mygel Bergstresser
-        </div>*@
+    <div class="footer">
+
+        <div class="Arrow">
+            <a id="top" href="#top">
+                <img src="/Content/img/ArrowUp.svg" alt="" />
+            </a>
+        </div>
+        
+        <div class="Copyright">
+            <div class="Copy">
+                <p>© 2015 Mygel Bergstresser</p>
+            </div>
+
+            <div class="Menu">
+                <ul>
+                    <li class="FotterColor"><a href="/About/">About</a></li>
+                    <li class="FotterColor"><a href="/Portfolio/">Portfolio</a></li>
+                    <li class="FotterColor"><a href="/Process/">Workflow</a></li>
+                    <li class="FotterColor"><a href="/Contact/">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    @*<script src="/Content/js/vendor/jquery-1.11.2.min.js"></script>*@
     <script src="/content/js/plugins.js"></script>
     <script src="/content/js/main.js"></script>
 
