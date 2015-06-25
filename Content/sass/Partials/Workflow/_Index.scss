@@ -291,13 +291,19 @@ i.fa.fa-wrench.fa-5x {
         -webkit-box-shadow: 0 8px 6px -6px black;
         -moz-box-shadow: 0 8px 6px -6px black;
         box-shadow: 0 8px 6px -6px black;
-        margin-bottom: 10px;
+        margin-bottom: 2em;
+    }
+
+    img:hover {
+        transform: translateY(0);
+        animation: homepage1 5s infinite;
     }
 
     @media only screen and (min-width: 40.063em) { 
         img {
             display: inline-block;
             width: 32%;
+            margin-bottom: 0;
         }
     }
 

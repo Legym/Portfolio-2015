@@ -1,35 +1,96 @@
 ﻿
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";    
 }
 
-
 <div class="ContactContainer">
-    <h1>Contact me</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-    <div class="Social">
-        <ul>
-            <li><a href="#">Like my Facebook</a></li>
-            <li><a href="#">Follow me on Twitter</a></li>
-            <li><a href="#">Hangout with me on Google+</a></li>
-            <li><a href="#">Send me an Email</a></li>
-        </ul>
-    </div>
+    <section class="ContactTop">
+        <div class="ContactIntro">
+            <h1>Contact me!</h1>
+            <h2>Are you interested in my work and looking for a web developer to build your idea? Let's get in touch and see if we can make it happen.</h2>
+        </div>
+    </section>
 
-    <div class="Github">
-        <h1>Review my Code</h1>
-        <ul>
-            <li><a href="#">Review my Github</a></li>
-        </ul>
-    </div>
-
-    <div class="Email">
-        <h1>My Resume</h1>
-        <ul>
-            <li><a href="#">View my Resume</a></li>
-        </ul>
-    </div>
 </div>
 
+<div class="ContactContainerBottom">
+    <section class="ContactTopBottom">
+        <div class="ContactDetailsTop">
+            <div class="ContactMessage">
+                <div class="Social">
+                    <h3>Email</h3>
+                    <form action="#">
+                        <input type="text" name="firstname" value="FederationCore@gmail.com">
+                    </form>
+                </div>
+
+
+                @*<div class="Social">
+                    <h3>Review my Code</h3>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Legym">
+                                <i class="fa fa-github fa-3x"></i>
+                                <span>Review my Github</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>*@
+
+                <div class="Social">
+                    <h3>My Resume</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="/Content/Files/Mygel%20Bergstresser%20Resume.pdf">
+                                <i class="fa fa-file-pdf-o fa-3x"></i>
+                                <span>View my Resume</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="Social">
+                    <h3>Message Me!</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/MygelBergstresser">
+                                <i class="fa fa-facebook-square fa-3x"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://twitter.com/BreatheDotA">
+                                <i class="fa fa-twitter-square fa-3x"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://plus.google.com/u/0/106473414071064145273/posts">
+                                <i class="fa fa-google-plus-square fa-3x"></i>
+                                <span>Google+</span>
+                            </a>
+                        </li>
+                    </ul>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+            <div class="FaceImageContact">
+                <h1>Before You Contact me!</h1>
+                <p>
+                    On May 1st I moved from North Carolina to Seattle in hopes to work with talented individuals in web development. I have been working with Microsoft tools for the past seven years and I am very proficient with them. If your company cultivates creativity and has a great work environment I would love to see if we are a good match.
+                </p>
+
+                <img src='/Content/img/ContactUs.png'>
+            </div>
+        </div>
+    </section>
+</div>

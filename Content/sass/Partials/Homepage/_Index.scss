@@ -94,18 +94,24 @@
 }
 
 .oi {
-    height: 1px;
-    background: #DDD;
-    border-bottom: #FFF solid 1px;
-    margin-bottom: 30px;
-    text-align: center;
-    margin-top: 20px;
+  height: 1px;
+  background: #DDD;
+  border-bottom: #FFF solid 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
 
     h3 {
         color: #888;
         font-family: "League-Gothic";
         letter-spacing: 1px;
         font-weight: 100;
+        margin: 0px;
+        text-align: center;
+        position: relative;
+        top: -12px;
+        background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
+        display: inline-block;
     }
 }
 
@@ -217,7 +223,8 @@
             padding: 0;
             margin: 0;
             color: #888888;
-            font-size: 1em;
+            font-size: 1.1em;
+            line-height: 1.8em;
         }
     }
 
@@ -277,7 +284,8 @@
             padding: 0;
             margin: 0;
             color: #888888;
-            font-size: 1em;
+            font-size: 1.1em;
+            line-height: 1.8em;
         }
     }
 

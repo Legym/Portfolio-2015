@@ -31,8 +31,9 @@
 
 .logo {
     display: inline-block;
-    width: 50%;
-    margin-top: -5px;
+    position: relative;
+    top: -5px;
+    width: 100px;
 
     img {
         height: 40px;
@@ -40,58 +41,22 @@
 
     @media only screen and (min-width: 40.063em) { 
         display: inline-block;
-        margin-top: -7px;
+        position: relative;
+        top: -7px;
         width: 30%; 
         
         img {
-            height: 50px;
-            width: auto;
+            height: 60px;
+            width: 170px;
         }            
     }
 
     @media only screen and (min-width: 64.063em) {
-        display: inline-block;
-        margin-top: -7px; 
-        
-        img {
-            height: 50px;
-            width: auto;
-        }            
+                   
     }
 
     @media only screen and (min-width: 90.063em) { 
-        display: inline-block;
-        width: auto;
-        margin-top: -7px; 
-        
-        img {
-            height: 50px;
-            width: auto;
-        }            
-    }
-
-    @media only screen and (min-width: 90.063em) { 
-        display: inline-block;
-        width: auto;
-        margin-top: -7px; 
-        
-        img {
-            height: 50px;
-            width: auto;
-        }               
-    }
-}
-
-
-
-#hamburger {
-    width: 30px;
-    height: 32px;
-    background: url('../img/1.png') no-repeat;
-    float: right;
-
-    @media only screen and (min-width: 40.063em) { 
-        display: none;
+              
     }
 }
 
@@ -104,6 +69,7 @@
     left: 0;
     top: 60px;
     text-align: center;
+    z-index: 999;
 
     ul {
         text-decoration: none;
@@ -120,8 +86,9 @@
         display: block;
         height: 70px;
         line-height: 70px;
-
-
+        font-family: league-Gothic;
+        font-size: 1.4em;
+        letter-spacing: 1px;
     }
 
     a:hover {
@@ -131,7 +98,7 @@
     @media only screen and (min-width: 40.063em) { 
         display: inline-block;
         position: relative;
-        width: 350px;
+        width: auto;
         top: 0;
         background-color: transparent;
         float: right;
@@ -139,7 +106,7 @@
 
         li {
             display: inline-block;
-            padding: 0 10px;
+            padding: 0 15px;
             border-top: none;
             border-bottom: none;
         }
@@ -157,4 +124,59 @@
 
 .footer {
     text-align: center;
+}
+
+
+#nav-toggle { 
+    display: inline-block;
+    float: right; 
+
+    @media only screen and (min-width: 40.063em) { 
+        display: none;
+    }
+}
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+.FotterColor {
+
+    a   { 
+        color: gray;
+        }
+
+    a:hover {
+        color: black;
+    }
 }

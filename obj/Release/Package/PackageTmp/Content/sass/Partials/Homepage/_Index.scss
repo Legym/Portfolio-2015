@@ -1,9 +1,38 @@
-﻿.HomepageContainer {
+﻿@keyframes homepage1 {
+	20% { transform: translateY(-12px); }
+	400% { transform: translateY(0px); }
+}
+
+@keyframes homepage2 {
+	20% { transform: translateY(-12px); }
+	400% { transform: translateY(0px); }
+}
+
+.HomepageContainer {
+    background-image: url('/Content/img/Hompage1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
     background-color: white;
     height: 180px;
+    border-bottom: #dddddd solid 1px;
+    background-position-y: 15px;
+    padding: 0 $HomepageContainerMobile;
+
 
     @media only screen and (min-width: 40.063em) { 
-        padding: 30px $HomepageContainerMobile;
+        padding: 30px $HomepageContainerTablet;
+        height: 240px;
+        background-position-y: 10px;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 30px $HomepageContainerDesktop;
+        height: 480px;    
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 30px $HomepageContainerXDesktop;
         height: 480px;
     }
 }
@@ -20,48 +49,252 @@
 }
 
 .HomepageBottomContainer {
-    padding: 30px 5%;
-    text-align: center;
+    padding: 40px 0;
+    text-align: left;
 
-    h1 {
-        padding: 20px 0;   
+    h3 {
+        margin: 0px;
+        text-align: center;
+        position: relative;
+        top: -12px;
+        background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
+        display: inline-block;
+        width: 70%;
+        font-family: "jaf-bernino-sans-comp";
+        font-size: 1.2em;
+        color: #333;
     }
 
     @media only screen and (min-width: 40.063em) { 
-        padding: 30px $HomepageBottomContainerTablet;
+        padding: 60px $HomepageBottomContainerTablet;
+
+        h3 {
+            width: 45%;
+            font-size: 1.6em;
+            position: relative;
+            top: -16px;
+        }
     }
 
     @media only screen and (min-width: 64.063em) {
-        padding: 30px $HomepageBottomContainerDesktop;
+        padding: 60px $HomepageBottomContainerDesktop;
+
+        h3 {
+            width: 30%;
+        }
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 30px $HomepageBottomContainerXDesktop;
+        padding: 60px $HomepageBottomContainerXDesktop;
+
+        h3 {
+            width: 25%;
+        }
     }
+}
 
+.oi {
+  height: 1px;
+  background: #DDD;
+  border-bottom: #FFF solid 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
 
+    h3 {
+        color: #888;
+        font-family: "League-Gothic";
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin: 0px;
+        text-align: center;
+        position: relative;
+        top: -12px;
+        background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
+        display: inline-block;
+    }
 }
 
 .HomepageProjectBox {
-    background-color: white;
-    width: 100%;
-    height: 200px;
     margin-bottom: 20px;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(179, 179, 179);
+
+    h1 {
+        padding: 5px 10px;
+        width: auto;
+        color: white;
+        background-color: #2B9CD1;
+        font-size: 1.6em;        
+        font-family: "ff-prater-sans-web";
+        text-shadow: 1px 1px 2px black;
+    }
+
+    p {
+        margin: 0;
+    }
 
     @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-        width: 38.1923076923%;
-        padding: 0.7692307692% 0.7692307692% 0 0.7692307692%;  
-        margin: 0 2.4038461538% 2.4038461538% 0;
+        width: 44.5%;
+        margin: 0 2% 0 0;
         display: inline-block;
-        height: 300px;    
+        height: 200px;    
+        border-bottom: none;       
+        
+        h1 {
+            display: inline-block;
+            margin: 0;
+        }      
+
     }
 
     @media only screen and (min-width: 64.063em) { 
-        width: 28.1923076923%;
-        padding: 0.7692307692% 0.7692307692% 0 0.7692307692%;  
-        margin: 0 2.4038461538% 2.4038461538% 0;
+        width: 45%;
+        margin: 0 2% 0 0;
         display: inline-block;
-        height: 300px;    
+        height: 200px;    
+        text-align: left;
+        border-bottom: none;
+
+        h1 {
+            padding: 5px 10px;
+            display: inline-block;
+            margin: 0;
+        }
+    }
+
+}
+
+
+.HomepageProjectBoxFix {
+    margin-right: 0;
+    vertical-align: top;
+}
+
+.HomepageProjectParent {
+    text-align: center;
+}
+
+
+.HomepageSidesLeft {
+    height: auto;
+    width: 49%;
+    display: inline-block;
+    margin-top: 60px;
+
+    h1 {
+        font-family: "ff-prater-sans-web";
+        font-size: 1.4em;
+        margin: 0;
+        transform: translateY(0);
+        animation: homepage1 5s infinite;
+    }
+
+    p {
+        display: none;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-top: 40px;
+
+        h1 {
+            font-size: 2.2em;
+        }
+
+        p {
+            width: 200px;
+            padding: 0;
+            margin: 0;
+            color: #888888;
+            display: inline-block;
+            font-size: .9em;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+
+        h1 {
+            font-size: 3.2em;
+        }
+
+        p {
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            color: #888888;
+            font-size: 1.1em;
+            line-height: 1.8em;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        p {
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            color: #888888;
+        }
+    }
+}
+
+.HomepageSidesRight {
+    height: 100px;
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+
+    h1 {
+        font-family: "ff-prater-sans-web";
+        font-size: 1.4em;
+        margin: 0;
+        transform: translateY(0);
+        animation: homepage2 3s infinite;
+    }
+
+    p {
+      display: none;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+
+        h1 {
+            font-size: 2.2em;
+        }
+
+        p {
+            width: 200px;
+            padding: 0;
+            margin: 0;
+            color: #888888;
+            display: inline-block;
+            font-size: .9em;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+
+        h1 {
+            font-size: 3.2em;
+        }
+
+        p {
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            color: #888888;
+            font-size: 1.1em;
+            line-height: 1.8em;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        p {
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            color: #888888;
+        }
     }
 }

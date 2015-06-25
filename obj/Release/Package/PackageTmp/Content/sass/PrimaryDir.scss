@@ -1,7 +1,6 @@
 ﻿// Modules and Variables
 @import "Modules/WidthContainers";
 
-
 // Partials
 @import "Partials/_Layout/Layout";
 @import "Partials/_Layout/Universal";
@@ -11,5 +10,10 @@
 @import "Partials/Portfolio/Index";
 @import "Partials/Workflow/Index";
 
+// AboutUs Animations
+@import "Partials/About/TechieAnimations";
+@import "Partials/About/Coffee";
+@import "Partials/About/Marvel";
 
-// Third-party
+// Homepage
+@import "Partials/Homepage/Buttons";

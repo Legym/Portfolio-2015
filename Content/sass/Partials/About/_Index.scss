@@ -1,4 +1,43 @@
-﻿li.image a:hover {
+﻿@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+
+
+li.image a:hover {
     background-color: rgb(230, 242, 250);
     -webkit-transition: .5s ease-in-out;
 }
@@ -11,7 +50,7 @@
     h1 {
         font-family: "ff-prater-sans-web";
         margin: 0;
-        font-size: 5em;
+        font-size: 4em;
         color: black;
 
         @media only screen and (min-width: 40.063em) { 
@@ -37,6 +76,7 @@
 
     @media only screen and (min-width: 40.063em) { 
         padding: 50px $AboutContainerTablet;
+
     }
 
     @media only screen and (min-width: 64.063em) {
@@ -588,9 +628,13 @@
 
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
-        width: 40%;
+        width: 30%;
         vertical-align: top;
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
         margin-right: 4em;
+        padding: 0 2em;
+        height: 250px;
     }
 
     @media only screen and (min-width: 90.063em) {

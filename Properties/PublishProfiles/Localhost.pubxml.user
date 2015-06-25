@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".editorconfig">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include=".gitattributes">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include=".gitignore">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include=".htaccess">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="404.html">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="apple-touch-icon.png">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="bin/Portfolio.dll">
+      <publishTime>06/25/2015 00:53:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/07/2015 18:48:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/07/2015 18:48:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/07/2015 18:48:44</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>04/07/2015 18:48:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>04/07/2015 18:48:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>04/07/2015 18:48:45</publishTime>
+    </File>
+    <File Include="browserconfig.xml">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/config.rb">
+      <publishTime>02/20/2015 20:04:12</publishTime>
+    </File>
+    <File Include="Content/css/normalize.css">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/css/PrimaryDir.css">
+      <publishTime>06/25/2015 01:28:57</publishTime>
+    </File>
+    <File Include="Content/css/Styled.css">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/css.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/extend.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/faq.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/html.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/js.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/misc.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/TOC.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/doc/usage.md">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/Files/Mygel Bergstresser Resume.pdf">
+      <publishTime>06/09/2015 23:35:16</publishTime>
+    </File>
+    <File Include="Content/img/.gitignore">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/img/1.png">
+      <publishTime>04/07/2015 19:59:21</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/20150502_234107.jpg">
+      <publishTime>06/03/2015 16:52:26</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/20150508_160539.jpg">
+      <publishTime>06/03/2015 16:52:27</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/AboutBanner.jpg">
+      <publishTime>06/19/2015 18:46:18</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/Awesome %281 of 5%29.jpg">
+      <publishTime>06/03/2015 16:52:27</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/Awesome %283 of 5%29.jpg">
+      <publishTime>06/03/2015 16:52:25</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/Awesome %284 of 5%29.jpg">
+      <publishTime>06/03/2015 16:52:26</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/Awesome %285 of 5%29.jpg">
+      <publishTime>06/03/2015 16:52:26</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/Poly.png">
+      <publishTime>10/13/2014 23:43:46</publishTime>
+    </File>
+    <File Include="Content/img/AboutMe/PolyBackground.jpg">
+      <publishTime>06/19/2015 18:41:33</publishTime>
+    </File>
+    <File Include="Content/img/ArrowUp.svg">
+      <publishTime>06/23/2015 21:17:01</publishTime>
+    </File>
+    <File Include="Content/img/Awesome-%281-of-1%29-2.png">
+      <publishTime>04/23/2015 08:44:54</publishTime>
+    </File>
+    <File Include="Content/img/Backup/ContactUs %282%29.png">
+      <publishTime>06/22/2015 15:54:13</publishTime>
+    </File>
+    <File Include="Content/img/Backup/ContactUs.png">
+      <publishTime>05/20/2015 14:49:01</publishTime>
+    </File>
+    <File Include="Content/img/Backup/Homepage %282%29.png">
+      <publishTime>05/16/2015 14:39:03</publishTime>
+    </File>
+    <File Include="Content/img/Backup/Homepage.jpg">
+      <publishTime>05/15/2015 17:08:08</publishTime>
+    </File>
+    <File Include="Content/img/Backup/Homepage.png">
+      <publishTime>05/16/2015 14:39:03</publishTime>
+    </File>
+    <File Include="Content/img/Backup/HomepageEDIT.jpg">
+      <publishTime>05/16/2015 14:41:43</publishTime>
+    </File>
+    <File Include="Content/img/Backup/HomepageORG.jpg">
+      <publishTime>05/16/2015 16:12:27</publishTime>
+    </File>
+    <File Include="Content/img/ContactMe.jpg">
+      <publishTime>05/19/2015 18:47:40</publishTime>
+    </File>
+    <File Include="Content/img/ContactUs.jpg">
+      <publishTime>06/21/2015 20:00:55</publishTime>
+    </File>
+    <File Include="Content/img/ContactUs.png">
+      <publishTime>06/23/2015 23:54:22</publishTime>
+    </File>
+    <File Include="Content/img/Counter.png">
+      <publishTime>06/09/2015 22:12:44</publishTime>
+    </File>
+    <File Include="Content/img/crabpotlogo1.png">
+      <publishTime>05/24/2015 15:48:46</publishTime>
+    </File>
+    <File Include="Content/img/Creeps.png">
+      <publishTime>05/24/2015 16:48:33</publishTime>
+    </File>
+    <File Include="Content/img/Fav/android-chrome-144x144.png">
+      <publishTime>06/22/2015 02:14:54</publishTime>
+    </File>
+    <File Include="Content/img/Fav/android-chrome-192x192.png">
+      <publishTime>06/22/2015 02:14:54</publishTime>
+    </File>
+    <File Include="Content/img/Fav/android-chrome-36x36.png">
+      <publishTime>06/22/2015 02:14:52</publishTime>
+    </File>
+    <File Include="Content/img/Fav/android-chrome-48x48.png">
+      <publishTime>06/22/2015 02:14:52</publishTime>
+    </File>
+    <File Include="Content/img/Fav/android-chrome-72x72.png">
+      <publishTime>06/22/2015 02:14:52</publishTime>
+    </File>
+    <File Include="Content/img/Fav/android-chrome-96x96.png">
+      <publishTime>06/22/2015 02:14:54</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-114x114.png">
+      <publishTime>06/22/2015 02:14:36</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-120x120.png">
+      <publishTime>06/22/2015 02:14:38</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-144x144.png">
+      <publishTime>06/22/2015 02:14:38</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-152x152.png">
+      <publishTime>06/22/2015 02:14:40</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-180x180.png">
+      <publishTime>06/22/2015 02:14:40</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-57x57.png">
+      <publishTime>06/22/2015 02:14:36</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-60x60.png">
+      <publishTime>06/22/2015 02:14:38</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-72x72.png">
+      <publishTime>06/22/2015 02:14:38</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-76x76.png">
+      <publishTime>06/22/2015 02:14:40</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon-precomposed.png">
+      <publishTime>06/22/2015 02:14:40</publishTime>
+    </File>
+    <File Include="Content/img/Fav/apple-touch-icon.png">
+      <publishTime>06/22/2015 02:14:40</publishTime>
+    </File>
+    <File Include="Content/img/Fav/browserconfig.xml">
+      <publishTime>06/22/2015 02:14:50</publishTime>
+    </File>
+    <File Include="Content/img/Fav/favicon-16x16.png">
+      <publishTime>06/22/2015 02:14:44</publishTime>
+    </File>
+    <File Include="Content/img/Fav/favicon-32x32.png">
+      <publishTime>06/22/2015 02:14:44</publishTime>
+    </File>
+    <File Include="Content/img/Fav/favicon-96x96.png">
+      <publishTime>06/22/2015 02:14:46</publishTime>
+    </File>
+    <File Include="Content/img/Fav/favicon.ico">
+      <publishTime>06/22/2015 02:14:44</publishTime>
+    </File>
+    <File Include="Content/img/Fav/manifest.json">
+      <publishTime>06/22/2015 02:14:56</publishTime>
+    </File>
+    <File Include="Content/img/Fav/mstile-144x144.png">
+      <publishTime>06/22/2015 02:14:48</publishTime>
+    </File>
+    <File Include="Content/img/Fav/mstile-150x150.png">
+      <publishTime>06/22/2015 02:14:48</publishTime>
+    </File>
+    <File Include="Content/img/Fav/mstile-310x150.png">
+      <publishTime>06/22/2015 02:14:50</publishTime>
+    </File>
+    <File Include="Content/img/Fav/mstile-310x310.png">
+      <publishTime>06/22/2015 02:14:50</publishTime>
+    </File>
+    <File Include="Content/img/Fav/mstile-70x70.png">
+      <publishTime>06/22/2015 02:14:46</publishTime>
+    </File>
+    <File Include="Content/img/Flow.png">
+      <publishTime>06/17/2015 20:08:14</publishTime>
+    </File>
+    <File Include="Content/img/hamburger.svg">
+      <publishTime>06/09/2015 22:47:17</publishTime>
+    </File>
+    <File Include="Content/img/Hompage1.jpg">
+      <publishTime>06/21/2015 19:18:26</publishTime>
+    </File>
+    <File Include="Content/img/Icon1.jpg">
+      <publishTime>06/20/2015 20:08:39</publishTime>
+    </File>
+    <File Include="Content/img/Icon2.jpg">
+      <publishTime>06/20/2015 20:13:32</publishTime>
+    </File>
+    <File Include="Content/img/Icon3.jpg">
+      <publishTime>06/20/2015 20:14:24</publishTime>
+    </File>
+    <File Include="Content/img/Icon4.jpg">
+      <publishTime>06/20/2015 20:27:01</publishTime>
+    </File>
+    <File Include="Content/img/Icon5.jpg">
+      <publishTime>06/20/2015 20:55:21</publishTime>
+    </File>
+    <File Include="Content/img/Icon6.jpg">
+      <publishTime>06/20/2015 21:18:20</publishTime>
+    </File>
+    <File Include="Content/img/LogoBak.svg">
+      <publishTime>04/23/2015 07:50:38</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/BreatheDotA.png">
+      <publishTime>06/24/2015 18:56:20</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/CounterStrike.png">
+      <publishTime>06/24/2015 18:55:59</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Mobile/BreatheDotA.jpg">
+      <publishTime>06/25/2015 00:36:45</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Mobile/Counter.jpg">
+      <publishTime>06/25/2015 00:41:13</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Mobile/Port.jpg">
+      <publishTime>06/25/2015 00:42:20</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Port.png">
+      <publishTime>06/24/2015 18:55:39</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Uncompressed/BreatheDotA.png">
+      <publishTime>06/17/2015 23:28:07</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Uncompressed/CounterStrike.png">
+      <publishTime>06/17/2015 23:27:39</publishTime>
+    </File>
+    <File Include="Content/img/Portfolio/Uncompressed/Port.png">
+      <publishTime>06/17/2015 22:05:29</publishTime>
+    </File>
+    <File Include="Content/img/svg.svg">
+      <publishTime>06/21/2015 01:14:03</publishTime>
+    </File>
+    <File Include="Content/img/svg2.svg">
+      <publishTime>06/21/2015 01:37:09</publishTime>
+    </File>
+    <File Include="Content/img/svgBAK.svg">
+      <publishTime>05/16/2015 20:54:33</publishTime>
+    </File>
+    <File Include="Content/img/test.jpg">
+      <publishTime>05/18/2015 19:48:52</publishTime>
+    </File>
+    <File Include="Content/img/TEST2.jpg">
+      <publishTime>05/18/2015 20:01:25</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/06.svg">
+      <publishTime>06/15/2015 02:17:11</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/azure.png">
+      <publishTime>06/10/2015 21:32:22</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/BackEnd.svg">
+      <publishTime>06/15/2015 21:21:39</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/BuePoste.png">
+      <publishTime>06/21/2015 00:16:38</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/BuePoster.png">
+      <publishTime>06/14/2015 22:20:32</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/BuePosterLArge.png">
+      <publishTime>06/14/2015 22:20:07</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Computer.png">
+      <publishTime>06/16/2015 15:03:22</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Counter.jpg">
+      <publishTime>06/09/2015 22:34:30</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/domains.png">
+      <publishTime>06/10/2015 21:31:16</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Frame1.jpg">
+      <publishTime>06/20/2015 22:36:11</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Frame2.jpg">
+      <publishTime>06/20/2015 22:35:48</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/frame3.jpg">
+      <publishTime>06/21/2015 00:13:54</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Icons/CSS.svg">
+      <publishTime>06/16/2015 00:09:54</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Icons/download.svg">
+      <publishTime>06/16/2015 00:08:51</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Icons/HTML.svg">
+      <publishTime>06/16/2015 00:09:05</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Icons/JQ.svg">
+      <publishTime>06/16/2015 00:08:55</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Icons/JS.svg">
+      <publishTime>06/16/2015 00:10:01</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Step2/Illistrator.jpg">
+      <publishTime>06/13/2015 18:19:41</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Step2/InDesign.jpg">
+      <publishTime>06/13/2015 18:19:53</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Step2/Lightroom.jpg">
+      <publishTime>06/13/2015 18:20:02</publishTime>
+    </File>
+    <File Include="Content/img/Workflow/Step2/Photoshop.jpg">
+      <publishTime>06/13/2015 18:19:17</publishTime>
+    </File>
+    <File Include="Content/js/main.js">
+      <publishTime>06/24/2015 22:44:57</publishTime>
+    </File>
+    <File Include="Content/js/plugins.js">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/js/vendor/jquery-1.11.2.min.js">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/js/vendor/modernizr-2.8.3.min.js">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Content/sass/Modules/_WidthContainers.scss">
+      <publishTime>06/21/2015 10:26:19</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/About/_Index.scss">
+      <publishTime>06/24/2015 18:08:10</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/Contact/_Index.scss">
+      <publishTime>06/24/2015 00:22:02</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/Homepage/_Index.scss">
+      <publishTime>06/24/2015 19:04:24</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/Portfolio/_Index.scss">
+      <publishTime>06/25/2015 00:55:08</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/Workflow/_Index.scss">
+      <publishTime>06/24/2015 18:47:02</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/_Layout/_Layout.scss">
+      <publishTime>06/24/2015 00:35:51</publishTime>
+    </File>
+    <File Include="Content/sass/Partials/_Layout/_Universal.scss">
+      <publishTime>06/11/2015 17:13:39</publishTime>
+    </File>
+    <File Include="Content/sass/PrimaryDir.scss">
+      <publishTime>06/20/2015 18:33:58</publishTime>
+    </File>
+    <File Include="crossdomain.xml">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/07/2015 18:48:44</publishTime>
+    </File>
+    <File Include="humans.txt">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/07/2015 18:48:45</publishTime>
+    </File>
+    <File Include="robots.txt">
+      <publishTime>02/02/2015 19:08:36</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>06/24/2015 17:56:10</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>06/24/2015 00:38:06</publishTime>
+    </File>
+    <File Include="Views/Grace/Index.cshtml">
+      <publishTime>06/24/2015 22:17:45</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>06/22/2015 15:06:52</publishTime>
+    </File>
+    <File Include="Views/Portfolio/Index.cshtml">
+      <publishTime>06/25/2015 01:22:28</publishTime>
+    </File>
+    <File Include="Views/Process/Index.cshtml">
+      <publishTime>06/24/2015 18:39:33</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/25/2015 00:09:33</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>04/07/2015 18:48:44</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/31/2015 15:14:16</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/24/2015 22:09:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
