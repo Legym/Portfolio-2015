@@ -26,6 +26,11 @@ section {
         font-family: "open-sans";
         color: #545353;
         line-height: 1.9;
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
     }
 }
 
@@ -184,7 +189,7 @@ i.fa.fa-wrench.fa-5x {
     }
 
     @media only screen and (min-width: 64.063em) {
-        text-align: left;
+        text-align: center;
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -215,8 +220,8 @@ i.fa.fa-wrench.fa-5x {
     }
 
     @media only screen and (min-width: 64.063em) {
-        height: 130px;
-        width: 10%;
+        height: 120px;
+        width: 8%;
 
         span {
             font-size: 5.4em;
@@ -257,6 +262,7 @@ i.fa.fa-wrench.fa-5x {
         padding: 3.5%;
         font-size: 1.8em;    
         float: left;
+        width: 80%;
 
         h1 {
             font-size: 1.4em;
@@ -486,16 +492,17 @@ ul.step2ul {
 
     @media only screen and (min-width: 40.063em) { 
         display: inline-block;
-        width: 49%;
         vertical-align: top;
-        text-align: left;
+        width: 50%;
+        height: 250px;
+        padding-right: 10px;       
     }
 
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
         vertical-align: top;
-        width: 43%;
         height: 250px;
+        text-align: left;
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -520,7 +527,7 @@ ul.step2ul {
 
     @media only screen and (min-width: 40.063em) { 
         display: inline-block;
-        width: 49%;
+        width: 39%;
         margin-top: 0;
         text-align: left;
     }
@@ -528,7 +535,6 @@ ul.step2ul {
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
         padding-left: 30px;
-        width: 50%;
         border-left: 1px solid lightgray;
         margin-top: 0;
         padding-bottom: 0;
@@ -552,6 +558,8 @@ ul.step2ul {
         }
     }
 }
+
+
 
 .WorkflowPaddingStep3 {
     padding: 0 5% 0 5%;
@@ -583,10 +591,10 @@ ul.step2ul {
         margin: 0;
         text-align: center;
         font-family: "ff-prater-sans-web";
-        color: #353535;
+        color: black;
         background-color: white;
         border: 1px solid #e2e2e2;
-        font-size: 1.4em;
+        font-size: 1.6em;
         padding: 15px;
         font-weight: 100;
     }
@@ -597,12 +605,13 @@ ul.step2ul {
 
         h1 {
             text-align: center;
+            font-size: 1.8em;
         }
     }
 
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
-        width: 45%;
+        width: 40%;
         height: 500px;
         margin-right: 60px;
         vertical-align: top;
@@ -610,7 +619,7 @@ ul.step2ul {
             background-position: left;       
 
         h1 {
-            font-size: 1.2em;
+            font-size: 2em;
             text-align: center;
         }
     }
@@ -681,12 +690,12 @@ ul.step2ul {
     h3 {
         margin: 0;
         font-family: "ff-prater-sans-web";
-        padding: 15px;
-        color: rgb(53, 53, 53);
-        background-color: white;
-        border: 1px solid #e2e2e2;
+        color: black;
         text-align: center;
-        font-weight: 100;
+        font-weight: bold;
+        padding-bottom: 5px;
+        font-size: 1.6em;
+        border-bottom: 1px solid lightgray;
     }
 
     ul {
@@ -727,6 +736,7 @@ ul.step2ul {
     @media only screen and (min-width: 64.063em) {
         margin-top: 0;
         height: 340px;
+        text-align: left;
 
         li {
             padding: 10px 0;
@@ -739,14 +749,12 @@ ul.step2ul {
         }
 
         h3 {
-            text-align: center;
+            text-align: left;
         }
     }
 
     @media only screen and (min-width: 90.063em) { 
-         h3 {
-             text-align: center;
-         }
+
     }
 }
 
@@ -765,6 +773,8 @@ ul.step2ul {
   font-size: 3em;
   margin-right: 20px;
   vertical-align: text-bottom;
+    color: lightgray;
+  text-shadow: 1px 1px 2px rgb(16, 16, 16);
 }
 
 .Step3Box {
@@ -776,6 +786,7 @@ ul.step2ul {
         font-size: 1.4em;
         font-family: 'League-Gothic';
         font-weight: 100;
+        color: #353535;
     }
 }
 
@@ -971,6 +982,7 @@ ul.Step3Lang {
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
         width: 60%;
+          border-right: 1px solid lightgray;
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -992,7 +1004,7 @@ ul.Step3Lang {
 
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
-        width: 35%;
+        width: 30%;
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -1001,12 +1013,12 @@ ul.Step3Lang {
 }
 
 .Step5Img {
-    border: 2px solid #2B9CD1;
     height: 64px;
     display: inline-block;
     vertical-align: middle;
     width: 64px;
     border-radius: 100%;
+    background-color: #6fbe4a;
 }
 
 ul.Step5Listing {
@@ -1038,7 +1050,9 @@ ul.Step5Listing {
     }
 
     @media only screen and (min-width: 40.063em) { 
-
+        h2 {
+            display: block;
+        }
     }
 
     @media only screen and (min-width: 64.063em) {
@@ -1068,6 +1082,7 @@ ul.Step5Listing {
 
     p {
         font-size: 1em;
+        text-align: center;
     }
 }
 
@@ -1182,4 +1197,22 @@ ul.Step5Listing {
 #top img:hover{
     transform: translateY(0);
   animation: homepage1 1s infinite;
+}
+
+ul.Step3Fix {
+
+    @media only screen and (min-width: 64.063em) {
+        height: 250px;
+    }
+}
+
+.fixGit {
+    display: inline !important;
+}
+
+i.fa.fa-check {
+  position: relative;
+  top: 14px;
+  font-size: 2em;
+  color: white;
 }

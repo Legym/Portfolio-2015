@@ -83,6 +83,9 @@
     <Content Include="404.html" />
     <Content Include="apple-touch-icon.png" />
     <Content Include="browserconfig.xml" />
+    <Content Include="Content\css\Compressed\normalize.css" />
+    <Content Include="Content\css\Compressed\PrimaryDir.css" />
+    <Content Include="Content\css\Compressed\Styled.css" />
     <Content Include="Content\css\normalize.css" />
     <Content Include="Content\css\PrimaryDir.css" />
     <Content Include="Content\css\Styled.css" />
@@ -241,7 +244,13 @@
     <Content Include="Content\sass\Modules\_WidthContainers.scss" />
     <Content Include="Content\Files\Mygel Bergstresser Resume.pdf" />
     <Content Include="Content\img\Fav\manifest.json" />
+    <Content Include="Content\sass\Partials\Portfolio\_GithubButton.scss" />
+    <Content Include="Content\sass\Partials\Homepage\_Buttons.scss" />
+    <Content Include="Content\sass\Partials\About\_Coffee.scss" />
+    <Content Include="Content\sass\Partials\About\_Marvel.scss" />
+    <Content Include="Content\sass\Partials\About\_TechieAnimations.scss" />
     <None Include="Properties\PublishProfiles\Localhost.pubxml" />
+    <None Include="Properties\PublishProfiles\mygelb.pubxml" />
     <None Include="Properties\PublishProfiles\MygelBergstresser.pubxml" />
     <Content Include="Views\Grace\Index.cshtml" />
     <None Include="Web.Debug.config">

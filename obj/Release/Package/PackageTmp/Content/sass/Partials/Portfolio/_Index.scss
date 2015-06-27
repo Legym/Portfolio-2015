@@ -8,7 +8,7 @@
     }
 
     @media only screen and (min-width: 64.063em) {
-        padding-bottom: 7em;
+        padding-bottom: 3em;
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -21,8 +21,8 @@
     background-image: url('/Content/img/Portfolio/Mobile/Port.jpg');
     height: 250px;
     margin-bottom: 20px;
-    border: 1px solid #e2e2e2;
-    background-position-x: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 
     @media only screen and (min-width: 40.063em) { 
         position: absolute;
@@ -57,12 +57,13 @@
 }
 
 .Project2 {
-    background-image: url('/Content/img/Portfolio/Mobile/BreatheDotA.jpg');
-    height: 250px;
-    width: 100%;
-    margin-bottom: 20px;
-      border: 1px solid #e2e2e2;
-    background-position-x: 50%;
+  background-image: url("/Content/img/Portfolio/Mobile/BreatheDotA.jpg");
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: 50%;
+  background-position-x: 50%;
 
     @media only screen and (min-width: 40.063em) { 
         position: absolute;
@@ -101,12 +102,12 @@
 }
 
 .Project3 {
-    background-image: url('/Content/img/Portfolio/Mobile/Counter.jpg');
-    height: 250px;
-    width: 100%;
-    margin-bottom: 20px;
-      border: 1px solid #e2e2e2;
-    background-position-x: 50%;
+  background-image: url("/Content/img/Portfolio/Mobile/Counter.jpg");
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-position: 50%;
+  background-repeat: no-repeat;
 
     @media only screen and (min-width: 40.063em) { 
         position: absolute;
@@ -195,9 +196,8 @@
     }
 
     span {
-        color: rgba(38, 124, 188, 0.97);
+        color: #222;
         font-size: 1.8em;
-        font-weight: bold;
         display: block;
         font-family: 'league-Gothic';
         margin-bottom: 10px;
@@ -291,3 +291,8 @@
         display: inline-block;
     }
 }
+
+b.PortStyle {
+  color: #267CBC;
+  }
+                  

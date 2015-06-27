@@ -85,7 +85,7 @@
 }
 
 .ContactTopBottom {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 
     @media only screen and (min-width: 40.063em) { 
         margin-bottom: 1.5em;    
@@ -138,10 +138,9 @@
     vertical-align: bottom;
 
     width: 100%;
-    margin-top: 2em;
+    margin-bottom: 2em;
     padding-top: 1em;
     vertical-align: bottom;
-    border-top: 1px solid lightgray;
 
 
     img {
@@ -156,7 +155,7 @@
         vertical-align: top;
         border-top: none;
         width: 60%;
-        margin-left: 3em;          
+        margin-right: 3em;          
 
         img {
             width: 100%;
@@ -164,9 +163,9 @@
     }
 
     @media only screen and (min-width: 64.063em) {
-        width: 73%;
+        width: 71%;
         vertical-align: top;
-        margin-left: 40px;
+        margin-right: 40px;
         vertical-align: top;
 
         img {
@@ -178,7 +177,7 @@
     @media only screen and (min-width: 90.063em) { 
         width: 70%;
         margin-top: 0;
-        margin-left: 5em;
+        margin-right: 5em;
 
         img {
             text-align: right;

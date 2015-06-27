@@ -1,0 +1,58 @@
+﻿.buttonPort {
+    background: #c0392b;
+    width: 100%;
+    padding: 4px 0;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 2em;
+
+    span {
+      color: white;
+      text-align: center;
+      letter-spacing: 1px;
+      font-weight: 100;
+      font-size: 1.8em;
+      display: block;
+      font-family: 'league-Gothic';
+      margin: 10px 0;
+    }
+
+    .buttonPort:hover {
+        cursor: pointer;
+    }
+
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+
+    }
+
+}
+
+
+
+.PortBottomText {
+    margin: 2em 0;
+
+    h4 {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        margin: 0 0;
+        font-size: .9em;
+        font-weight: 100;
+        color: gray;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        margin-top: 4em;
+    }
+        
+}

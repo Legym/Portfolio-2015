@@ -513,7 +513,7 @@ li.image a:hover {
     }
 
     @media only screen and (min-width: 64.063em) {  
-        height: 490px;
+        height: 540px;
         width: 100%;
         padding-bottom: 10em;
     }
@@ -628,13 +628,8 @@ li.image a:hover {
 
     @media only screen and (min-width: 64.063em) {
         display: inline-block;
-        width: 30%;
+        width: 45%;
         vertical-align: top;
-        border-left: 1px solid lightgray;
-        border-right: 1px solid lightgray;
-        margin-right: 4em;
-        padding: 0 2em;
-        height: 250px;
     }
 
     @media only screen and (min-width: 90.063em) {
