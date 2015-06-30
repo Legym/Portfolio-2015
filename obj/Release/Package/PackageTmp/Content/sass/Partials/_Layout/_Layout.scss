@@ -6,9 +6,28 @@
     padding: 10px 0;
 
     @media only screen and (min-width: 40.063em) { 
-        height: 52px;
-        padding-top: 20px;
+        height: 40px;
+        padding: 20px 0;
     }
+}
+
+
+
+
+
+.HeaderEffects {
+  background: url("/Content/img/sos.png") repeat-x bottom left transparent;
+  display: inline-block;
+  height: 19px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 99;
+
+    @media only screen and (min-width: 40.063em) { 
+        top: -11px;
+    }
+
 }
 
 .HeaderContainer {
@@ -70,6 +89,7 @@
     top: 60px;
     text-align: center;
     z-index: 999;
+    
 
     ul {
         text-decoration: none;
@@ -177,6 +197,6 @@
         }
 
     a:hover {
-        color: black;
+        color: white;
     }
 }

@@ -10,9 +10,9 @@
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
     -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5.4em;
 
     @media only screen and (min-width: 40.063em) { 
         margin: 10px 10px 10px 10px;
@@ -36,7 +36,8 @@
 }
 .view img {
     display: block;
-    position: relative
+    position: relative;
+    border-radius: 5em;
 }
 .view h2 {
     color: #fff;
@@ -70,27 +71,7 @@
     box-shadow: 0 0 5px #000
 }
 
-            .view-ninth .mask-1,
-.view-ninth .mask-2{
-	background-color: rgba(0,0,0,0.5);
-    height: 361px;
-    width: 361px;
-	background: rgba(0, 83, 119, 0.50);
-	opacity: 1;
-    transition: all 0.3s ease-in-out 0.6s;
-}
-.view-ninth .mask-1 { 
-    left: auto;
-    right: 0px;
-    transform: rotate(56.5deg) translateX(-180px);
-    transform-origin: 100% 0%;
-}
-.view-ninth .mask-2 { 
-    top: auto;
-    bottom: 0px;
-    transform: rotate(56.5deg) translateX(180px);
-    transform-origin: 0% 100%;
-}
+
 
 
 
@@ -116,19 +97,41 @@
 
 
 .view-ninth:hover .content{
-    height: 120px;
+    height: 100%;
+    border-radius: 5em;
     width: 300px;
     opacity: 0.9;
-    top: 40px;
     transform: rotate(0deg) translate(0px,0px);
 }
-.view-ninth:hover .mask-1,
-.view-ninth:hover .mask-2{
-	transition-delay: 0s;
+
+.contentButton {
+    height: 50px;
+    width: 50%;
+    background-color: green;
+    display: inline-block;
+
+    span {
+        color: white;
+        font-family: 'league-gothic';
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+    }
 }
-.view-ninth:hover .mask-1{
-    transform: rotate(56.5deg) translateX(1px);
-}
-.view-ninth:hover .mask-2 {  
-    transform: rotate(56.5deg) translateX(-1px);
+
+.contentButton1 {
+    background-color: lightgray;
+    height: 50px;
+    width: 50%;
+    display: inline-block;
+
+    span {
+        color: black;
+        font-family: 'league-gothic';
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+    }
 }

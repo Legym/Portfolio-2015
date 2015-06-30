@@ -10,63 +10,80 @@
 @media only screen and (min-width: 40.063em) {
   /* line 1, ../sass/Partials/_Layout/_Layout.scss */
   #header {
-    height: 52px;
-    padding-top: 20px;
+    height: 40px;
+    padding: 20px 0;
   }
 }
 
-/* line 14, ../sass/Partials/_Layout/_Layout.scss */
+/* line 15, ../sass/Partials/_Layout/_Layout.scss */
+.HeaderEffects {
+  background: url("/Content/img/edge.png") repeat-x bottom left transparent;
+  display: inline-block;
+  height: 19px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 99;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 15, ../sass/Partials/_Layout/_Layout.scss */
+  .HeaderEffects {
+    top: -11px;
+  }
+}
+
+/* line 30, ../sass/Partials/_Layout/_Layout.scss */
 .HeaderContainer {
   width: 90%;
   padding: 5px 5%;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 14, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 30, ../sass/Partials/_Layout/_Layout.scss */
   .HeaderContainer {
     padding: 0 5%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 14, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 30, ../sass/Partials/_Layout/_Layout.scss */
   .HeaderContainer {
     padding: 0 5%;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 14, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 30, ../sass/Partials/_Layout/_Layout.scss */
   .HeaderContainer {
     padding: 0 20%;
     width: 60%;
   }
 }
 
-/* line 32, ../sass/Partials/_Layout/_Layout.scss */
+/* line 48, ../sass/Partials/_Layout/_Layout.scss */
 .logo {
   display: inline-block;
   position: relative;
   top: -5px;
   width: 100px;
 }
-/* line 38, ../sass/Partials/_Layout/_Layout.scss */
+/* line 54, ../sass/Partials/_Layout/_Layout.scss */
 .logo img {
   height: 40px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 32, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 48, ../sass/Partials/_Layout/_Layout.scss */
   .logo {
     display: inline-block;
     position: relative;
     top: -7px;
     width: 30%;
   }
-  /* line 48, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 64, ../sass/Partials/_Layout/_Layout.scss */
   .logo img {
     height: 60px;
     width: 170px;
   }
 }
 
-/* line 63, ../sass/Partials/_Layout/_Layout.scss */
+/* line 79, ../sass/Partials/_Layout/_Layout.scss */
 #Navigation {
   display: none;
   width: 100%;
@@ -78,17 +95,17 @@
   text-align: center;
   z-index: 999;
 }
-/* line 74, ../sass/Partials/_Layout/_Layout.scss */
+/* line 91, ../sass/Partials/_Layout/_Layout.scss */
 #Navigation ul {
   text-decoration: none;
   list-style: none;
 }
-/* line 79, ../sass/Partials/_Layout/_Layout.scss */
+/* line 96, ../sass/Partials/_Layout/_Layout.scss */
 #Navigation li {
   border-top: #212121 solid 1px;
   border-bottom: #363636 solid 1px;
 }
-/* line 84, ../sass/Partials/_Layout/_Layout.scss */
+/* line 101, ../sass/Partials/_Layout/_Layout.scss */
 #Navigation a {
   color: white;
   display: block;
@@ -98,12 +115,12 @@
   font-size: 1.4em;
   letter-spacing: 1px;
 }
-/* line 94, ../sass/Partials/_Layout/_Layout.scss */
+/* line 111, ../sass/Partials/_Layout/_Layout.scss */
 #Navigation a:hover {
   color: gray;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 63, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 79, ../sass/Partials/_Layout/_Layout.scss */
   #Navigation {
     display: inline-block;
     position: relative;
@@ -112,47 +129,47 @@
     background-color: transparent;
     float: right;
   }
-  /* line 107, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 124, ../sass/Partials/_Layout/_Layout.scss */
   #Navigation li {
     display: inline-block;
     padding: 0 15px;
     border-top: none;
     border-bottom: none;
   }
-  /* line 114, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 131, ../sass/Partials/_Layout/_Layout.scss */
   #Navigation a {
     line-height: 40px;
   }
-  /* line 119, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 136, ../sass/Partials/_Layout/_Layout.scss */
   #Navigation a:hover {
     color: GrayText;
   }
 }
 
-/* line 125, ../sass/Partials/_Layout/_Layout.scss */
+/* line 142, ../sass/Partials/_Layout/_Layout.scss */
 .footer {
   text-align: center;
 }
 
-/* line 130, ../sass/Partials/_Layout/_Layout.scss */
+/* line 147, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle {
   display: inline-block;
   float: right;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 130, ../sass/Partials/_Layout/_Layout.scss */
+  /* line 147, ../sass/Partials/_Layout/_Layout.scss */
   #nav-toggle {
     display: none;
   }
 }
 
-/* line 139, ../sass/Partials/_Layout/_Layout.scss */
+/* line 156, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
 
-/* line 140, ../sass/Partials/_Layout/_Layout.scss */
+/* line 157, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
@@ -164,55 +181,55 @@
   content: '';
 }
 
-/* line 150, ../sass/Partials/_Layout/_Layout.scss */
+/* line 167, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle span:before {
   top: -10px;
 }
 
-/* line 153, ../sass/Partials/_Layout/_Layout.scss */
+/* line 170, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle span:after {
   bottom: -10px;
 }
 
-/* line 157, ../sass/Partials/_Layout/_Layout.scss */
+/* line 174, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   transition: all 500ms ease-in-out;
 }
 
-/* line 160, ../sass/Partials/_Layout/_Layout.scss */
+/* line 177, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle.active span {
   background-color: transparent;
 }
 
-/* line 163, ../sass/Partials/_Layout/_Layout.scss */
+/* line 180, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle.active span:before, #nav-toggle.active span:after {
   top: 0;
 }
 
-/* line 166, ../sass/Partials/_Layout/_Layout.scss */
+/* line 183, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle.active span:before {
   transform: rotate(45deg);
 }
 
-/* line 169, ../sass/Partials/_Layout/_Layout.scss */
+/* line 186, ../sass/Partials/_Layout/_Layout.scss */
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
 
-/* line 175, ../sass/Partials/_Layout/_Layout.scss */
+/* line 192, ../sass/Partials/_Layout/_Layout.scss */
 .FotterColor a {
   color: gray;
 }
-/* line 179, ../sass/Partials/_Layout/_Layout.scss */
+/* line 196, ../sass/Partials/_Layout/_Layout.scss */
 .FotterColor a:hover {
-  color: black;
+  color: white;
 }
 
 /* line 1, ../sass/Partials/_Layout/_Universal.scss */
 body {
   margin: 0;
   padding: 0;
-  background: url("http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png") repeat;
+  background: url("http://subtlepatterns.com/patterns/sos.png") repeat;
 }
 
 /* line 7, ../sass/Partials/_Layout/_Universal.scss */
@@ -223,10 +240,6 @@ li, ul, a {
   margin: 0;
 }
 
-/*p {
-    font-family: "Roboto Condensed";
-    color: rgba(0, 0, 0, 0.72);
-}*/
 @-webkit-keyframes fadeIn {
   /* line 1, ../sass/Partials/About/_Index.scss */
   from {
@@ -1221,6 +1234,11 @@ li.image a:hover {
   color: red;
 }
 
+/* line 283, ../sass/Partials/Contact/_Index.scss */
+.fa-linkedin-square {
+  color: #0177B5;
+}
+
 @keyframes homepage1 {
   /* line 2, ../sass/Partials/Homepage/_Index.scss */
   20% {
@@ -1252,7 +1270,7 @@ li.image a:hover {
   background-color: white;
   height: 180px;
   border-bottom: #dddddd solid 1px;
-  background-position-y: 15px;
+  background-position-y: 20px;
   padding: 0 5%;
 }
 @media only screen and (min-width: 40.063em) {
@@ -1261,6 +1279,7 @@ li.image a:hover {
     padding: 30px 5%;
     height: 240px;
     background-position-y: 10px;
+    background-position-y: 2em;
   }
 }
 @media only screen and (min-width: 64.063em) {
@@ -1268,6 +1287,7 @@ li.image a:hover {
   .HomepageContainer {
     padding: 30px 5%;
     height: 480px;
+    background-image: url("/Content/img/Hompage-Picture2.jpg");
   }
 }
 @media only screen and (min-width: 90.063em) {
@@ -1278,23 +1298,23 @@ li.image a:hover {
   }
 }
 
-/* line 40, ../sass/Partials/Homepage/_Index.scss */
+/* line 45, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjects {
   text-align: center;
   padding: 0 10%;
 }
-/* line 44, ../sass/Partials/Homepage/_Index.scss */
+/* line 49, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjects h3 {
   font-size: 16px;
   padding: 20px 0;
 }
 
-/* line 51, ../sass/Partials/Homepage/_Index.scss */
+/* line 56, ../sass/Partials/Homepage/_Index.scss */
 .HomepageBottomContainer {
   padding: 40px 0;
   text-align: left;
 }
-/* line 55, ../sass/Partials/Homepage/_Index.scss */
+/* line 60, ../sass/Partials/Homepage/_Index.scss */
 .HomepageBottomContainer h3 {
   margin: 0px;
   text-align: center;
@@ -1302,46 +1322,42 @@ li.image a:hover {
   top: -12px;
   background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
   display: inline-block;
-  width: 70%;
+  width: 45%;
   font-family: "jaf-bernino-sans-comp";
   font-size: 1.2em;
   color: #333;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 51, ../sass/Partials/Homepage/_Index.scss */
+  /* line 56, ../sass/Partials/Homepage/_Index.scss */
   .HomepageBottomContainer {
     padding: 60px 5%;
   }
-  /* line 71, ../sass/Partials/Homepage/_Index.scss */
+  /* line 76, ../sass/Partials/Homepage/_Index.scss */
   .HomepageBottomContainer h3 {
-    width: 45%;
+    width: 35%;
     font-size: 1.6em;
     position: relative;
     top: -16px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 51, ../sass/Partials/Homepage/_Index.scss */
+  /* line 56, ../sass/Partials/Homepage/_Index.scss */
   .HomepageBottomContainer {
     padding: 60px 5%;
   }
-  /* line 82, ../sass/Partials/Homepage/_Index.scss */
-  .HomepageBottomContainer h3 {
-    width: 30%;
-  }
-}
-@media only screen and (min-width: 90.063em) {
-  /* line 51, ../sass/Partials/Homepage/_Index.scss */
-  .HomepageBottomContainer {
-    padding: 60px 20%;
-  }
-  /* line 90, ../sass/Partials/Homepage/_Index.scss */
+  /* line 87, ../sass/Partials/Homepage/_Index.scss */
   .HomepageBottomContainer h3 {
     width: 25%;
   }
 }
+@media only screen and (min-width: 90.063em) {
+  /* line 56, ../sass/Partials/Homepage/_Index.scss */
+  .HomepageBottomContainer {
+    padding: 60px 20%;
+  }
+}
 
-/* line 96, ../sass/Partials/Homepage/_Index.scss */
+/* line 97, ../sass/Partials/Homepage/_Index.scss */
 .oi {
   height: 1px;
   background: #DDD;
@@ -1350,7 +1366,7 @@ li.image a:hover {
   text-align: center;
   margin-top: 20px;
 }
-/* line 104, ../sass/Partials/Homepage/_Index.scss */
+/* line 105, ../sass/Partials/Homepage/_Index.scss */
 .oi h3 {
   color: #888;
   font-family: "League-Gothic";
@@ -1358,20 +1374,28 @@ li.image a:hover {
   font-weight: 100;
   margin: 0px;
   text-align: center;
+  font-size: 1.7em;
   position: relative;
-  top: -12px;
-  background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
+  top: -18px;
+  background: #f8f8f8 url(/Content/img/sos.png) repeat;
   display: inline-block;
+  width: 60%;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 122, ../sass/Partials/Homepage/_Index.scss */
+  .oi h3 {
+    width: 25%;
+  }
 }
 
-/* line 118, ../sass/Partials/Homepage/_Index.scss */
+/* line 128, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjectBox {
   margin-bottom: 20px;
   padding: 10px 10px 30px 10px;
   text-align: center;
   border-bottom: 1px solid #b3b3b3;
 }
-/* line 124, ../sass/Partials/Homepage/_Index.scss */
+/* line 134, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjectBox h1 {
   padding: 5px 10px;
   width: auto;
@@ -1381,12 +1405,12 @@ li.image a:hover {
   font-family: "ff-prater-sans-web";
   text-shadow: 1px 1px 2px black;
 }
-/* line 134, ../sass/Partials/Homepage/_Index.scss */
+/* line 144, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjectBox p {
   margin: 0;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 118, ../sass/Partials/Homepage/_Index.scss */
+  /* line 128, ../sass/Partials/Homepage/_Index.scss */
   .HomepageProjectBox {
     width: 44.5%;
     margin: 0 2% 0 0;
@@ -1394,14 +1418,14 @@ li.image a:hover {
     height: 200px;
     border-bottom: none;
   }
-  /* line 145, ../sass/Partials/Homepage/_Index.scss */
+  /* line 155, ../sass/Partials/Homepage/_Index.scss */
   .HomepageProjectBox h1 {
     display: inline-block;
     margin: 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 118, ../sass/Partials/Homepage/_Index.scss */
+  /* line 128, ../sass/Partials/Homepage/_Index.scss */
   .HomepageProjectBox {
     width: 45%;
     margin: 0 2% 0 0;
@@ -1410,7 +1434,7 @@ li.image a:hover {
     text-align: left;
     border-bottom: none;
   }
-  /* line 160, ../sass/Partials/Homepage/_Index.scss */
+  /* line 170, ../sass/Partials/Homepage/_Index.scss */
   .HomepageProjectBox h1 {
     padding: 5px 10px;
     display: inline-block;
@@ -1418,25 +1442,25 @@ li.image a:hover {
   }
 }
 
-/* line 170, ../sass/Partials/Homepage/_Index.scss */
+/* line 180, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjectBoxFix {
   margin-right: 0;
   vertical-align: top;
 }
 
-/* line 175, ../sass/Partials/Homepage/_Index.scss */
+/* line 185, ../sass/Partials/Homepage/_Index.scss */
 .HomepageProjectParent {
   text-align: center;
 }
 
-/* line 180, ../sass/Partials/Homepage/_Index.scss */
+/* line 190, ../sass/Partials/Homepage/_Index.scss */
 .HomepageSidesLeft {
   height: auto;
   width: 49%;
   display: inline-block;
   margin-top: 60px;
 }
-/* line 186, ../sass/Partials/Homepage/_Index.scss */
+/* line 196, ../sass/Partials/Homepage/_Index.scss */
 .HomepageSidesLeft h1 {
   font-family: "ff-prater-sans-web";
   font-size: 1.4em;
@@ -1444,20 +1468,20 @@ li.image a:hover {
   transform: translateY(0);
   animation: homepage1 5s infinite;
 }
-/* line 194, ../sass/Partials/Homepage/_Index.scss */
+/* line 204, ../sass/Partials/Homepage/_Index.scss */
 .HomepageSidesLeft p {
   display: none;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 180, ../sass/Partials/Homepage/_Index.scss */
+  /* line 190, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesLeft {
     margin-top: 40px;
   }
-  /* line 201, ../sass/Partials/Homepage/_Index.scss */
+  /* line 211, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesLeft h1 {
     font-size: 2.2em;
   }
-  /* line 205, ../sass/Partials/Homepage/_Index.scss */
+  /* line 215, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesLeft p {
     width: 200px;
     padding: 0;
@@ -1468,11 +1492,11 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 217, ../sass/Partials/Homepage/_Index.scss */
+  /* line 227, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesLeft h1 {
     font-size: 3.2em;
   }
-  /* line 221, ../sass/Partials/Homepage/_Index.scss */
+  /* line 231, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesLeft p {
     width: 50%;
     padding: 0;
@@ -1483,7 +1507,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 232, ../sass/Partials/Homepage/_Index.scss */
+  /* line 242, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesLeft p {
     width: 50%;
     padding: 0;
@@ -1492,14 +1516,14 @@ li.image a:hover {
   }
 }
 
-/* line 241, ../sass/Partials/Homepage/_Index.scss */
+/* line 251, ../sass/Partials/Homepage/_Index.scss */
 .HomepageSidesRight {
   height: 100px;
   width: 49%;
   display: inline-block;
   text-align: right;
 }
-/* line 247, ../sass/Partials/Homepage/_Index.scss */
+/* line 257, ../sass/Partials/Homepage/_Index.scss */
 .HomepageSidesRight h1 {
   font-family: "ff-prater-sans-web";
   font-size: 1.4em;
@@ -1507,16 +1531,16 @@ li.image a:hover {
   transform: translateY(0);
   animation: homepage2 3s infinite;
 }
-/* line 255, ../sass/Partials/Homepage/_Index.scss */
+/* line 265, ../sass/Partials/Homepage/_Index.scss */
 .HomepageSidesRight p {
   display: none;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 262, ../sass/Partials/Homepage/_Index.scss */
+  /* line 272, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesRight h1 {
     font-size: 2.2em;
   }
-  /* line 266, ../sass/Partials/Homepage/_Index.scss */
+  /* line 276, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesRight p {
     width: 200px;
     padding: 0;
@@ -1527,11 +1551,11 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 278, ../sass/Partials/Homepage/_Index.scss */
+  /* line 288, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesRight h1 {
     font-size: 3.2em;
   }
-  /* line 282, ../sass/Partials/Homepage/_Index.scss */
+  /* line 292, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesRight p {
     width: 50%;
     padding: 0;
@@ -1542,7 +1566,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 293, ../sass/Partials/Homepage/_Index.scss */
+  /* line 303, ../sass/Partials/Homepage/_Index.scss */
   .HomepageSidesRight p {
     width: 50%;
     padding: 0;
@@ -1581,9 +1605,10 @@ li.image a:hover {
 .Project1 {
   background-image: url("/Content/img/Portfolio/Mobile/Port.jpg");
   height: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: .5;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 20, ../sass/Partials/Portfolio/_Index.scss */
@@ -1617,18 +1642,18 @@ li.image a:hover {
   }
 }
 
-/* line 59, ../sass/Partials/Portfolio/_Index.scss */
+/* line 60, ../sass/Partials/Portfolio/_Index.scss */
 .Project2 {
   background-image: url("/Content/img/Portfolio/Mobile/BreatheDotA.jpg");
   height: 250px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-size: cover;
   background-position: 50%;
   background-position-x: 50%;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 59, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 60, ../sass/Partials/Portfolio/_Index.scss */
   .Project2 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/BreatheDotA.png");
@@ -1646,7 +1671,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 59, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 60, ../sass/Partials/Portfolio/_Index.scss */
   .Project2 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/BreatheDotA.png");
@@ -1663,17 +1688,17 @@ li.image a:hover {
   }
 }
 
-/* line 104, ../sass/Partials/Portfolio/_Index.scss */
+/* line 105, ../sass/Partials/Portfolio/_Index.scss */
 .Project3 {
   background-image: url("/Content/img/Portfolio/Mobile/Counter.jpg");
   height: 250px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-position: 50%;
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 104, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 105, ../sass/Partials/Portfolio/_Index.scss */
   .Project3 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/CounterStrike.png");
@@ -1690,7 +1715,7 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 104, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 105, ../sass/Partials/Portfolio/_Index.scss */
   .Project3 {
     position: absolute;
     background-image: url("/Content/img/Portfolio/CounterStrike.png");
@@ -1708,55 +1733,57 @@ li.image a:hover {
 }
 
 @keyframes PortBounce {
-  /* line 149, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 150, ../sass/Partials/Portfolio/_Index.scss */
   20% {
     transform: translateX(-4px);
   }
 
-  /* line 150, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 151, ../sass/Partials/Portfolio/_Index.scss */
   100% {
     transform: translateX(0px);
   }
 
-  /* line 152, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 153, ../sass/Partials/Portfolio/_Index.scss */
   20% {
     -moz-transform: translateX(-4px);
   }
 
-  /* line 153, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 154, ../sass/Partials/Portfolio/_Index.scss */
   100% {
     -moz-transform: translateX(0px);
   }
 
-  /* line 155, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 156, ../sass/Partials/Portfolio/_Index.scss */
   20% {
     -ms-transform: translateX(-4px);
   }
 
-  /* line 156, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 157, ../sass/Partials/Portfolio/_Index.scss */
   100% {
     -ms-transform: translateX(0px);
   }
 }
-/* line 159, ../sass/Partials/Portfolio/_Index.scss */
-.PRojectEffect:hover {
-  transition: ease-in 1s;
-  animation: PortBounce 3s infinite;
-  transform: translateX(0);
-  -moz-transition: ease-in 1s;
-  -moz-animation: PortBounce 3s infinite;
-  -moz-transform: translateX(0);
-  -o-transition: ease-in 1s;
-  -o-animation: PortBounce 3s infinite;
-  -o-transform: translateX(0);
-}
+/*.PRojectEffect:hover {
+    transition: ease-in 1s;
+    animation: PortBounce 3s infinite;
+    transform: translateX(0);
 
-/* line 175, ../sass/Partials/Portfolio/_Index.scss */
+     -moz-transition: ease-in 1s;
+     -moz-animation: PortBounce 3s infinite;
+     -moz-transform: translateX(0);
+
+    -o-transition: ease-in 1s;
+    -o-animation: PortBounce 3s infinite;
+    -o-transform: translateX(0);
+
+
+}*/
+/* line 176, ../sass/Partials/Portfolio/_Index.scss */
 .PortText {
   width: 100%;
   margin-bottom: 3em;
 }
-/* line 179, ../sass/Partials/Portfolio/_Index.scss */
+/* line 180, ../sass/Partials/Portfolio/_Index.scss */
 .PortText h1 {
   font-size: 4em;
   color: #111;
@@ -1765,7 +1792,7 @@ li.image a:hover {
   line-height: 1em;
   font-family: "ff-prater-sans-web";
 }
-/* line 188, ../sass/Partials/Portfolio/_Index.scss */
+/* line 189, ../sass/Partials/Portfolio/_Index.scss */
 .PortText p {
   color: #888;
   border: 1px solid #e2e2e2;
@@ -1775,7 +1802,7 @@ li.image a:hover {
   font-size: 1.1em;
   line-height: 1.8em;
 }
-/* line 198, ../sass/Partials/Portfolio/_Index.scss */
+/* line 199, ../sass/Partials/Portfolio/_Index.scss */
 .PortText span {
   color: #222;
   font-size: 1.8em;
@@ -1784,29 +1811,29 @@ li.image a:hover {
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 175, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 176, ../sass/Partials/Portfolio/_Index.scss */
   .PortText {
     margin-bottom: 0;
   }
-  /* line 209, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 210, ../sass/Partials/Portfolio/_Index.scss */
   .PortText h1 {
     font-size: 4em;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 175, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 176, ../sass/Partials/Portfolio/_Index.scss */
   .PortText {
     width: 50%;
     display: inline-block;
   }
-  /* line 218, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 219, ../sass/Partials/Portfolio/_Index.scss */
   .PortText h1 {
     margin-top: 0.8em;
     font-size: 4em;
   }
 }
 
-/* line 231, ../sass/Partials/Portfolio/_Index.scss */
+/* line 232, ../sass/Partials/Portfolio/_Index.scss */
 .oi2 {
   color: #888;
   font-family: "League-Gothic";
@@ -1819,7 +1846,7 @@ li.image a:hover {
   text-align: center;
   margin-top: 20px;
 }
-/* line 243, ../sass/Partials/Portfolio/_Index.scss */
+/* line 244, ../sass/Partials/Portfolio/_Index.scss */
 .oi2 h3 {
   text-align: center;
   color: #888;
@@ -1831,32 +1858,32 @@ li.image a:hover {
   padding: 0 35px;
   position: relative;
   top: -17px;
-  background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
+  background: #f8f8f8 url(/Content/img/sos.png) repeat;
   display: inline-block;
   font-size: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 231, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 232, ../sass/Partials/Portfolio/_Index.scss */
   .oi2 {
     display: none;
   }
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 265, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 266, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent {
     width: 70%;
     margin: 0 auto;
     height: 300px;
     position: relative;
   }
-  /* line 273, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 274, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent h1 {
     display: none;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 265, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 266, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent {
     width: 48%;
     display: inline-block;
@@ -1869,14 +1896,14 @@ li.image a:hover {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 265, ../sass/Partials/Portfolio/_Index.scss */
+  /* line 266, ../sass/Partials/Portfolio/_Index.scss */
   .PortContent {
     width: 40%;
     display: inline-block;
   }
 }
 
-/* line 295, ../sass/Partials/Portfolio/_Index.scss */
+/* line 296, ../sass/Partials/Portfolio/_Index.scss */
 b.PortStyle {
   color: #267CBC;
 }
@@ -1965,7 +1992,6 @@ i.fa.fa-wrench.fa-5x {
   height: auto;
   text-align: center;
   background-color: #2B9CD1;
-  background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
   padding: 10% 0;
 }
 @media only screen and (min-width: 40.063em) {
@@ -1982,49 +2008,49 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 
-/* line 92, ../sass/Partials/Workflow/_Index.scss */
+/* line 91, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep1Section {
   width: 100%;
   border-bottom: 1px solid #eaeaea;
 }
-/* line 96, ../sass/Partials/Workflow/_Index.scss */
+/* line 95, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep1Section p {
   font-size: 1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 105, ../sass/Partials/Workflow/_Index.scss */
+  /* line 104, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep1Section p {
     font-size: .65em;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 111, ../sass/Partials/Workflow/_Index.scss */
+  /* line 110, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep1Section p {
     font-size: .65em;
   }
 }
 
-/* line 117, ../sass/Partials/Workflow/_Index.scss */
+/* line 116, ../sass/Partials/Workflow/_Index.scss */
 .WorkflowPadding {
   padding: 0 5% 0 5%;
 }
-/* line 120, ../sass/Partials/Workflow/_Index.scss */
+/* line 119, ../sass/Partials/Workflow/_Index.scss */
 .WorkflowPadding h1 {
   font-family: "league-gothic";
   font-weight: 100;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 117, ../sass/Partials/Workflow/_Index.scss */
+  /* line 116, ../sass/Partials/Workflow/_Index.scss */
   .WorkflowPadding {
     font-size: 1.4em;
   }
 }
 
-/* line 140, ../sass/Partials/Workflow/_Index.scss */
+/* line 139, ../sass/Partials/Workflow/_Index.scss */
 .WFCol {
   display: inline-block;
 }
-/* line 143, ../sass/Partials/Workflow/_Index.scss */
+/* line 142, ../sass/Partials/Workflow/_Index.scss */
 .WFCol h1 {
   color: white;
   text-align: center;
@@ -2034,7 +2060,7 @@ i.fa.fa-wrench.fa-5x {
   font-weight: 100;
   text-shadow: 2px 2px 5px black;
 }
-/* line 153, ../sass/Partials/Workflow/_Index.scss */
+/* line 152, ../sass/Partials/Workflow/_Index.scss */
 .WFCol h3 {
   color: white;
   font-family: "league-gothic";
@@ -2044,42 +2070,42 @@ i.fa.fa-wrench.fa-5x {
   text-shadow: 2px 2px 5px black;
 }
 
-/* line 163, ../sass/Partials/Workflow/_Index.scss */
+/* line 162, ../sass/Partials/Workflow/_Index.scss */
 .WFSpace {
   margin: 0 8%;
 }
 
-/* line 167, ../sass/Partials/Workflow/_Index.scss */
+/* line 166, ../sass/Partials/Workflow/_Index.scss */
 .TopSection {
   padding-top: 10%;
   line-height: 2.4em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 167, ../sass/Partials/Workflow/_Index.scss */
+  /* line 166, ../sass/Partials/Workflow/_Index.scss */
   .TopSection {
     padding-top: 4%;
   }
 }
 
-/* line 183, ../sass/Partials/Workflow/_Index.scss */
+/* line 182, ../sass/Partials/Workflow/_Index.scss */
 .WorkflowPaddingStep1 {
   padding: 0 5% 0 5%;
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 183, ../sass/Partials/Workflow/_Index.scss */
+  /* line 182, ../sass/Partials/Workflow/_Index.scss */
   .WorkflowPaddingStep1 {
     text-align: center;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 183, ../sass/Partials/Workflow/_Index.scss */
+  /* line 182, ../sass/Partials/Workflow/_Index.scss */
   .WorkflowPaddingStep1 {
     padding: 0 20% 0 20%;
   }
 }
 
-/* line 201, ../sass/Partials/Workflow/_Index.scss */
+/* line 200, ../sass/Partials/Workflow/_Index.scss */
 .Steps {
   float: left;
   text-align: center;
@@ -2087,40 +2113,40 @@ i.fa.fa-wrench.fa-5x {
   height: 90px;
   width: 15%;
 }
-/* line 208, ../sass/Partials/Workflow/_Index.scss */
+/* line 207, ../sass/Partials/Workflow/_Index.scss */
 .Steps span {
   font-size: 3em;
   color: white;
   text-shadow: 1px 1px 3px black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 201, ../sass/Partials/Workflow/_Index.scss */
+  /* line 200, ../sass/Partials/Workflow/_Index.scss */
   .Steps {
     width: 10%;
   }
-  /* line 217, ../sass/Partials/Workflow/_Index.scss */
+  /* line 216, ../sass/Partials/Workflow/_Index.scss */
   .Steps span {
     font-size: 4em;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 201, ../sass/Partials/Workflow/_Index.scss */
+  /* line 200, ../sass/Partials/Workflow/_Index.scss */
   .Steps {
     height: 120px;
     width: 8%;
   }
-  /* line 226, ../sass/Partials/Workflow/_Index.scss */
+  /* line 225, ../sass/Partials/Workflow/_Index.scss */
   .Steps span {
     font-size: 5.4em;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 201, ../sass/Partials/Workflow/_Index.scss */
+  /* line 200, ../sass/Partials/Workflow/_Index.scss */
   .Steps {
     height: 150px;
     width: 10%;
   }
-  /* line 235, ../sass/Partials/Workflow/_Index.scss */
+  /* line 234, ../sass/Partials/Workflow/_Index.scss */
   .Steps span {
     font-size: 7em;
     color: white;
@@ -2128,14 +2154,14 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 
-/* line 243, ../sass/Partials/Workflow/_Index.scss */
+/* line 242, ../sass/Partials/Workflow/_Index.scss */
 .StepsContainer {
   width: 75%;
   padding: 5%;
   display: inline-block;
   text-align: left;
 }
-/* line 249, ../sass/Partials/Workflow/_Index.scss */
+/* line 248, ../sass/Partials/Workflow/_Index.scss */
 .StepsContainer h1 {
   margin: 0;
   font-family: "ff-prater-sans-web";
@@ -2144,27 +2170,27 @@ i.fa.fa-wrench.fa-5x {
   text-align: left;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 243, ../sass/Partials/Workflow/_Index.scss */
+  /* line 242, ../sass/Partials/Workflow/_Index.scss */
   .StepsContainer {
     padding: 3.5%;
     font-size: 1.8em;
     float: left;
     width: 80%;
   }
-  /* line 267, ../sass/Partials/Workflow/_Index.scss */
+  /* line 266, ../sass/Partials/Workflow/_Index.scss */
   .StepsContainer h1 {
     font-size: 1.4em;
     line-height: 1.3em;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 243, ../sass/Partials/Workflow/_Index.scss */
+  /* line 242, ../sass/Partials/Workflow/_Index.scss */
   .StepsContainer {
     width: 80%;
     float: left;
     padding: 3.5%;
   }
-  /* line 278, ../sass/Partials/Workflow/_Index.scss */
+  /* line 277, ../sass/Partials/Workflow/_Index.scss */
   .StepsContainer h1 {
     margin: 0;
     font-family: "ff-prater-sans-web";
@@ -2172,11 +2198,11 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 
-/* line 291, ../sass/Partials/Workflow/_Index.scss */
+/* line 290, ../sass/Partials/Workflow/_Index.scss */
 .Step1Images {
   padding-bottom: 90px;
 }
-/* line 294, ../sass/Partials/Workflow/_Index.scss */
+/* line 293, ../sass/Partials/Workflow/_Index.scss */
 .Step1Images img {
   display: block;
   width: 100%;
@@ -2185,13 +2211,13 @@ i.fa.fa-wrench.fa-5x {
   box-shadow: 0 8px 6px -6px black;
   margin-bottom: 2em;
 }
-/* line 303, ../sass/Partials/Workflow/_Index.scss */
+/* line 302, ../sass/Partials/Workflow/_Index.scss */
 .Step1Images img:hover {
   transform: translateY(0);
   animation: homepage1 5s infinite;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 309, ../sass/Partials/Workflow/_Index.scss */
+  /* line 308, ../sass/Partials/Workflow/_Index.scss */
   .Step1Images img {
     display: inline-block;
     width: 32%;
@@ -2199,14 +2225,14 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 317, ../sass/Partials/Workflow/_Index.scss */
+  /* line 316, ../sass/Partials/Workflow/_Index.scss */
   .Step1Images img {
     display: inline-block;
     width: 33%;
   }
 }
 
-/* line 328, ../sass/Partials/Workflow/_Index.scss */
+/* line 327, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep2Section {
   background-color: white;
   width: 100%;
@@ -2214,37 +2240,37 @@ i.fa.fa-wrench.fa-5x {
   /*padding-bottom: 80px;*/
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 336, ../sass/Partials/Workflow/_Index.scss */
+  /* line 335, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep2Section p {
     font-size: .65em;
   }
 }
 
-/* line 344, ../sass/Partials/Workflow/_Index.scss */
+/* line 343, ../sass/Partials/Workflow/_Index.scss */
 .Step2Images {
   width: 100%;
 }
-/* line 347, ../sass/Partials/Workflow/_Index.scss */
+/* line 346, ../sass/Partials/Workflow/_Index.scss */
 .Step2Images img {
   width: 100%;
   display: inline-block;
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 356, ../sass/Partials/Workflow/_Index.scss */
+  /* line 355, ../sass/Partials/Workflow/_Index.scss */
   .Step2Images img {
     margin-right: 7px;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 344, ../sass/Partials/Workflow/_Index.scss */
+  /* line 343, ../sass/Partials/Workflow/_Index.scss */
   .Step2Images {
     display: inline-block;
     width: 48%;
     vertical-align: top;
     margin-right: 20px;
   }
-  /* line 367, ../sass/Partials/Workflow/_Index.scss */
+  /* line 366, ../sass/Partials/Workflow/_Index.scss */
   .Step2Images img {
     display: inline-block;
     margin-bottom: 20px;
@@ -2253,12 +2279,12 @@ i.fa.fa-wrench.fa-5x {
   }
 }
 
-/* line 380, ../sass/Partials/Workflow/_Index.scss */
+/* line 379, ../sass/Partials/Workflow/_Index.scss */
 .Step2TopBox {
   margin-top: 20px;
   text-align: center;
 }
-/* line 384, ../sass/Partials/Workflow/_Index.scss */
+/* line 383, ../sass/Partials/Workflow/_Index.scss */
 .Step2TopBox h3 {
   font-family: "ff-prater-sans-web";
   display: inline;
@@ -2268,29 +2294,29 @@ i.fa.fa-wrench.fa-5x {
   border: 1px solid #e2e2e2;
   font-weight: 100;
 }
-/* line 394, ../sass/Partials/Workflow/_Index.scss */
+/* line 393, ../sass/Partials/Workflow/_Index.scss */
 .Step2TopBox p {
   margin-top: 30px;
   font-size: 1em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 380, ../sass/Partials/Workflow/_Index.scss */
+  /* line 379, ../sass/Partials/Workflow/_Index.scss */
   .Step2TopBox {
     margin-top: 0;
     text-align: left;
   }
 }
 
-/* line 409, ../sass/Partials/Workflow/_Index.scss */
+/* line 408, ../sass/Partials/Workflow/_Index.scss */
 .Step5Text h3 {
   font-family: "ff-prater-sans-web";
 }
-/* line 413, ../sass/Partials/Workflow/_Index.scss */
+/* line 412, ../sass/Partials/Workflow/_Index.scss */
 .Step5Text p {
   font-size: .95em;
 }
 
-/* line 420, ../sass/Partials/Workflow/_Index.scss */
+/* line 419, ../sass/Partials/Workflow/_Index.scss */
 .Step2BottomBox h3 {
   font-family: "ff-prater-sans-web";
   display: inline;
@@ -2299,18 +2325,18 @@ i.fa.fa-wrench.fa-5x {
   background-color: #f8f8f8;
   border: 1px solid #e2e2e2;
 }
-/* line 429, ../sass/Partials/Workflow/_Index.scss */
+/* line 428, ../sass/Partials/Workflow/_Index.scss */
 .Step2BottomBox p {
   margin-top: 30px;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 418, ../sass/Partials/Workflow/_Index.scss */
+  /* line 417, ../sass/Partials/Workflow/_Index.scss */
   .Step2BottomBox {
     text-align: left;
   }
 }
 
-/* line 438, ../sass/Partials/Workflow/_Index.scss */
+/* line 437, ../sass/Partials/Workflow/_Index.scss */
 ul.step2ul {
   -webkit-column-count: 2;
   -webkit-column-gap: 2.5em;
@@ -2321,41 +2347,41 @@ ul.step2ul {
   margin-top: 1.8em;
   font-family: 'Open-Sans';
 }
-/* line 453, ../sass/Partials/Workflow/_Index.scss */
+/* line 452, ../sass/Partials/Workflow/_Index.scss */
 ul.step2ul li {
   padding: 5px 0;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 458, ../sass/Partials/Workflow/_Index.scss */
+  /* line 457, ../sass/Partials/Workflow/_Index.scss */
   .Step2Box {
     display: inline-block;
     width: 47%;
   }
 }
 
-/* line 475, ../sass/Partials/Workflow/_Index.scss */
+/* line 474, ../sass/Partials/Workflow/_Index.scss */
 .Step2BottomBox {
   margin-top: 40px;
 }
 
-/* line 479, ../sass/Partials/Workflow/_Index.scss */
+/* line 478, ../sass/Partials/Workflow/_Index.scss */
 .Step2LeftBox {
   text-align: center;
 }
-/* line 482, ../sass/Partials/Workflow/_Index.scss */
+/* line 481, ../sass/Partials/Workflow/_Index.scss */
 .Step2LeftBox h3 {
   margin: 0;
   font-weight: 100;
 }
-/* line 487, ../sass/Partials/Workflow/_Index.scss */
+/* line 486, ../sass/Partials/Workflow/_Index.scss */
 .Step2LeftBox a {
   display: block;
   color: #333;
   text-decoration: underline;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 479, ../sass/Partials/Workflow/_Index.scss */
+  /* line 478, ../sass/Partials/Workflow/_Index.scss */
   .Step2LeftBox {
     display: inline-block;
     vertical-align: top;
@@ -2365,7 +2391,7 @@ ul.step2ul li {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 479, ../sass/Partials/Workflow/_Index.scss */
+  /* line 478, ../sass/Partials/Workflow/_Index.scss */
   .Step2LeftBox {
     display: inline-block;
     vertical-align: top;
@@ -2374,21 +2400,21 @@ ul.step2ul li {
   }
 }
 
-/* line 514, ../sass/Partials/Workflow/_Index.scss */
+/* line 513, ../sass/Partials/Workflow/_Index.scss */
 .Step2RightBox {
   width: 100%;
   margin-top: 40px;
   text-align: center;
   padding-bottom: 2em;
 }
-/* line 520, ../sass/Partials/Workflow/_Index.scss */
+/* line 519, ../sass/Partials/Workflow/_Index.scss */
 .Step2RightBox h3 {
   margin: 0;
   text-align: center;
   font-weight: 100;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 514, ../sass/Partials/Workflow/_Index.scss */
+  /* line 513, ../sass/Partials/Workflow/_Index.scss */
   .Step2RightBox {
     display: inline-block;
     width: 39%;
@@ -2397,7 +2423,7 @@ ul.step2ul li {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 514, ../sass/Partials/Workflow/_Index.scss */
+  /* line 513, ../sass/Partials/Workflow/_Index.scss */
   .Step2RightBox {
     display: inline-block;
     padding-left: 30px;
@@ -2407,30 +2433,30 @@ ul.step2ul li {
   }
 }
 
-/* line 550, ../sass/Partials/Workflow/_Index.scss */
+/* line 549, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep3Section {
   border-bottom: 1px solid #eaeaea;
   /*padding-bottom: 120px;*/
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 556, ../sass/Partials/Workflow/_Index.scss */
+  /* line 555, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep3Section p {
     font-size: .65em;
   }
 }
 
-/* line 564, ../sass/Partials/Workflow/_Index.scss */
+/* line 563, ../sass/Partials/Workflow/_Index.scss */
 .WorkflowPaddingStep3 {
   padding: 0 5% 0 5%;
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 564, ../sass/Partials/Workflow/_Index.scss */
+  /* line 563, ../sass/Partials/Workflow/_Index.scss */
   .WorkflowPaddingStep3 {
     padding: 0 20% 0 20%;
   }
 }
 
-/* line 580, ../sass/Partials/Workflow/_Index.scss */
+/* line 579, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowLeft {
   background-color: white;
   width: 100%;
@@ -2441,7 +2467,7 @@ ul.step2ul li {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 590, ../sass/Partials/Workflow/_Index.scss */
+/* line 589, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowLeft h1 {
   margin: 0;
   text-align: center;
@@ -2454,19 +2480,19 @@ ul.step2ul li {
   font-weight: 100;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 580, ../sass/Partials/Workflow/_Index.scss */
+  /* line 579, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft {
     height: 400px;
     background-position: center;
   }
-  /* line 606, ../sass/Partials/Workflow/_Index.scss */
+  /* line 605, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft h1 {
     text-align: center;
     font-size: 1.8em;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 580, ../sass/Partials/Workflow/_Index.scss */
+  /* line 579, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft {
     display: inline-block;
     width: 40%;
@@ -2476,20 +2502,20 @@ ul.step2ul li {
     background-position: top;
     background-position: left;
   }
-  /* line 621, ../sass/Partials/Workflow/_Index.scss */
+  /* line 620, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft h1 {
     font-size: 2em;
     text-align: center;
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 628, ../sass/Partials/Workflow/_Index.scss */
+  /* line 627, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowLeft h1 {
     text-align: center;
   }
 }
 
-/* line 636, ../sass/Partials/Workflow/_Index.scss */
+/* line 635, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowDesign {
   display: inline-block;
   right: 20px;
@@ -2499,14 +2525,14 @@ ul.step2ul li {
   top: 260px;
   left: 8%;
 }
-/* line 645, ../sass/Partials/Workflow/_Index.scss */
+/* line 644, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowDesign h2 {
   color: white;
   font-family: "ff-prater-sans-web";
   font-size: 1.5em;
 }
 
-/* line 652, ../sass/Partials/Workflow/_Index.scss */
+/* line 651, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowCross {
   display: inline-block;
   width: 50%;
@@ -2514,19 +2540,19 @@ ul.step2ul li {
   top: 260px;
   left: 6%;
 }
-/* line 659, ../sass/Partials/Workflow/_Index.scss */
+/* line 658, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowCross h2 {
   color: white;
   font-family: "ff-prater-sans-web";
   font-size: 1.5em;
 }
 
-/* line 667, ../sass/Partials/Workflow/_Index.scss */
+/* line 666, ../sass/Partials/Workflow/_Index.scss */
 .Step3FlowRight {
   height: auto;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 667, ../sass/Partials/Workflow/_Index.scss */
+  /* line 666, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowRight {
     display: inline-block;
     width: 50%;
@@ -2534,18 +2560,18 @@ ul.step2ul li {
   }
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 667, ../sass/Partials/Workflow/_Index.scss */
+  /* line 666, ../sass/Partials/Workflow/_Index.scss */
   .Step3FlowRight {
     width: 49%;
   }
 }
 
-/* line 686, ../sass/Partials/Workflow/_Index.scss */
+/* line 685, ../sass/Partials/Workflow/_Index.scss */
 .Step3List {
   padding: 0;
   margin-top: 40px;
 }
-/* line 690, ../sass/Partials/Workflow/_Index.scss */
+/* line 689, ../sass/Partials/Workflow/_Index.scss */
 .Step3List h3 {
   margin: 0;
   font-family: "ff-prater-sans-web";
@@ -2556,23 +2582,23 @@ ul.step2ul li {
   font-size: 1.6em;
   border-bottom: 1px solid lightgray;
 }
-/* line 701, ../sass/Partials/Workflow/_Index.scss */
+/* line 700, ../sass/Partials/Workflow/_Index.scss */
 .Step3List ul {
   padding: 0;
   margin: .5em 0;
 }
-/* line 707, ../sass/Partials/Workflow/_Index.scss */
+/* line 706, ../sass/Partials/Workflow/_Index.scss */
 .Step3List li {
   padding: 1em 0;
   font-family: 'Open-Sans';
 }
-/* line 712, ../sass/Partials/Workflow/_Index.scss */
+/* line 711, ../sass/Partials/Workflow/_Index.scss */
 .Step3List span {
   color: gray;
   font-family: 'Open-Sans';
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 720, ../sass/Partials/Workflow/_Index.scss */
+  /* line 719, ../sass/Partials/Workflow/_Index.scss */
   .Step3List ul {
     -webkit-column-count: 2;
     -webkit-column-gap: 2.5em;
@@ -2581,46 +2607,46 @@ ul.step2ul li {
     column-count: 2;
     column-gap: 2.5em;
   }
-  /* line 731, ../sass/Partials/Workflow/_Index.scss */
+  /* line 730, ../sass/Partials/Workflow/_Index.scss */
   .Step3List h3 {
     text-align: center;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 686, ../sass/Partials/Workflow/_Index.scss */
+  /* line 685, ../sass/Partials/Workflow/_Index.scss */
   .Step3List {
     margin-top: 0;
     height: 340px;
     text-align: left;
   }
-  /* line 741, ../sass/Partials/Workflow/_Index.scss */
+  /* line 740, ../sass/Partials/Workflow/_Index.scss */
   .Step3List li {
     padding: 10px 0;
   }
-  /* line 745, ../sass/Partials/Workflow/_Index.scss */
+  /* line 744, ../sass/Partials/Workflow/_Index.scss */
   .Step3List ul {
     height: auto;
     padding-left: 15px;
   }
-  /* line 751, ../sass/Partials/Workflow/_Index.scss */
+  /* line 750, ../sass/Partials/Workflow/_Index.scss */
   .Step3List h3 {
     text-align: left;
   }
 }
 
-/* line 761, ../sass/Partials/Workflow/_Index.scss */
+/* line 760, ../sass/Partials/Workflow/_Index.scss */
 .Step3Padd {
   padding-bottom: 2em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 761, ../sass/Partials/Workflow/_Index.scss */
+  /* line 760, ../sass/Partials/Workflow/_Index.scss */
   .Step3Padd {
     padding-bottom: 0;
     height: 250px;
   }
 }
 
-/* line 772, ../sass/Partials/Workflow/_Index.scss */
+/* line 771, ../sass/Partials/Workflow/_Index.scss */
 .Step3Style {
   font-size: 3em;
   margin-right: 20px;
@@ -2629,12 +2655,12 @@ ul.step2ul li {
   text-shadow: 1px 1px 2px #101010;
 }
 
-/* line 780, ../sass/Partials/Workflow/_Index.scss */
+/* line 779, ../sass/Partials/Workflow/_Index.scss */
 .Step3Box {
   display: inline-block;
   text-align: left;
 }
-/* line 784, ../sass/Partials/Workflow/_Index.scss */
+/* line 783, ../sass/Partials/Workflow/_Index.scss */
 .Step3Box h2 {
   margin: 0;
   font-size: 1.4em;
@@ -2643,45 +2669,45 @@ ul.step2ul li {
   color: #353535;
 }
 
-/* line 796, ../sass/Partials/Workflow/_Index.scss */
+/* line 795, ../sass/Partials/Workflow/_Index.scss */
 ul.Step3Lang img {
   max-width: 15%;
   height: 15%;
   margin-right: 10px;
 }
 
-/* line 804, ../sass/Partials/Workflow/_Index.scss */
+/* line 803, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj1 {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 809, ../sass/Partials/Workflow/_Index.scss */
+/* line 808, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj2 {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 814, ../sass/Partials/Workflow/_Index.scss */
+/* line 813, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj3 {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 819, ../sass/Partials/Workflow/_Index.scss */
+/* line 818, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Obj4 {
   color: white;
   text-shadow: 1px 1px 1px black;
 }
 
-/* line 824, ../sass/Partials/Workflow/_Index.scss */
+/* line 823, ../sass/Partials/Workflow/_Index.scss */
 .Steps4Col {
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 824, ../sass/Partials/Workflow/_Index.scss */
+  /* line 823, ../sass/Partials/Workflow/_Index.scss */
   .Steps4Col {
     width: 48%;
     display: inline-block;
@@ -2689,7 +2715,7 @@ ul.Step3Lang img {
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 824, ../sass/Partials/Workflow/_Index.scss */
+  /* line 823, ../sass/Partials/Workflow/_Index.scss */
   .Steps4Col {
     display: inline-block;
     width: 25%;
@@ -2700,12 +2726,12 @@ ul.Step3Lang img {
   }
 }
 
-/* line 849, ../sass/Partials/Workflow/_Index.scss */
+/* line 848, ../sass/Partials/Workflow/_Index.scss */
 .AlignFix {
   text-align: center;
 }
 
-/* line 853, ../sass/Partials/Workflow/_Index.scss */
+/* line 852, ../sass/Partials/Workflow/_Index.scss */
 .Step4Filler {
   display: inline-block;
   background-color: #2B9CD1;
@@ -2716,28 +2742,28 @@ ul.Step3Lang img {
   margin-bottom: 1em;
 }
 
-/* line 863, ../sass/Partials/Workflow/_Index.scss */
+/* line 862, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep4Section {
   border-bottom: 1px solid #eaeaea;
   background-color: white;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 863, ../sass/Partials/Workflow/_Index.scss */
+  /* line 862, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep4Section {
     padding-bottom: 220px;
   }
-  /* line 870, ../sass/Partials/Workflow/_Index.scss */
+  /* line 869, ../sass/Partials/Workflow/_Index.scss */
   .WorkFlowStep4Section p {
     font-size: .65em;
   }
 }
 
-/* line 877, ../sass/Partials/Workflow/_Index.scss */
+/* line 876, ../sass/Partials/Workflow/_Index.scss */
 .WorkFlowStep5Section {
   padding-bottom: 60px;
 }
 
-/* line 881, ../sass/Partials/Workflow/_Index.scss */
+/* line 880, ../sass/Partials/Workflow/_Index.scss */
 .Steps5Col {
   display: inline-block;
   width: 100%;
@@ -2745,7 +2771,7 @@ ul.Step3Lang img {
   text-align: center;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 881, ../sass/Partials/Workflow/_Index.scss */
+  /* line 880, ../sass/Partials/Workflow/_Index.scss */
   .Steps5Col {
     display: inline-block;
     width: 29%;
@@ -2756,13 +2782,13 @@ ul.Step3Lang img {
   }
 }
 
-/* line 906, ../sass/Partials/Workflow/_Index.scss */
+/* line 905, ../sass/Partials/Workflow/_Index.scss */
 .Step5Filler {
   height: 150px;
   width: 100%;
 }
 
-/* line 911, ../sass/Partials/Workflow/_Index.scss */
+/* line 910, ../sass/Partials/Workflow/_Index.scss */
 .Step5IMGTag {
   height: 300px;
   display: inline-block;
@@ -2773,7 +2799,7 @@ ul.Step3Lang img {
   background-position-x: 50%;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 911, ../sass/Partials/Workflow/_Index.scss */
+  /* line 910, ../sass/Partials/Workflow/_Index.scss */
   .Step5IMGTag {
     background-position-x: 0;
     width: 30%;
@@ -2781,12 +2807,12 @@ ul.Step3Lang img {
   }
 }
 
-/* line 935, ../sass/Partials/Workflow/_Index.scss */
+/* line 934, ../sass/Partials/Workflow/_Index.scss */
 .Step5IMGText {
   display: inline-block;
   text-align: center;
 }
-/* line 939, ../sass/Partials/Workflow/_Index.scss */
+/* line 938, ../sass/Partials/Workflow/_Index.scss */
 .Step5IMGText h3 {
   color: #333;
   margin: 0;
@@ -2796,7 +2822,7 @@ ul.Step3Lang img {
   font-weight: 100;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 935, ../sass/Partials/Workflow/_Index.scss */
+  /* line 934, ../sass/Partials/Workflow/_Index.scss */
   .Step5IMGText {
     display: inline-block;
     text-align: left;
@@ -2807,19 +2833,19 @@ ul.Step3Lang img {
   }
 }
 
-/* line 968, ../sass/Partials/Workflow/_Index.scss */
+/* line 967, ../sass/Partials/Workflow/_Index.scss */
 .Step5LeftCol {
   width: 100%;
   height: auto;
   text-align: left;
   vertical-align: top;
 }
-/* line 974, ../sass/Partials/Workflow/_Index.scss */
+/* line 973, ../sass/Partials/Workflow/_Index.scss */
 .Step5LeftCol p {
   font-size: 1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 968, ../sass/Partials/Workflow/_Index.scss */
+  /* line 967, ../sass/Partials/Workflow/_Index.scss */
   .Step5LeftCol {
     display: inline-block;
     width: 58%;
@@ -2827,25 +2853,25 @@ ul.Step3Lang img {
   }
 }
 
-/* line 992, ../sass/Partials/Workflow/_Index.scss */
+/* line 991, ../sass/Partials/Workflow/_Index.scss */
 .Step5LeftCol2 {
   width: 100%;
   height: auto;
   text-align: center;
 }
-/* line 997, ../sass/Partials/Workflow/_Index.scss */
+/* line 996, ../sass/Partials/Workflow/_Index.scss */
 .Step5LeftCol2 p {
   font-size: 1em;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 992, ../sass/Partials/Workflow/_Index.scss */
+  /* line 991, ../sass/Partials/Workflow/_Index.scss */
   .Step5LeftCol2 {
     display: inline-block;
     width: 30%;
   }
 }
 
-/* line 1015, ../sass/Partials/Workflow/_Index.scss */
+/* line 1014, ../sass/Partials/Workflow/_Index.scss */
 .Step5Img {
   height: 64px;
   display: inline-block;
@@ -2855,17 +2881,17 @@ ul.Step3Lang img {
   background-color: #6fbe4a;
 }
 
-/* line 1024, ../sass/Partials/Workflow/_Index.scss */
+/* line 1023, ../sass/Partials/Workflow/_Index.scss */
 ul.Step5Listing {
   width: 80%;
   padding: 0 10%;
   margin-top: 30px;
 }
-/* line 1029, ../sass/Partials/Workflow/_Index.scss */
+/* line 1028, ../sass/Partials/Workflow/_Index.scss */
 ul.Step5Listing li {
   margin-bottom: 20px;
 }
-/* line 1033, ../sass/Partials/Workflow/_Index.scss */
+/* line 1032, ../sass/Partials/Workflow/_Index.scss */
 ul.Step5Listing h3 {
   color: #333;
   margin: 0;
@@ -2874,7 +2900,7 @@ ul.Step5Listing h3 {
   font-family: "ff-prater-sans-web";
   font-weight: 100;
 }
-/* line 1042, ../sass/Partials/Workflow/_Index.scss */
+/* line 1041, ../sass/Partials/Workflow/_Index.scss */
 ul.Step5Listing h2 {
   color: gray;
   margin: 0;
@@ -2885,13 +2911,13 @@ ul.Step5Listing h2 {
   font-size: .9em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 1053, ../sass/Partials/Workflow/_Index.scss */
+  /* line 1052, ../sass/Partials/Workflow/_Index.scss */
   ul.Step5Listing h2 {
     display: block;
   }
 }
 
-/* line 1067, ../sass/Partials/Workflow/_Index.scss */
+/* line 1066, ../sass/Partials/Workflow/_Index.scss */
 .Step5Descript {
   width: 68%;
   display: inline-block;
@@ -2899,28 +2925,28 @@ ul.Step5Listing h2 {
   text-align: left;
 }
 
-/* line 1076, ../sass/Partials/Workflow/_Index.scss */
+/* line 1075, ../sass/Partials/Workflow/_Index.scss */
 .Step4Text h3 {
   font-family: "ff-prater-sans-web";
   font-size: 1.4em;
   font-weight: 100;
   margin-top: 5px;
 }
-/* line 1083, ../sass/Partials/Workflow/_Index.scss */
+/* line 1082, ../sass/Partials/Workflow/_Index.scss */
 .Step4Text p {
   font-size: 1em;
   text-align: center;
 }
 
 @media only screen and (min-width: 64.063em) {
-  /* line 1090, ../sass/Partials/Workflow/_Index.scss */
+  /* line 1089, ../sass/Partials/Workflow/_Index.scss */
   .Step4Fix {
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
   }
 }
 
-/* line 1106, ../sass/Partials/Workflow/_Index.scss */
+/* line 1105, ../sass/Partials/Workflow/_Index.scss */
 .footer {
   background-color: #e4e4e4;
   width: 90%;
@@ -2928,9 +2954,10 @@ ul.Step5Listing h2 {
   margin-top: 3em;
   border-top: 1px solid #C8C8C8;
   height: 6em;
+  background-color: black;
 }
 @media only screen and (min-width: 90.063em) {
-  /* line 1106, ../sass/Partials/Workflow/_Index.scss */
+  /* line 1105, ../sass/Partials/Workflow/_Index.scss */
   .footer {
     padding: 0 15%;
     width: 70%;
@@ -5268,7 +5295,7 @@ body {
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 5.4em;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 1, ../sass/Partials/Homepage/_Buttons.scss */
@@ -5291,9 +5318,10 @@ body {
 .view img {
   display: block;
   position: relative;
+  border-radius: 5em;
 }
 
-/* line 41, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 42, ../sass/Partials/Homepage/_Buttons.scss */
 .view h2 {
   color: #fff;
   text-align: center;
@@ -5305,7 +5333,7 @@ body {
   margin: 20px 0 0 0;
 }
 
-/* line 51, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 52, ../sass/Partials/Homepage/_Buttons.scss */
 .view p {
   font-family: Georgia, serif;
   font-style: italic;
@@ -5316,7 +5344,7 @@ body {
   text-align: center;
 }
 
-/* line 60, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 61, ../sass/Partials/Homepage/_Buttons.scss */
 .view a.info {
   display: inline-block;
   text-decoration: none;
@@ -5327,39 +5355,12 @@ body {
   box-shadow: 0 0 1px black;
 }
 
-/* line 69, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 70, ../sass/Partials/Homepage/_Buttons.scss */
 .view a.info:hover {
   box-shadow: 0 0 5px black;
 }
 
-/* line 73, ../sass/Partials/Homepage/_Buttons.scss */
-.view-ninth .mask-1,
-.view-ninth .mask-2 {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 361px;
-  width: 361px;
-  background: rgba(0, 83, 119, 0.5);
-  opacity: 1;
-  transition: all 0.3s ease-in-out 0.6s;
-}
-
-/* line 82, ../sass/Partials/Homepage/_Buttons.scss */
-.view-ninth .mask-1 {
-  left: auto;
-  right: 0px;
-  transform: rotate(56.5deg) translateX(-180px);
-  transform-origin: 100% 0%;
-}
-
-/* line 88, ../sass/Partials/Homepage/_Buttons.scss */
-.view-ninth .mask-2 {
-  top: auto;
-  bottom: 0px;
-  transform: rotate(56.5deg) translateX(180px);
-  transform-origin: 0% 100%;
-}
-
-/* line 98, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 79, ../sass/Partials/Homepage/_Buttons.scss */
 .view-ninth .content {
   background: rgba(0, 0, 0, 0.9);
   height: 0px;
@@ -5371,41 +5372,59 @@ body {
   transition: all 0.4s ease-in-out 0.3s;
 }
 
-/* line 108, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 89, ../sass/Partials/Homepage/_Buttons.scss */
 .view-ninth h2 {
   background: transparent;
   margin-top: 5px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* line 113, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 94, ../sass/Partials/Homepage/_Buttons.scss */
 .view-ninth a.info {
   display: none;
 }
 
-/* line 118, ../sass/Partials/Homepage/_Buttons.scss */
+/* line 99, ../sass/Partials/Homepage/_Buttons.scss */
 .view-ninth:hover .content {
-  height: 120px;
+  height: 100%;
+  border-radius: 5em;
   width: 300px;
   opacity: 0.9;
-  top: 40px;
   transform: rotate(0deg) translate(0px, 0px);
 }
 
-/* line 125, ../sass/Partials/Homepage/_Buttons.scss */
-.view-ninth:hover .mask-1,
-.view-ninth:hover .mask-2 {
-  transition-delay: 0s;
+/* line 107, ../sass/Partials/Homepage/_Buttons.scss */
+.contentButton {
+  height: 50px;
+  width: 50%;
+  background-color: green;
+  display: inline-block;
+}
+/* line 113, ../sass/Partials/Homepage/_Buttons.scss */
+.contentButton span {
+  color: white;
+  font-family: 'league-gothic';
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.4em;
+  letter-spacing: 1px;
 }
 
+/* line 123, ../sass/Partials/Homepage/_Buttons.scss */
+.contentButton1 {
+  background-color: lightgray;
+  height: 50px;
+  width: 50%;
+  display: inline-block;
+}
 /* line 129, ../sass/Partials/Homepage/_Buttons.scss */
-.view-ninth:hover .mask-1 {
-  transform: rotate(56.5deg) translateX(1px);
-}
-
-/* line 132, ../sass/Partials/Homepage/_Buttons.scss */
-.view-ninth:hover .mask-2 {
-  transform: rotate(56.5deg) translateX(-1px);
+.contentButton1 span {
+  color: black;
+  font-family: 'league-gothic';
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.4em;
+  letter-spacing: 1px;
 }
 
 /* line 1, ../sass/Partials/Portfolio/_GithubButton.scss */
@@ -5451,5 +5470,62 @@ body {
   /* line 37, ../sass/Partials/Portfolio/_GithubButton.scss */
   .PortBottomText {
     margin-top: 4em;
+  }
+}
+
+/* line 60, ../sass/Partials/Portfolio/_GithubButton.scss */
+.PortButton {
+  position: relative;
+  top: 213px;
+  display: inline;
+  left: 26%;
+}
+/* line 66, ../sass/Partials/Portfolio/_GithubButton.scss */
+.PortButton span {
+  color: white;
+  font-family: 'league-gothic';
+  display: inline-block;
+  padding-top: 10px;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  display: inline-block;
+  height: 40px;
+  width: 50%;
+  text-align: center;
+  background-color: green;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 60, ../sass/Partials/Portfolio/_GithubButton.scss */
+  .PortButton {
+    display: none;
+  }
+}
+
+/* line 86, ../sass/Partials/Portfolio/_GithubButton.scss */
+.disable {
+  background-color: lightgray !important;
+  color: black !important;
+}
+
+@-webkit-keyframes wiggle {
+  /* line 92, ../sass/Partials/Portfolio/_GithubButton.scss */
+  0% {
+    -webkit-transform: rotate(4deg);
+  }
+
+  /* line 95, ../sass/Partials/Portfolio/_GithubButton.scss */
+  50% {
+    -webkit-transform: rotate(-4deg);
+  }
+
+  /* line 98, ../sass/Partials/Portfolio/_GithubButton.scss */
+  100% {
+    -webkit-transform: rotate(4deg);
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 103, ../sass/Partials/Portfolio/_GithubButton.scss */
+  .wiggle:hover {
+    -webkit-animation: wiggle 1.5s infinite;
   }
 }

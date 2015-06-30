@@ -56,3 +56,55 @@
     }
         
 }
+
+.PortButton {
+    position: relative;
+    top: 213px;
+    display: inline;
+    left: 26%;
+
+    span {
+        color: white;
+        font-family: 'league-gothic';
+        display: inline-block;
+        padding-top: 10px;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        display: inline-block;
+        height: 40px;
+        width: 50%;
+        text-align: center;
+        background-color: green;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: none;
+    }
+
+}
+
+.disable {
+    background-color: lightgray !important;
+    color: black !important;
+}
+
+@-webkit-keyframes wiggle {
+	0% {
+		-webkit-transform:rotate(4deg);
+	}
+	50% {
+		-webkit-transform:rotate(-4deg);
+	}
+	100% {
+		-webkit-transform:rotate(4deg);
+	}
+}
+ 
+.wiggle:hover {
+    
+    
+    @media only screen and (min-width: 40.063em) { 
+        -webkit-animation: wiggle 1.5s infinite;
+    }
+
+}

@@ -13,16 +13,17 @@
 
     @media only screen and (min-width: 90.063em) { 
         padding: 0 20%;
-          height: 50em;
+          height: 65em;
     }
 }
 
 .Project1 {
     background-image: url('/Content/img/Portfolio/Mobile/Port.jpg');
     height: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: .5;
 
     @media only screen and (min-width: 40.063em) { 
         position: absolute;
@@ -60,7 +61,7 @@
   background-image: url("/Content/img/Portfolio/Mobile/BreatheDotA.jpg");
   height: 250px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-size: cover;
   background-position: 50%;
   background-position-x: 50%;
@@ -105,7 +106,7 @@
   background-image: url("/Content/img/Portfolio/Mobile/Counter.jpg");
   height: 250px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   background-position: 50%;
   background-repeat: no-repeat;
 
@@ -156,7 +157,7 @@
     100% { -ms-transform: translateX(0px); }
 }
 
-.PRojectEffect:hover {
+/*.PRojectEffect:hover {
     transition: ease-in 1s;
     animation: PortBounce 3s infinite;
     transform: translateX(0);
@@ -170,7 +171,7 @@
     -o-transform: translateX(0);
 
 
-}
+}*/
 
 .PortText {
     width: 100%;
@@ -251,7 +252,7 @@
         padding: 0 35px;
         position: relative;
         top: -17px;
-        background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
+        background: #f8f8f8 url(/Content/img/sos.png) repeat;
         display: inline-block;
         font-size: 2em;
     }
@@ -294,5 +295,5 @@
 
 b.PortStyle {
   color: #267CBC;
-  }
+}
                   

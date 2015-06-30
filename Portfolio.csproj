@@ -108,12 +108,14 @@
     <Content Include="Content\img\Backup\Homepage.png" />
     <Content Include="Content\img\Backup\HomepageEDIT.jpg" />
     <Content Include="Content\img\Backup\HomepageORG.jpg" />
+    <Content Include="Content\img\bg-grey.png" />
     <Content Include="Content\img\ContactMe.jpg" />
     <Content Include="Content\img\ContactUs.jpg" />
     <Content Include="Content\img\ContactUs.png" />
     <Content Include="Content\img\Counter.png" />
     <Content Include="Content\img\crabpotlogo1.png" />
     <Content Include="Content\img\Creeps.png" />
+    <Content Include="Content\img\edge.png" />
     <Content Include="Content\img\Fav\android-chrome-144x144.png" />
     <Content Include="Content\img\Fav\android-chrome-192x192.png" />
     <Content Include="Content\img\Fav\android-chrome-36x36.png" />
@@ -143,6 +145,7 @@
     <Content Include="Content\img\Fav\mstile-70x70.png" />
     <Content Include="Content\img\Flow.png" />
     <Content Include="Content\img\hamburger.svg" />
+    <Content Include="Content\img\Hompage-Picture2.jpg" />
     <Content Include="Content\img\Hompage1.jpg" />
     <Content Include="Content\img\Icon1.jpg" />
     <Content Include="Content\img\Icon2.jpg" />
@@ -160,6 +163,7 @@
     <Content Include="Content\img\Portfolio\Uncompressed\BreatheDotA.png" />
     <Content Include="Content\img\Portfolio\Uncompressed\CounterStrike.png" />
     <Content Include="Content\img\Portfolio\Uncompressed\Port.png" />
+    <Content Include="Content\img\sos.png" />
     <Content Include="Content\img\svg.svg" />
     <Content Include="Content\img\svg2.svg" />
     <Content Include="Content\img\svgBAK.svg" />
@@ -242,13 +246,13 @@
     <Content Include="Content\sass\Partials\Portfolio\_Index.scss" />
     <Content Include="Content\sass\Partials\Workflow\_Index.scss" />
     <Content Include="Content\sass\Modules\_WidthContainers.scss" />
-    <Content Include="Content\Files\Mygel Bergstresser Resume.pdf" />
     <Content Include="Content\img\Fav\manifest.json" />
     <Content Include="Content\sass\Partials\Portfolio\_GithubButton.scss" />
     <Content Include="Content\sass\Partials\Homepage\_Buttons.scss" />
     <Content Include="Content\sass\Partials\About\_Coffee.scss" />
     <Content Include="Content\sass\Partials\About\_Marvel.scss" />
     <Content Include="Content\sass\Partials\About\_TechieAnimations.scss" />
+    <Content Include="Content\Files\MygelBergstresserResume.pdf" />
     <None Include="Properties\PublishProfiles\Localhost.pubxml" />
     <None Include="Properties\PublishProfiles\mygelb.pubxml" />
     <None Include="Properties\PublishProfiles\MygelBergstresser.pubxml" />

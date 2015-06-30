@@ -1,15 +1,19 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <style>
+    .MainDocument {
+          text-align: center;
+            margin-bottom: 7em;
+    }
+
     .batmin{
   width:150px;
   height:300px;
-  margin:150px auto;
   position:relative;
+  display: inline-block;
 }
 .head{
   width:100%;
@@ -49,6 +53,7 @@
   border:75px solid transparent;
   border-top:30px solid #231F20;
   top:70px;
+    left: 0;
 }
 .mask:after{
   content:"";
@@ -59,6 +64,7 @@
   background:#231F20;
   top:-30px;
   z-index:-1;
+    left: 0;
 }
 .eye{
   width:70px;
@@ -72,6 +78,8 @@
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   border:8px solid #BBBBBB;
+  transform: translateY(0);
+  animation: homepage1 5s infinite;
 }
 .iris{
   width:35px;
@@ -476,12 +484,12 @@ h1 {
   margin: 0.67em 0;
   text-align: center;
   font-family: 'League-Gothic';
+  line-height: 1.1em;
 }
 </style>
 
-<h1>Batman + Minion</h1>
-<h1>=</h1>
-<h1>Grace's favorite Thing</h1>
+<h1>Batman + Minion<br />
+Grace's favorite Thing</h1>
 
 
 
