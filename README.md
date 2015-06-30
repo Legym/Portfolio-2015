@@ -1,6 +1,6 @@
 # www.Mygelb.com
 
-If you wish to recreate the website, drop entire website into an IIS server or upload to windows Azure. This project was built in MVC5 with the intention of starting a careerin front end development. 
+If you wish to recreate the website, drop entire website into an IIS server or upload to windows Azure. This project was built in MVC5 with the intention of starting a career in front end development. 
 
 Interesting Facts:
 1. Over 5000 lines of compressed CSS
