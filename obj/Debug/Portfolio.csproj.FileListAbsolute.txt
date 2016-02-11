@@ -16,3 +16,22 @@ C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Portfolio\Portfoli
 C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
 C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.dll
 C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+C:\inetpub\wwwroot\Mygelb\bin\Portfolio.dll.config
+C:\inetpub\wwwroot\Mygelb\bin\Portfolio.dll
+C:\inetpub\wwwroot\Mygelb\bin\Portfolio.pdb
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Razor.xml
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Webpages.xml
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Webpages.Deployment.xml
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Webpages.Razor.xml
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Helpers.xml
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Mvc.xml
+C:\inetpub\wwwroot\Mygelb\obj\Debug\Portfolio.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\Mygelb\obj\Debug\Portfolio.dll
+C:\inetpub\wwwroot\Mygelb\obj\Debug\Portfolio.pdb
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Helpers.dll
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Mvc.dll
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.Razor.dll
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.WebPages.Deployment.dll
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.WebPages.dll
+C:\inetpub\wwwroot\Mygelb\bin\System.Web.WebPages.Razor.dll
+C:\inetpub\wwwroot\Mygelb\bin\Microsoft.Web.Infrastructure.dll
