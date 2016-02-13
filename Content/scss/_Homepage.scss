@@ -19,8 +19,6 @@
     background-position-y: 20px;
     padding: 0 $HomepageContainerMobile;
 
-
-
     @media only screen and (min-width: 40.063em) { 
         padding: 30px $HomepageContainerTablet;
         height: 240px;
@@ -103,13 +101,13 @@
   margin-top: 20px;
 
     h3 {
-        color: #888;
-        font-family: "League-Gothic";
+        color: #333;
+        font-family: "helveticaltstd";
         letter-spacing: 1px;
-        font-weight: 100;
+        font-weight: 900;
         margin: 0px;
         text-align: center;
-        font-size: 1.7em;
+        font-size: 24px;
         position: relative;
         top: -18px;
         background: #f8f8f8 url(/Content/img/sos.png) repeat;
@@ -194,7 +192,8 @@
     margin-top: 60px;
 
     h1 {
-        font-family: "ff-prater-sans-web";
+        font-family: "pratersanstwo";
+        font-weight: 600;
         font-size: 1.4em;
         margin: 0;
         transform: translateY(0);
@@ -255,7 +254,8 @@
     text-align: right;
 
     h1 {
-        font-family: "ff-prater-sans-web";
+        font-family: "pratersanstwo";
+        font-weight: 600;
         font-size: 1.4em;
         margin: 0;
         transform: translateY(0);

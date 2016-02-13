@@ -4,13 +4,10 @@
     border-bottom: #dddddd solid 1px;
 
     h1 {
-        font-family: "ff-prater-sans-web";
+        font-family: "pratersanstwo";
+        font-weight: 600;
         margin: 0;
         font-size: 3em;
-
-        @media only screen and (min-width: 40.063em) { 
-            font-size: 4em;
-        }
     }
 
     h2 {
@@ -18,7 +15,7 @@
         color: #888888;
         line-height: 1.4em;
         margin-bottom: 0.7em;
-        font-weight: normal;
+        font-weight: 400;
     }
 
     p {
@@ -43,7 +40,8 @@
     padding: 30px 30px;
 
     h1 {
-        font-family: "ff-prater-sans-web";
+        font-family: "pratersanstwo";
+        font-weight: 600;
         margin: 0;
         font-size: 3em;
 
@@ -193,7 +191,7 @@
 
     span {
         margin-left: 15px;
-        font-family: "league-gothic";
+        font-family: "helveticaltstd";
         color: #262B2F;
         letter-spacing: 1.2px;
         font-size: 1.5em;
@@ -214,7 +212,7 @@
         color: black;
         border-bottom: 2px solid lightgray;
         font-size: 1.6em;
-        font-family: "ff-prater-sans-web";
+        font-family: "helveticaltstd";
     }
 
     ul {
@@ -229,20 +227,12 @@
         font-size: 15px;
         vertical-align: sub;
         width: 100%;
+
+        border: 1px solid #dedede;
+        padding: 12px;
+        color: #515151;
     }
 
-    @media only screen and (min-width: 40.063em) { 
-
-    }
-
-    @media only screen and (min-width: 64.063em) {
-
-    }
-
-    @media only screen and (min-width: 90.063em) { 
-
-
-    }
 }
 
 .emailMargin {

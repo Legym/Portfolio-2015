@@ -1,5 +1,4 @@
-﻿.PortHeader {
-    padding: 0 5%;
+﻿.PortHeader {    
     margin-top: 10px;
     padding-bottom: 7em;
 
@@ -17,6 +16,8 @@
     }
 
     .portfolio-projects {
+        max-width: 1200px;
+        margin: 0 auto;
         
         img {
             max-width: 100%;
@@ -303,4 +304,131 @@
 b.PortStyle {
   color: #267CBC;
 }
-                  
+
+.about-section5 {
+
+	h3 {
+		font-size: 48px;
+		font-weight: 100;
+		margin-bottom: 60px;
+		margin-left: 65px;
+	}
+
+    .slider-nav {
+
+        #slider-proj, .slick-slide {
+            background-size: 300px 200px !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            outline: none;
+
+            &:after {
+                content: none;
+            }
+
+            .proj-content {
+                display: none;
+            }
+
+            .section5-title {
+                display: none;
+            }
+        }
+    }
+
+    .portfolio-slideshow {
+        position: relative;
+        top: -8px;
+
+	    .slick-slider {
+		    margin-bottom: 0;
+	    }
+    }
+
+
+	.slick-prev {
+		background: url(/content/img/arrow-about-left.png);
+		height: 81px;
+		z-index: 999;
+		width: 56px;
+		background-repeat: no-repeat;
+		left: 110px;
+        font-size: 0;
+        border: 0;
+        top: 45%;
+        position: absolute;
+
+		&:before {
+			content: none;
+		}
+	}
+
+	.slick-next {
+		background: url(/content/img/arrow-about-right.png);
+		height: 81px;
+		z-index: 999;
+		width: 56px;
+		background-repeat: no-repeat;
+		right: 110px;
+        font-size: 0;
+        border: 0;
+        top: 45%;
+        position: absolute;
+
+		&:before {
+			content: none;
+		}			
+	}
+
+	article {
+		height: 330px;
+		position: relative;
+		text-align: center;
+
+
+		p {
+			color: white;
+			font-weight: 100;
+			font-size: 18px;
+			z-index: 99;
+			position: relative;
+			line-height: 2em;	
+			line-height: 530px;			
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+
+	}
+
+	.slick-center {
+			
+		&:after {
+			position: absolute;
+			top: 0;
+			content: "";
+			background-color: black;
+			opacity: .5;
+			width: 100%;
+			height: 100%;
+			display: block;
+		}				
+	}	
+
+	.section5-title {
+		color: white;
+		font-weight: 500;
+		font-size: 13px;
+		background-color: #333;
+		display: inline-block;
+		position: absolute;
+		z-index: 2;
+		padding: 10px 24px;
+		bottom: 0;
+		font-weight: bold;
+		letter-spacing: .15em;
+		left: 0;
+	}	
+
+}		                  

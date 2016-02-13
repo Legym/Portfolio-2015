@@ -19,5 +19,22 @@ $(document).ready(function () {
         });
     });
 
+    $('.portfolio-slideshow').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        arrows: true,
+        slidesToScroll: 1,
+        asNavFor: '.portfolio-slideshow',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
 });
 

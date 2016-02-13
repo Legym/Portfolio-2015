@@ -4,6 +4,10 @@
     background: url('/content/img/sos.png') repeat;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 li, ul, a {
     text-decoration: none;
     list-style: none;
@@ -22,6 +26,7 @@ li, ul, a {
 	display: block;
 	float:left;
 	margin: 1% 0 1% 1.6%;
+    text-align: center;
 }
 .col:first-child { margin-left: 0; }
 
@@ -33,7 +38,7 @@ li, ul, a {
 
 
 /*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
+.span_3_of_3 { width: 100%;}
 .span_2_of_3 { width: 66.13%; }
 .span_1_of_3 { width: 32.26%; }
 

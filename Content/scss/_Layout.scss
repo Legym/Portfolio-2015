@@ -103,7 +103,8 @@
         display: block;
         height: 70px;
         line-height: 70px;
-        font-family: league-Gothic;
+        font-family: helveticaltstd;
+        font-weight: 400;
         font-size: 1.4em;
         letter-spacing: 1px;
     }
@@ -141,6 +142,10 @@
 
 .footer {
     text-align: center;
+
+    p, a {
+        font-family: Roboto;
+    }
 }
 
 
