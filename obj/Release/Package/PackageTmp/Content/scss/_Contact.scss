@@ -1,0 +1,275 @@
+﻿.ContactContainer {
+    background-color: white;
+    padding: 50px 30px;
+    border-bottom: #dddddd solid 1px;
+
+    h1 {
+        font-family: "pratersanstwo";
+        font-weight: 600;
+        margin: 0;
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #888888;
+        line-height: 1.4em;
+        margin-bottom: 0.7em;
+        font-weight: 400;
+    }
+
+    p {
+        color: #555555; 
+        margin-bottom: 1.4em;
+        line-height: 1.6em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 60px 5%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 60px $ContactContainerDesktop
+    }    
+}
+
+.ContactContainerBottom {
+    padding: 30px 30px;
+
+    h1 {
+        font-family: "pratersanstwo";
+        font-weight: 600;
+        margin: 0;
+        font-size: 3em;
+
+        @media only screen and (min-width: 40.063em) { 
+            font-size: 3em;
+        }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #888888;
+        line-height: 1.4em;
+        margin-bottom: 0.7em;
+        font-weight: normal;
+    }
+
+    p {
+        color: #555555; 
+        margin-bottom: 1.4em;
+        line-height: 1.6em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 60px 5%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding-bottom: 5em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 60px $ContactContainerDesktop;
+
+    }    
+}
+
+.ContactTop {
+
+}
+
+.ContactTopBottom {
+    margin-bottom: 1em;
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-bottom: 1.5em;    
+
+    }
+}
+
+.ContactIntro {
+
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 100%; 
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.ContactMessage {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 30%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 18%;
+    }
+
+    @media only screen and (min-width: 90.063em) {         
+        width: 20%;
+    }
+}
+
+
+
+.FaceImageContact {
+    width: 100%;
+    vertical-align: bottom;
+
+    width: 100%;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    vertical-align: bottom;
+
+
+    img {
+        width: 100%;
+          border-bottom: 2px solid #999;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        margin-top: 0;
+        padding-top: 0;
+        vertical-align: top;
+        border-top: none;
+        width: 60%;
+        margin-right: 3em;          
+
+        img {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 71%;
+        vertical-align: top;
+        margin-right: 40px;
+        vertical-align: top;
+
+        img {
+          max-width: 80%;
+          margin-left: 10%;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 70%;
+        margin-top: 0;
+        margin-right: 5em;
+
+        img {
+            text-align: right;
+            width: 100%;
+            margin-left: 0;
+        }
+
+    }
+}
+
+.Social {
+    margin-bottom: 60px;
+
+    span {
+        margin-left: 15px;
+        font-family: "helveticaltstd";
+        color: #262B2F;
+        letter-spacing: 1.2px;
+        font-size: 1.5em;
+        vertical-align: middle;
+    }
+
+    ul li .fa-3x {
+        vertical-align: middle;
+        text-shadow: 1px 2px 2px rgb(29, 29, 29);
+    }
+
+    a {
+        display: block;
+    }
+
+    h3 {
+        margin: 20px 0;
+        color: black;
+        border-bottom: 2px solid lightgray;
+        font-size: 1.6em;
+        font-family: "helveticaltstd";
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    li {
+        margin: 7px 0;
+    }
+
+    input {
+        font-size: 15px;
+        vertical-align: sub;
+        width: 100%;
+
+        border: 1px solid #dedede;
+        padding: 12px;
+        color: #515151;
+    }
+
+}
+
+.emailMargin {
+    margin-right: 10px;
+}
+
+.ContactSmallHeader {
+    margin: 20px 0;
+
+    h3 {
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+
+.fa-twitter-square {
+    color: #4099FF;
+}
+
+.fa-google-plus-square {
+    color: #dd4b39;
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-file-pdf-o {
+    color: red;
+}
+
+.fa-linkedin-square {
+    color: #0177B5;
+}

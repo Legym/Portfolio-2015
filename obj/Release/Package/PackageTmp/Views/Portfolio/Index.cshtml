@@ -1,61 +1,134 @@
 ﻿@{
     ViewBag.Title = "Portfolio";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    @section Styles {
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
+    }
 }
 
 <header class="PortHeader">
 
-    <div class="PortText">
-        <h1>Featured Work</h1>
-        <p>
-            <span>BreatheDotA.com </span> is an informational website pertaining to the PC Game DOTA2. Features currently in the works: An email newsletter, Amazon affiliate links, and the formulation of a strong online presence of social media and marketing. C#/ Razor, Umbraco, and Foundation are just a few tools I used. <b class="PortStyle">Still In progress</b>.</p>
+    <section class="about-section5">
+        <div class="portfolio-slideshow">
 
-        <p>
-            <span>Mygelb.com </span>is my latest project. It's <b class="PortStyle">Custom made</b> & <b class="PortStyle">designed to be responsive</b> to demonstrate working knowledge of web development.
-        </p>
+            <article style="background: url(/Content/img/project-fig.jpg); background-size: cover;">
 
-        <p>
-            <span>Team.Evasion</span> is a small paid project for a game related website. Client needed a one page <b class="PortStyle">PSD converted into a website</b> and did not ask for it to be built for mobile.
-        </p>
+                <div class="section5-title">
+                    figmtnbrew.com
+                </div>
 
-    <div class="PortBottomText">
-        <a target="_blank" href="https://github.com/Legym">
-            <div class="buttonPort">
-                <span>Github</span>
-            </div>
-        </a>
-
-        <h4>* Github contribution chart is mostly empty. Email address on local machine was not matched to primary github account settings for three weeks. Check commit dates on files!</h4>
-    </div>
-    </div><!--
-    --><div class="PortContent">
-    <div class="oi2">
-        <h3>My Projects</h3>
-    </div>
-
-        <article class="Project1">
-            <div class="PortButton">
-                <span class="disable">You're already here</span>
-            </div>
-        </article>
-
-        <a target="_blank" href="http://breathedota.azurewebsites.net/">
-            <article class="Project2 wiggle">
-                <div class="PortButton">
-                    <span>Click Here</span>
+                <div class="wrapper">
+                    <div class="col-sm-12">
+                        ##TEST##
+                    </div>
                 </div>
             </article>
-        </a>
+
+            <article style="background: url(/Content/img/project-aasgard.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    aasgardsummit.net
+                </div>
+
+                <div class="wrapper">
+                    <div class="col-sm-12">
+                        ##TEST##
+                    </div>
+                </div>
+            </article>
+
+            <article style="background: url(/Content/img/proj-nwedison.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    www.nwedison.com
+                </div>
+
+                <div class="wrapper">
+                    <div class="col-sm-12">
+                        ##TEST##
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="slider-nav">
+            <article id="slider-proj" style="background: url(/Content/img/project-fig.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    figmtnbrew.com
+                </div>
+
+                <div class="proj-content">
+                    ##TEST##
+                </div>
+
+            </article>
 
 
-           <a target="_blank" href="http://mb1.azurewebsites.net">
-               <article class="Project3 wiggle">
-                   <div class="PortButton">
-                       <span>Click Here</span>
-                   </div>
-               </article>
-           </a>
 
-</div>
-   
+
+            <article id="slider-proj" style="background: url(/Content/img/project-aasgard.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    aasgardsummit.net
+                </div>
+
+                <div class="proj-content">
+                    ##TEST##
+                </div>
+            </article>
+
+
+            <article id="slider-proj" style="background: url(/Content/img/proj-nwedison.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    www.nwedison.com
+                </div>
+
+                <div class="proj-content">
+                        ##TEST##
+                </div>
+            </article>
+
+
+
+            <article id="slider-proj" style="background: url(/Content/img/proj-nwedison.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    www.nwedison.com
+                </div>
+
+                <div class="proj-content">
+                    ##TEST##
+                </div>
+            </article>
+
+
+
+            <article id="slider-proj" style="background: url(/Content/img/proj-nwedison.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    www.nwedison.com
+                </div>
+
+                <div class="proj-content">
+                    ##TEST##
+                </div>
+            </article>
+
+
+            <article id="slider-proj" style="background: url(/Content/img/proj-nwedison.jpg); background-size: cover;">
+
+                <div class="section5-title">
+                    www.nwedison.com
+                </div>
+
+                <div class="proj-content">
+                    ##TEST##
+                </div>
+            </article>
+        </div>
+    </section>	
 </header>

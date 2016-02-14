@@ -11,30 +11,34 @@
 .HomepageContainer {
     background-image: url('/Content/img/Hompage1.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: 50%;
     background-color: white;
     height: 180px;
     border-bottom: #dddddd solid 1px;
     background-position-y: 20px;
     padding: 0 $HomepageContainerMobile;
+    background-size: contain;
 
     @media only screen and (min-width: 40.063em) { 
         padding: 30px $HomepageContainerTablet;
         height: 240px;
-        background-position-y: 10px;
-        background-position-y: 2em;
+        background-position-y: 7em;
+        padding-top: 125px !important;
+        
     }
 
     @media only screen and (min-width: 64.063em) {
         padding: 30px $HomepageContainerDesktop;
-        height: 480px;    
+        height: 560px;    
         background-image: url('/Content/img/Hompage-Picture2.jpg');
+        background-position-y: 7em;
+        background-size: inherit;
     }
 
     @media only screen and (min-width: 90.063em) { 
         padding: 30px $HomepageContainerXDesktop;
-        height: 480px;
+        height: 600px;
+        background-position-y: 7em;
     }
 }
 

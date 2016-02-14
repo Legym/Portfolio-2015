@@ -29,10 +29,12 @@
     }
 
     @media only screen and (min-width: 64.063em) {
+        padding-top: 140px;
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 60px $ContactContainerDesktop
+        padding: 60px $ContactContainerDesktop;
+        padding-top: 140px;
     }    
 }
 
@@ -65,11 +67,11 @@
     }
 
     @media only screen and (min-width: 40.063em) { 
-        padding: 60px 5%;
+        padding: 60px 5% 0 5%;
     }
 
     @media only screen and (min-width: 64.063em) {
-        padding-bottom: 5em;
+        padding-bottom: 0;
     }
 
     @media only screen and (min-width: 90.063em) { 
@@ -194,7 +196,7 @@
         font-family: "helveticaltstd";
         color: #262B2F;
         letter-spacing: 1.2px;
-        font-size: 1.5em;
+        font-size: 1.4em;
         vertical-align: middle;
     }
 
@@ -268,8 +270,45 @@
 
 .fa-file-pdf-o {
     color: red;
+    float: left;
 }
 
 .fa-linkedin-square {
     color: #0177B5;
+}
+
+.resume-pdf span {
+    margin: 0;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+
+.btn {
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 0px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+
+  span {
+        letter-spacing: 0 !important;
+        font-size: 18px;
+        color: white;
+  }
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
 }

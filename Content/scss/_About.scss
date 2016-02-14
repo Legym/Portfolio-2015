@@ -47,6 +47,10 @@ li.image a:hover {
     padding: 50px 30px;
     border-bottom: #dddddd solid 1px;
 
+    @media only screen and (min-width: 40.063em) { 
+        padding-top: 125px !important;
+    }
+
     h1 {
         font-family: "pratersanstwo";
         font-weight: 600;

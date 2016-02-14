@@ -1,0 +1,204 @@
+﻿#header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: none;
+    padding: 10px 0;
+
+    @media only screen and (min-width: 40.063em) { 
+        height: 40px;
+        padding: 20px 0;
+    }
+}
+
+
+.HeaderEffects {
+  background: url("/Content/img/edge.png") repeat-x bottom left transparent;
+  display: inline-block;
+  height: 19px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  z-index: 99;
+
+    @media only screen and (min-width: 40.063em) { 
+        top: -11px;
+    }
+
+}
+
+.HeaderContainer {
+    width: $HeaderContainerMobile;
+    padding: 5px 5%;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 0 $HeaderContainerTablet;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 0 $HeaderContainerDesktop;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 0 $HeaderContainerXDesktop;
+        width: 60%;
+    }
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    width: 100px;
+
+    img {
+        height: 40px;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        position: relative;
+        top: -7px;
+        width: 30%; 
+        
+        img {
+            height: 60px;
+            width: 170px;
+        }            
+    }
+
+    @media only screen and (min-width: 64.063em) {
+                   
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+              
+    }
+}
+
+#Navigation {
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    text-align: center;
+    z-index: 999;
+    
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    li {
+        border-top: #212121 solid 1px;
+        border-bottom: #363636 solid 1px;
+    }
+
+    a {
+        color: white;
+        display: block;
+        height: 70px;
+        line-height: 70px;
+        font-family: helveticaltstd;
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+    }
+
+    a:hover {
+        color: gray;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        position: relative;
+        width: auto;
+        top: 0;
+        background-color: transparent;
+        float: right;
+
+
+        li {
+            display: inline-block;
+            padding: 0 15px;
+            border-top: none;
+            border-bottom: none;
+        }
+
+        a {
+            line-height: 40px;
+
+        }
+
+        a:hover {
+            color: GrayText;
+        }
+    }
+}
+
+.footer {
+    text-align: center;
+
+    p, a {
+        font-family: Roboto;
+    }
+}
+
+
+#nav-toggle { 
+    display: inline-block;
+    float: right; 
+
+    @media only screen and (min-width: 40.063em) { 
+        display: none;
+    }
+}
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+.FotterColor {
+
+    a   { 
+        color: gray;
+        }
+
+    a:hover {
+        color: white;
+    }
+}

@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+@font-face {
+  font-family: 'pratersanstwo';
+  font-weight: 600;
+  src: url('/content/fonts/pratersanstwo.eot'); /* IE9 Compat Modes */
+  src: url('/content/fonts/pratersanstwo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/content/fonts/pratersanstwo.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/content/fonts/pratersanstwo.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/content/fonts/pratersanstwo.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/content/fonts/pratersanstwo.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+@font-face {
+  font-family: 'helveticaltstd';
+  font-weight: 400;
+  src: url('/content/fonts/helveticaltstd-cond.eot'); /* IE9 Compat Modes */
+  src: url('/content/fonts/helveticaltstd-cond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/content/fonts/helveticaltstd-cond.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/content/fonts/helveticaltstd-cond.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/content/fonts/helveticaltstd-cond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/content/fonts/helveticaltstd-cond.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'helveticaltstd';
+  font-weight: 900;
+  src: url('/content/fonts/helveticaltstd-boldcond.eot'); /* IE9 Compat Modes */
+  src: url('/content/fonts/helveticaltstd-boldcond.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/content/fonts/helveticaltstd-boldcond.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/content/fonts/helveticaltstd-boldcond.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/content/fonts/helveticaltstd-boldcond.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/content/fonts/helveticaltstd-boldcond.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

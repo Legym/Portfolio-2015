@@ -1,0 +1,1217 @@
+﻿@keyframes toast {
+	50% { transform: translateY(-6px); }
+	100% { transform: translateY(0px); }
+}
+
+@keyframes toast2 {
+	20% { transform: translateY(-6px); }
+	100% { transform: translateY(0px); }
+}
+
+.bounce2 {
+  font-size: 5em;
+  transform: translateY(0);
+  animation: toast 5s infinite;
+}
+
+.bounce {
+  font-size: 5em;
+  transform: translateY(0);
+  animation: toast2 5s infinite;
+}
+
+section {
+
+    p {
+        font-family: "open-sans";
+        color: #545353;
+        line-height: 1.9;
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+}
+
+
+.topHeader {
+    position: absolute;
+    bottom: 75px;
+    height: 100%;
+}
+
+i.fa.fa-lightbulb-o.fa-5x {
+    text-shadow: 4px 2px 2px #1d1d1d;
+    color: white;
+    margin-bottom: 10px;
+    transform: translateY(0);
+    animation: homepage1 5s infinite;
+}
+
+
+i.fa.fa-book.fa-5x {
+    text-shadow: 4px 2px 2px #1d1d1d;
+    color: white;
+    margin-bottom: 10px;
+    transform: translateY(0);
+    animation: homepage1 5s infinite;
+}
+
+i.fa.fa-wrench.fa-5x {
+    text-shadow: 4px 2px 2px #1d1d1d;
+    color: white;
+    margin-bottom: 10px;
+    transform: translateY(0);
+    animation: homepage1 5s infinite;
+}
+
+
+.WorkFlowTopSection {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #2B9CD1;
+  padding: 10% 0;
+
+    @media only screen and (min-width: 40.063em) { 
+          padding: 5% 0;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+      width: 100%;
+        padding: 5% 0;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.WorkFlowStep1Section {
+    width: 100%;
+    border-bottom: 1px solid rgb(234, 234, 234);
+
+    p {
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        p {
+            font-size: .65em;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        p {
+            font-size: .65em;
+        }
+    }
+}
+
+.WorkflowPadding {
+    padding: 0 5% 0 5%;
+
+    h1 {
+      font-family: "league-gothic";
+      font-weight: 100;
+
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        font-size: 1.4em;    
+
+
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+    }
+}
+
+.WFCol {
+  display: inline-block;
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin: 0;
+        text-shadow: 1px 1px 1px rgb(226, 226, 226);
+        font-family: "league-gothic";
+        font-weight: 100;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    h3 {
+        color: white;
+        font-family: "league-gothic";
+        margin: 0;
+        font-size: 1.3em;
+        font-weight: 100;
+        text-shadow: 2px 2px 5px black;
+    }
+}
+
+.WFSpace {
+    margin: 0 8%;
+}
+
+.TopSection {
+    padding-top: 10%;
+    line-height: 2.4em;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding-top: 4%;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+    }
+}
+
+.WorkflowPaddingStep1 {
+    padding: 0 5% 0 5%;
+    text-align: center;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 0 20% 0 20%;
+    }
+}
+
+
+.Steps {
+    float: left;
+    text-align: center;
+    background-color: #2B9CD1;
+    height: 90px;
+    width: 15%;
+
+    span {
+        font-size: 3em;
+        color: white;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 10%;
+
+        span {
+            font-size: 4em;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        height: 120px;
+        width: 8%;
+
+        span {
+            font-size: 5.4em;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        height: 150px;
+        width: 10%;
+
+        span {
+            font-size: 7em;
+            color: white;
+            text-shadow: 2px 3px 2px black;
+        }
+    }
+}
+
+.StepsContainer {
+    width: 75%;
+    padding: 5%;  
+    display: inline-block;  
+      text-align: left;
+
+    h1 {
+        margin: 0;
+        font-family: "ff-prater-sans-web";
+        font-size: 1.9em;
+        color: black;
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 3.5%;
+        font-size: 1.8em;    
+        float: left;
+        width: 80%;
+
+        h1 {
+            font-size: 1.4em;
+            line-height: 1.3em;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 80%;
+        float: left;
+        padding: 3.5%;    
+
+        h1 {
+            margin: 0;
+            font-family: "ff-prater-sans-web";
+            font-size: 1.8em;
+        }
+
+        
+
+    }
+}
+
+
+
+.Step1Images {
+    padding-bottom: 90px;
+
+    img {
+        display: block;
+        width: 100%;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+        margin-bottom: 2em;
+    }
+
+    img:hover {
+        transform: translateY(0);
+        animation: homepage1 5s infinite;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        img {
+            display: inline-block;
+            width: 32%;
+            margin-bottom: 0;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        img {
+            display: inline-block;
+            width: 33%;
+        }  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.WorkFlowStep2Section {
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    /*padding-bottom: 80px;*/
+
+    @media only screen and (min-width: 64.063em) {
+
+        p {
+            font-size: .65em;
+        }
+    }
+
+
+}
+
+.Step2Images {
+    width: 100%;
+
+    img {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 20px;
+
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+        img {
+            margin-right: 7px;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 48%;
+        vertical-align: top;
+        margin-right: 20px;
+
+        img {
+            display: inline-block;
+            margin-bottom: 20px;
+            margin-right: 15px;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step2TopBox {
+    margin-top: 20px;
+    text-align: center;
+
+    h3 {
+        font-family: "ff-prater-sans-web";
+        display: inline;
+        padding: 15px;
+        color: rgb(53, 53, 53);
+        background-color: #f8f8f8;
+        border: 1px solid #e2e2e2;
+        font-weight: 100;
+    }
+
+    p {
+        margin-top: 30px;
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
+
+
+.Step5Text {
+
+    h3 {
+        font-family: "ff-prater-sans-web";
+    }
+
+    p {
+        font-size: .95em;
+    }
+}
+
+.Step2BottomBox {
+
+    h3 {
+        font-family: "ff-prater-sans-web";
+        display: inline;
+        padding: 15px;
+        color: rgb(53, 53, 53);
+        background-color: #f8f8f8;
+        border: 1px solid #e2e2e2;
+    }
+
+    p {
+        margin-top: 30px;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        text-align: left;
+    }
+}
+
+ul.step2ul {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2.5em;
+
+    -moz-column-count: 2;
+    -moz-column-gap: 2.5em;
+
+    column-count: 2;
+    column-gap: 2.5em;
+
+
+
+    margin-top: 1.8em;
+    font-family: 'Open-Sans';
+
+  li {
+      padding: 5px 0;
+  }
+}
+
+.Step2Box {
+
+
+    @media only screen and (min-width: 40.063em) { 
+       
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 47%;     
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step2BottomBox {
+    margin-top: 40px;
+}
+
+.Step2LeftBox {
+    text-align: center;
+
+    h3 {
+        margin: 0;
+        font-weight: 100;
+    }
+
+    a {
+        display: block;
+        color: #333;
+        text-decoration: underline;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        height: 250px;
+        padding-right: 10px;       
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        vertical-align: top;
+        height: 250px;
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+
+}
+
+.Step2RightBox {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 2em;
+
+    h3 {
+        margin: 0;
+        text-align: center;
+        font-weight: 100;
+    }
+
+
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        width: 39%;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        padding-left: 30px;
+        border-left: 1px solid lightgray;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+
+
+}
+
+.WorkFlowStep3Section {
+    border-bottom: 1px solid rgb(234, 234, 234);
+    /*padding-bottom: 120px;*/
+
+    @media only screen and (min-width: 64.063em) { 
+
+        p {
+            font-size: .65em;
+        }
+    }
+}
+
+
+
+.WorkflowPaddingStep3 {
+    padding: 0 5% 0 5%;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+    
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 0 20% 0 20%;
+    }
+}
+
+.Step3FlowLeft {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    background: url('/Content/img/Workflow/BuePoster.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        font-family: "ff-prater-sans-web";
+        color: black;
+        background-color: white;
+        border: 1px solid #e2e2e2;
+        font-size: 1.6em;
+        padding: 15px;
+        font-weight: 100;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        height: 400px;
+        background-position: center;
+
+        h1 {
+            text-align: center;
+            font-size: 1.8em;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 40%;
+        height: 500px;
+        margin-right: 60px;
+        vertical-align: top;
+        background-position: top; 
+            background-position: left;       
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        h1 {
+            text-align: center;
+        }
+    }
+
+
+}
+
+.Step3FlowDesign {
+  display: inline-block;
+  right: 20px;
+  width: 50%;
+  vertical-align: bottom;
+  position: relative;
+  top: 260px;
+  left: 8%;
+
+  h2 {
+  color: white;
+  font-family: "ff-prater-sans-web";
+  font-size: 1.5em;
+  }
+}
+
+.Step3FlowCross {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  top: 260px;
+  left: 6%;
+
+  h2 {
+        color: white;
+  font-family: "ff-prater-sans-web";
+  font-size: 1.5em;
+  }
+}
+
+
+.Step3FlowRight {
+    height: auto;
+
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 50%;
+        height: auto;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 49%;
+    }
+}
+
+.Step3List {
+    padding: 0;
+    margin-top: 40px;
+
+    h3 {
+        margin: 0;
+        font-family: "ff-prater-sans-web";
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 5px;
+        font-size: 1.6em;
+        border-bottom: 1px solid lightgray;
+    }
+
+    ul {
+        padding: 0;
+        margin: .5em 0;
+      
+    }
+
+    li {
+        padding: 1em 0;
+        font-family: 'Open-Sans';
+    }  
+
+    span {
+        color: gray;
+        font-family: 'Open-Sans';
+    }
+
+
+    @media only screen and (min-width: 40.063em) { 
+
+        ul {
+            -webkit-column-count: 2;
+            -webkit-column-gap: 2.5em;
+
+            -moz-column-count: 2;
+            -moz-column-gap: 2.5em;
+
+            column-count: 2;
+            column-gap: 2.5em;  
+        }
+
+        h3 {
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        margin-top: 0;
+        height: 340px;
+        text-align: left;
+
+        li {
+            padding: 10px 0;
+        } 
+
+        ul {
+            height: auto;
+            padding-left: 15px;
+
+        }
+
+        h3 {
+            text-align: left;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step3Padd {
+    padding-bottom: 2em;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding-bottom: 0;
+        height: 250px;
+    }
+
+
+}
+
+.Step3Style {
+  font-size: 3em;
+  margin-right: 20px;
+  vertical-align: text-bottom;
+    color: lightgray;
+  text-shadow: 1px 1px 2px rgb(16, 16, 16);
+}
+
+.Step3Box {
+    display: inline-block;
+    text-align: left;
+
+    h2 {
+        margin: 0;
+        font-size: 1.4em;
+        font-family: 'League-Gothic';
+        font-weight: 100;
+        color: #353535;
+    }
+}
+
+
+ul.Step3Lang {
+
+  img { 
+      max-width: 15%;
+      height: 15%;
+      margin-right: 10px;
+  }
+}
+
+
+.Steps4Obj1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.Steps4Obj2 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.Steps4Obj3 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.Steps4Obj4 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.Steps4Col {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 48%;
+        display: inline-block;
+        border-bottom: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 25%;
+        height: 250px;
+        padding: 0 20px;
+        vertical-align: top;
+        border-bottom: none;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.AlignFix {
+    text-align: center;
+}
+
+.Step4Filler {
+    display: inline-block;
+    background-color: #2B9CD1;
+    padding: 3em;
+    width: 5em;
+    border-radius: 100%;
+    border: 1px solid #b8b8b8;
+    margin-bottom: 1em;
+}
+
+.WorkFlowStep4Section {
+    border-bottom: 1px solid rgb(234, 234, 234);
+    background-color: white;
+
+    @media only screen and (min-width: 64.063em) {
+        padding-bottom: 220px;
+
+        p {
+            font-size: .65em;
+        }
+    }
+}
+
+
+.WorkFlowStep5Section {
+    padding-bottom: 60px;
+}
+
+.Steps5Col {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 29%;
+        height: 250px;
+        padding: 0 20px;
+        vertical-align: top;
+        padding-bottom: 140px;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+
+}
+
+.Step5Filler {
+    height: 150px;
+    width: 100%;
+}
+
+.Step5IMGTag {
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/Content/img/Workflow/BackEnd.svg");
+  width: 100%;
+  background-position-x: 50%;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        background-position-x: 0;
+        width: 30%;
+        vertical-align: middle;        
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step5IMGText {
+    display: inline-block;
+    text-align: center;
+
+        h3 {
+            color: #333;
+            margin: 0;
+            font-size: 1.4em;
+            display: inline-block;
+            font-family: "ff-prater-sans-web";
+            font-weight: 100;
+        }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        text-align: left;
+        width: 57%;
+        margin-left: 30px;
+        vertical-align: middle;
+        margin-top: 0;
+
+
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step5LeftCol {
+    width: 100%;    
+    height: auto;
+    text-align: left;
+    vertical-align: top;
+
+    p {
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 58%;
+          border-right: 1px solid lightgray;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+    }
+}
+ 
+.Step5LeftCol2 {
+    width: 100%;    
+    height: auto;
+    text-align: center;
+
+    p {
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 30%;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step5Img {
+    height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 64px;
+    border-radius: 100%;
+    background-color: #6fbe4a;
+}
+
+ul.Step5Listing {
+    width: 80%;
+    padding: 0 10%;
+    margin-top: 30px;
+
+    li {
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: #333;
+        margin: 0;
+        display: inline-block;
+        margin-left: 20px;
+        font-family: "ff-prater-sans-web";
+        font-weight: 100;
+    }
+
+    h2 {
+        color: gray;
+        margin: 0;
+        display: inline-block;
+        margin-left: 20px;
+        font-family: "Open-Sans";
+        font-weight: 100;
+        font-size: .9em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        h2 {
+            display: block;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Step5Descript {
+    width: 68%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.Step4Text {
+
+    h3 {
+      font-family: "ff-prater-sans-web";
+      font-size: 1.4em;
+      font-weight: 100;    
+        margin-top: 5px;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+
+.Step4Fix {
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+            border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.footer {
+    background-color: #e4e4e4;
+    width: 90%;
+    padding: 0 5%;
+    margin-top: 3em;
+    border-top: 1px solid #C8C8C8;
+      height: 6em;
+      background-color: black;
+
+    @media only screen and (min-width: 40.063em) { 
+        
+    }
+
+    @media only screen and (min-width: 64.063em) {
+          
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 0 15%;
+        width: 70%;
+    }
+}
+
+.Arrow {
+  text-align: center;
+  height: 4.5em;
+
+      
+    img {
+        height: 6em;
+        position: relative;
+        bottom: 3em;
+    }
+}
+
+.Copyright {
+    position: relative;
+      bottom: 2em;
+
+    p {
+        margin: 0;
+        color: gray;
+    }
+
+    li {
+          display: inline-block;
+  margin-left: 1.4em;
+  font-family: 'Open-Sans';
+  color: gray;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+          bottom: 2.5em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+
+
+}
+
+.Copy {
+
+    @media only screen and (min-width: 64.063em) {
+          float: left;
+    }
+
+}
+
+.Menu {
+    display: none;
+
+    @media only screen and (min-width: 40.063em) { 
+        display: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+          float: right;
+          display: inline-block;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+        a {
+            color: gray;
+        }
+    }
+
+}
+
+#top img:hover{
+    transform: translateY(0);
+  animation: homepage1 1s infinite;
+}
+
+ul.Step3Fix {
+
+    @media only screen and (min-width: 64.063em) {
+        height: 250px;
+    }
+}
+
+.fixGit {
+    display: inline !important;
+}
+
+i.fa.fa-check {
+  position: relative;
+  top: 14px;
+  font-size: 2em;
+  color: white;
+}

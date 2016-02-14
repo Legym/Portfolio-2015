@@ -1,0 +1,434 @@
+﻿.PortHeader {    
+    margin-top: 10px;
+    padding-bottom: 7em;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding-bottom: 25em;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding-bottom: 3em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 0 20%;
+        height: 65em;
+    }
+
+    .portfolio-projects {
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.Project1 {
+    background-image: url('/Content/img/Portfolio/Mobile/Port.jpg');
+    height: 250px;
+    margin-bottom: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .5;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/Port.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        border: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/Port.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Project2 {
+  background-image: url("/Content/img/Portfolio/Mobile/BreatheDotA.jpg");
+  height: 250px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: 50%;
+  background-position-x: 50%;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/BreatheDotA.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16.5em;
+        height: 12em;
+        top: 1.5em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 13em;       
+        border: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/BreatheDotA.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16.5em;
+        height: 12em;
+        top: 1.5em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 15em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Project3 {
+  background-image: url("/Content/img/Portfolio/Mobile/Counter.jpg");
+  height: 250px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+    @media only screen and (min-width: 40.063em) { 
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/CounterStrike.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        top: 19em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;    
+        border: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        position: absolute;
+        background-image: url("/Content/img/Portfolio/CounterStrike.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 11.5em;
+        height: 100%;
+        top: 15em;
+        display: block;
+        margin-bottom: 0;
+        box-shadow: none;
+        background-color: transparent;
+        left: 15em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+
+@keyframes PortBounce {
+	20% { transform: translateX(-4px); }
+	100% { transform: translateX(0px); }
+
+	20% { -moz-transform: translateX(-4px); }
+	100% { -moz-transform: translateX(0px); }
+
+    20% { -ms-transform: translateX(-4px); }
+    100% { -ms-transform: translateX(0px); }
+}
+
+/*.PRojectEffect:hover {
+    transition: ease-in 1s;
+    animation: PortBounce 3s infinite;
+    transform: translateX(0);
+
+     -moz-transition: ease-in 1s;
+     -moz-animation: PortBounce 3s infinite;
+     -moz-transform: translateX(0);
+
+    -o-transition: ease-in 1s;
+    -o-animation: PortBounce 3s infinite;
+    -o-transform: translateX(0);
+
+
+}*/
+
+.PortText {
+    width: 100%;
+    margin-bottom: 3em;
+
+    h1 {
+      font-size: 4em;
+      color: #111;
+      margin: .3em 0;
+      margin-top: .5em;
+      line-height: 1em;
+      font-family: "ff-prater-sans-web";    
+    }
+
+    p {
+        color: #888;
+        border: 1px solid #e2e2e2;
+        padding: 1em;
+        background-color: white;
+        font-family: 'Open-Sans';
+        font-size: 1.1em;
+        line-height: 1.8em;
+    }
+
+    span {
+        color: #222;
+        font-size: 1.8em;
+        display: block;
+        font-family: 'league-Gothic';
+        margin-bottom: 10px;
+    }
+
+    
+    @media only screen and (min-width: 40.063em) { 
+        margin-bottom: 0;
+        h1 {
+            font-size: 4em;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 50%;
+        display: inline-block;
+
+        h1 {
+           margin-top: 0.8em;
+           font-size: 4em;
+        }
+
+
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.oi2 {
+    color: #888;
+    font-family: "League-Gothic";
+    letter-spacing: 1px;
+    font-weight: 100;
+    height: 1px;
+    background: #DDD;
+    border-bottom: #FFF solid 1px;
+    margin-bottom: 3em;
+    text-align: center;
+    margin-top: 20px;
+
+    h3 {
+        text-align: center;
+        color: #888;
+        font-family: "League-Gothic";
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin: 0px;
+        text-align: center;
+        padding: 0 35px;
+        position: relative;
+        top: -17px;
+        background: #f8f8f8 url(/Content/img/sos.png) repeat;
+        display: inline-block;
+        font-size: 2em;
+    }
+
+     @media only screen and (min-width: 40.063em) { 
+        display: none;
+    }
+
+}
+
+.PortContent {
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 70%;
+        margin: 0 auto;
+        height: 300px;
+        position: relative;
+
+        h1 {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 48%;
+        display: inline-block;
+        height: 300px;
+        position: relative;
+        left: 2em;
+        padding-left: 2%;
+        vertical-align: top;
+        margin-top: 2em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+b.PortStyle {
+  color: #267CBC;
+}
+
+.about-section5 {
+
+	h3 {
+		font-size: 48px;
+		font-weight: 100;
+		margin-bottom: 60px;
+		margin-left: 65px;
+	}
+
+    .slider-nav {
+
+        #slider-proj, .slick-slide {
+            background-size: 300px 200px !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            outline: none;
+
+            &:after {
+                content: none;
+            }
+
+            .proj-content {
+                display: none;
+            }
+
+            .section5-title {
+                display: none;
+            }
+        }
+    }
+
+    .portfolio-slideshow {
+        position: relative;
+        top: -8px;
+
+	    .slick-slider {
+		    margin-bottom: 0;
+	    }
+    }
+
+
+	.slick-prev {
+		background: url(/content/img/arrow-about-left.png);
+		height: 81px;
+		z-index: 999;
+		width: 56px;
+		background-repeat: no-repeat;
+		left: 110px;
+        font-size: 0;
+        border: 0;
+        top: 45%;
+        position: absolute;
+
+		&:before {
+			content: none;
+		}
+	}
+
+	.slick-next {
+		background: url(/content/img/arrow-about-right.png);
+		height: 81px;
+		z-index: 999;
+		width: 56px;
+		background-repeat: no-repeat;
+		right: 110px;
+        font-size: 0;
+        border: 0;
+        top: 45%;
+        position: absolute;
+
+		&:before {
+			content: none;
+		}			
+	}
+
+	article {
+		height: 330px;
+		position: relative;
+		text-align: center;
+
+
+		p {
+			color: white;
+			font-weight: 100;
+			font-size: 18px;
+			z-index: 99;
+			position: relative;
+			line-height: 2em;	
+			line-height: 530px;			
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+
+	}
+
+	.slick-center {
+			
+		&:after {
+			position: absolute;
+			top: 0;
+			content: "";
+			background-color: black;
+			opacity: .5;
+			width: 100%;
+			height: 100%;
+			display: block;
+		}				
+	}	
+
+	.section5-title {
+		color: white;
+		font-weight: 500;
+		font-size: 13px;
+		background-color: #333;
+		display: inline-block;
+		position: absolute;
+		z-index: 2;
+		padding: 10px 24px;
+		bottom: 0;
+		font-weight: bold;
+		letter-spacing: .15em;
+		left: 0;
+	}	
+
+}		                  

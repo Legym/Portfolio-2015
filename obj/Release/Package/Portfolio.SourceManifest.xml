@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Backup\Portfolio\Portfolio\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Backup\Portfolio\Portfolio\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\FederationCore\Documents\Visual Studio 2013\Projects\Backup\Portfolio\Portfolio\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\inetpub\wwwroot\Mygelb\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\inetpub\wwwroot\Mygelb\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\inetpub\wwwroot\Mygelb\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

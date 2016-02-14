@@ -1,0 +1,645 @@
+﻿@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+
+
+li.image a:hover {
+    background-color: rgb(230, 242, 250);
+    -webkit-transition: .5s ease-in-out;
+}
+
+.AboutContainer {
+    background-color: white;
+    padding: 50px 30px;
+    border-bottom: #dddddd solid 1px;
+
+    h1 {
+        font-family: "pratersanstwo";
+        font-weight: 600;
+        margin: 0;
+        font-size: 4em;
+        color: black;
+
+        @media only screen and (min-width: 40.063em) { 
+            font-size: 5em;
+            color: black;
+        }
+    }
+
+    h2 {
+      font-family: "ff-prater-sans-web";
+      font-size: 1.6em;
+      font-weight: 100;
+      margin-top: 0;
+      color: #3498db;
+      line-height: 1.3em;
+    }
+
+    p {
+        color: #555555; 
+        margin-bottom: 1.4em;
+        line-height: 1.9em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 50px $AboutContainerTablet;
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 50px $AboutContainerDesktop;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 50px $AboutContainerDesktopX
+    }
+}
+
+.AboutTop {
+    margin-bottom: 3em;
+    border-bottom: 1px solid lightgray;
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-bottom: 1.5em;    
+
+    }
+}
+
+.AboutIntro {
+
+    p {
+        font-family: Roboto;
+    }
+
+
+    @media only screen and (min-width: 40.063em) {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 40%; 
+        display: inline-block;
+        vertical-align: top;
+
+        h2 {
+            margin-top: 0;
+            color: #3498db;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 40%; 
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.FaceImage {
+
+    img {
+        width: 100%;
+        margin-left: 5%;
+        padding-bottom: 2em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        display: inline-block;
+        text-align: right;
+
+        img {
+            width: 60%;
+            margin-right: 10%;
+            margin-left: 0;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 59%;
+
+        img {
+            width: 80%;
+            margin-left: 20%;
+        }
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 59%;
+
+        img {
+            width: 80%;
+            margin-right: 10%;
+        }
+
+    }
+}
+
+.FaceSmallImages {
+    ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-top: 4em;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        margin-top: 2em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        margin: 2em 0 0 0;
+    }
+}
+
+
+.image {
+    margin-right: 2px;
+    width: 130px;
+    display: inline-block;
+    background-color: rgba(247, 247, 247, 0.44);
+    margin-bottom: 10px;
+    border: 1px solid rgb(239, 239, 239);
+
+    img {
+        max-width: 100%;
+        height: 50px;
+    }
+
+    a {
+        display: block;
+        width: auto;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 200px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+
+        img {
+            max-width: 100%;
+            height: 113px;
+        }
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 150px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+
+        img {
+            max-width: 100%;
+            height: 100px;
+        }    
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 14%;
+        margin-right: 10px;
+
+        img {
+            max-width: 100%;
+            height: 75px;
+        }
+    }
+}
+
+.InterestImageContainer {
+    text-align: center;
+    padding: 30px;
+
+    ul {
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        margin: 0;
+        display: inline-block;
+        padding: 0;
+        color: black;
+        font-family: pratersanstwo;
+        font-weight: 600;
+        font-size: 5em;
+        line-height: 1em;
+    }
+
+    h3 {
+        font-family: "ff-prater-sans-web";
+        font-size: 1.6em;
+        margin: 15px 0;
+        color: rgb(52, 152, 219);
+        font-weight: 100;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 140px $InterestImageContainerDesktop 140px $InterestImageContainerDesktop;
+        text-align: center;
+
+        h1 {
+            margin-top: 0;
+            display: inline-block;
+            font-size: 5em;
+        }
+
+        h3 {
+          font-family: "ff-prater-sans-web";
+          font-size: 2.4em;
+          margin: 15px 0;
+        }
+    }
+
+}
+
+.JunkieFixTop {
+    padding: 80px 5% 80px 5%;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 80px 5% 120px 5%;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 80px $InterestImageContainerDesktop 120px $InterestImageContainerDesktop;  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 80px $InterestImageContainerXDesktop 120px $InterestImageContainerXDesktop;
+
+    }
+}
+
+
+
+.InterestImageContainerL {
+    text-align: center;
+    padding: 40px 5% 80px 5%;
+    position: relative;
+
+    @media only screen and (min-width: 40.063em) { 
+        padding: 120px $InterestImageContainerTablet 120px $InterestImageContainerTablet;
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        padding: 90px $InterestImageContainerDesktop 120px $InterestImageContainerDesktop;  
+        text-align: left;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        padding: 90px $InterestImageContainerXDesktop 120px $InterestImageContainerXDesktop;
+        text-align: left;
+
+    }
+}
+
+.InterestLeftContainer {
+
+    @media only screen and (min-width: 40.063em) { 
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        width: 50%;
+        display: inline-block;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        width: 50%;
+        float: left;
+        margin-right: 3em;
+    }
+}
+
+.InterestRightContainer {
+    z-index: 99;
+    display: inline-block;
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+        float: none;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        float: right;
+        width: 40%;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        float: none;
+        width: 40%;
+    }
+}
+
+.tableCoffee {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+
+    @media only screen and (min-width: 40.063em) { 
+        background-image: url('/Content/img/AboutMe/Poly.png');
+        margin-top: 30px;
+        padding: 60px 10% 90px 25%;
+        box-shadow: 2px 3px 2px;
+        position: relative;
+        z-index: 1;
+        width: 65%;      }
+
+    @media only screen and (min-width: 64.063em) {
+        box-shadow: 2px 3px 2px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        /*padding: 60px 120px 110px 120px;*/
+        box-shadow: 2px 3px 2px;
+        position: relative;
+        z-index: 1;
+        float: right;
+    }
+}
+
+
+
+
+.Interest01 {
+    height: auto;
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+}
+
+.Interest02 {
+    background-color: white;
+    height: auto;
+    width: 100%;
+
+    img {
+        width: 90%;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+        background-color: white;
+        width: 100%;
+
+        img {
+            float: right;
+            display: block;
+            height: auto;
+            width: 30%;
+        }
+
+        .InterestText02 {
+            float: left;
+
+            h1 {
+                  font-family: "ff-prater-sans-web";
+                  font-size: 2.8em;
+            }
+        }
+    }
+
+}
+
+.CoffeeText {
+
+    h1 {
+        display: inline-block;
+        background-color: green;
+        padding: 20px;
+        color: white;
+        font-size: 1.4em;
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+  
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+    }
+
+}
+
+.MarvelText {
+    h1 {
+        display: inline-block;
+        color: black;
+        font-family: 'League-Gothic';
+        font-size: 5em;
+        line-height: 1em;
+    }
+}
+
+.Interest03 {
+    height: auto;
+    width: 100%;
+    padding-bottom: 44em;
+
+    img {
+        float: left;
+        width: 100%;
+    }
+
+    .InterestText03 {
+        display: inline-block;
+
+        h1 {
+              font-family: "ff-prater-sans-web";
+              font-size: 2.8em;
+        }
+
+        li {
+            color: #555;
+        }
+    }
+
+    @media only screen and (min-width: 40.063em) { 
+        padding-bottom: 22em;
+    }
+
+    @media only screen and (min-width: 64.063em) {  
+        height: 540px;
+        width: 100%;
+        padding-bottom: 10em;
+    }
+
+    @media only screen and (min-width: 90.063em) { 
+
+        img {
+            float: left;
+            width: 40%;
+        }
+
+        .InterestText03 {
+            float: left;
+            padding-left: 80px;
+
+            h1 {
+                  font-family: "ff-prater-sans-web";
+                  font-size: 2.8em;
+            }
+        }
+    }
+}
+
+
+.BottomAlign {
+
+}
+
+.heroes {
+  display: inline-block;
+
+    @media only screen and (min-width: 40.063em) { 
+        margin-left: 0;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        position: relative;
+        right: 100px;
+        top: 50px;
+        margin-left: 0;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+        display: inline-block;
+        position: relative;
+        right: 100px;
+        top: 50px;
+        
+        
+    } 
+}
+
+.InterestLeftContainerMarvel {    
+  float: left;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  width: 50%;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  margin-top: 3em;
+
+    @media only screen and (min-width: 40.063em) { 
+        width: 49%; 
+        margin-top: 0;
+    }
+
+    @media only screen and (min-width: 64.063em) {
+      text-align: left;
+      width: 40%;
+      display: inline-block;
+      float: left;
+      left: 30%;
+      position: static;
+      margin-top: 6em;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+          margin-right: 4em;
+          margin-top: 6em;
+    } 
+}
+
+.InterestRightContainerMarvel {
+    width: 100%;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+      width: 50%;
+      display: inline-block;
+        float: right;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+        width: 50%;
+        float: right;
+    } 
+}
+
+.JunkieCol {
+    width: 100%;
+    text-align: left;
+
+    @media only screen and (min-width: 40.063em) { 
+
+    }
+
+    @media only screen and (min-width: 64.063em) {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+    }
+
+    @media only screen and (min-width: 90.063em) {
+
+    } 
+}
