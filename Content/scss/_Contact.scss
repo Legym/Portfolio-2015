@@ -45,7 +45,7 @@
         font-family: "pratersanstwo";
         font-weight: 600;
         margin: 0;
-        font-size: 3em;
+        font-size: 2.5em;
 
         @media only screen and (min-width: 40.063em) { 
             font-size: 3em;
@@ -66,16 +66,18 @@
         line-height: 1.6em;
     }
 
-    @media only screen and (min-width: 40.063em) { 
-        padding: 60px 5% 0 5%;
+    @media only screen and (min-width: 40.063em) {         
+        padding: 125px 5% 0 5%;
     }
 
     @media only screen and (min-width: 64.063em) {
         padding-bottom: 0;
+        padding-top: 125px;
     }
 
     @media only screen and (min-width: 90.063em) { 
         padding: 60px $ContactContainerDesktop;
+        padding-top: 125px;
 
     }    
 }
@@ -136,11 +138,15 @@
 .FaceImageContact {
     width: 100%;
     vertical-align: bottom;
-
-    width: 100%;
     margin-bottom: 2em;
     padding-top: 1em;
     vertical-align: bottom;
+
+    p {
+        font-size: 24px;
+        font-family: roboto;
+        margin-top: 0;
+    }
 
 
     img {

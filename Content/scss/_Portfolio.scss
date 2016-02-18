@@ -1,4 +1,13 @@
-﻿.PortHeader {    
+﻿@keyframes borderslide {
+  0% {
+		padding-bottom: -2px;
+  }
+  50% {
+		padding-bottom: 3px;
+  }
+}
+
+.PortHeader {    
     padding-bottom: 3em;
 
     @media only screen and (min-width: 64.063em) {
@@ -158,14 +167,45 @@ b.PortStyle {
     }
 
     .portfolio-slideshow {
+        background-color: #2B9CD1;
+
+        .proj-content img {
+            max-width: 100%;
+            padding: 10px;
+            background-color: white;
+            margin: 0 auto;
+
+            @include medium {
+                width: 400px;
+                height: 300px;
+            }
+
+        }
 
         #slider-proj {
             outline: none;
             cursor: default;
+            
+
+            @include small {              
+                padding-top: 150px;
+            }
+
+            @media only screen and (min-width: 64.063em) {
+
+            }
+
+            @media only screen and (min-width: 90.063em) { 
+
+            }
         }
 
         article {
-            height: 500px;
+            
+
+            @include small {
+                height: 400px;
+            }
             
         }
 
@@ -213,15 +253,7 @@ b.PortStyle {
 		position: relative;
 		text-align: center;
 
-		p {
-			color: white;
-			font-weight: 100;
-			font-size: 18px;
-			z-index: 99;
-			position: relative;
-			line-height: 2em;	
-			line-height: 530px;			
-		}
+
 
 		&:hover {
 			cursor: pointer;
@@ -241,7 +273,11 @@ b.PortStyle {
             left: 0;
             right: 0;
             margin: 0 auto;
-            border-bottom: 5px solid #e74c3c !important;
+            border-bottom: 5px solid #2B9CD1 !important;
+
+            @media only screen and (min-width: 90.063em) { 
+                bottom: 5px;
+            }
 		}				
 	}	
 
@@ -266,3 +302,76 @@ b.PortStyle {
     outline: none;
 }
 
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-detail {    
+    text-align: center;
+
+    @include small {
+        text-align: left;
+    }
+
+    h1, a {
+        margin-top: 0;
+        font-family: pratersanstwo;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        padding-left: 60px;
+
+        li {
+            list-style: square;
+            font-family: 'Roboto';
+            margin-bottom: 10px;
+            color: white;
+            font-size: 1.05em;
+            letter-spacing: 1px;
+        }
+    }
+
+    p {
+        letter-spacing: 1px;
+        line-height: 1.2em;
+        font-family: 'Roboto';
+        color: white;
+        font-size: 1.05em;
+        margin-top: 0;
+        letter-spacing: 1px;
+    }
+
+    a {
+        font-size: 30px;
+        color: #FFF;
+        text-decoration: none;
+        border-bottom: 2px solid rgba(255, 255, 255, .0);
+        padding: 0 0 0 2px;
+        -webkit-transition: all 0.30s ease-in-out;
+        -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+        -o-transition: all 0.30s ease-in-out;
+
+        &:hover {
+	        animation: borderslide .5s;
+	        border-bottom: 4px solid rgba(255, 255, 255, 1);
+	        padding-bottom: 3px;
+        }
+    }
+}
+
+
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	margin: 0 auto;
+	border-top: 20px solid #2B9CD1;
+}

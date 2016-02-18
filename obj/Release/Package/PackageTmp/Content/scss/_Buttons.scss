@@ -41,7 +41,7 @@
 .view h2 {
     color: #fff;
     text-align: center;
-    font-family: 'Open-Sans';
+    font-family: 'helveticaltstd';
     position: relative;
     font-size: 1em;
     padding: 10px;
@@ -78,7 +78,7 @@
 .view-ninth .content{
     background: rgba(0,0,0,0.9);
     height: 0px;
-    opacity: 0.5;
+    opacity: 1;
     width: 361px;
     overflow: hidden;
     transform: rotate(-33.5deg) translate(-112px,166px);
@@ -99,24 +99,33 @@
     height: 100%;
     /*border-radius: 5em;*/
     width: 300px;
-    opacity: 0.9;
+    opacity: 1;
     transform: rotate(0deg) translate(0px,0px);
 }
 
-.contentButton {
+.content {
     height: 50px;
     width: 50%;
     background-color: green;
     display: inline-block;
-    margin-top: 35px;
 
     span {
         color: white;
-        font-family: 'league-gothic';
+        font-family: 'helveticaltstd';
         display: inline-block;
         margin-top: 10px;
-        font-size: 1.4em;
+        font-size: 1em;
         letter-spacing: 1px;
+        outline: 1px solid white;
+        padding: 14px;
+        color: white;
+        position: relative;
+        top: 30px;
+
+        &:hover {
+            color: black;
+            background-color: white;
+        }
     }
 }
 

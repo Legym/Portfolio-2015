@@ -2,6 +2,10 @@
 @{
     ViewBag.Title = "About";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    @section fancybox {
+        <link href="~/Content/js/vendor/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    }
 }
 
 <div class="AboutContainer">
@@ -23,248 +27,32 @@
     <div class="FaceSmallImages">
         <ul class="fade-in one">
             <li class="image">
-                <a target="_blank" href="https://www.facebook.com/photo.php?fbid=10206074889336156&set=pb.1379813835.-2207520000.1455363725.&type=3&theater">
-                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xlt1/v/t1.0-9/12705398_10206074889336156_5694708920022575145_n.jpg?oh=d43a59fc3142d7769c94ca195477eae6&oe=57338CB9" data-lightbox="image-1" data-title="My caption" />
+                <a class="fancybox" rel="group" href="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xlt1/v/t1.0-9/12705398_10206074889336156_5694708920022575145_n.jpg?oh=d43a59fc3142d7769c94ca195477eae6&oe=57338CB9">
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xlt1/v/t1.0-9/12705398_10206074889336156_5694708920022575145_n.jpg?oh=d43a59fc3142d7769c94ca195477eae6&oe=57338CB9" />
                 </a>
             </li>
             <li class="image">
-                <a target="_blank" href="https://www.facebook.com/photo.php?fbid=10205802790613858&set=a.1422094877275.2058263.1379813835&type=3&theater">
+                <a class="fancybox" rel="group" href="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xap1/v/t1.0-9/12373326_10205802790613858_7433523437701657592_n.jpg?oh=2da0a6402e0161c4534d23fd2f45f180&oe=57651679">
                     <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xap1/v/t1.0-9/12373326_10205802790613858_7433523437701657592_n.jpg?oh=2da0a6402e0161c4534d23fd2f45f180&oe=57651679" alt="" />
                 </a>
             </li>
             <li class="image">
-                <a target="_blank" href="https://www.facebook.com/photo.php?fbid=10205552604719367&set=pb.1379813835.-2207520000.1455363999.&type=3&theater">
+                <a class="fancybox" rel="group" href="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/12196191_10205552604719367_1585335008889128412_n.jpg?oh=942816e2abd9b4d07a1f357b2129a7e2&oe=576AF001">
                     <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/12196191_10205552604719367_1585335008889128412_n.jpg?oh=942816e2abd9b4d07a1f357b2129a7e2&oe=576AF001" alt="" />
                 </a>
             </li>
             <li class="image">
-                <a target="_blank" href="https://www.facebook.com/SeattleWebsiteDesign/photos/t.1379813835/10153791623912859/?type=3&theater">
+                <a class="fancybox" rel="group" href="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/11219646_10153791623912859_8344944709151335795_n.jpg?oh=502233e82a1ca00a7310b00d54ca1cb1&oe=57266D21">
                     <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/11219646_10153791623912859_8344944709151335795_n.jpg?oh=502233e82a1ca00a7310b00d54ca1cb1&oe=57266D21" alt="" />
                 </a>
             </li>
             <li class="image">
-                <a target="_blank" href="https://www.facebook.com/photo.php?fbid=10205404293691684&set=pb.1379813835.-2207520000.1455363999.&type=3&theater">
+                <a class="fancybox" rel="group" href="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xta1/v/t1.0-9/12047087_10205404293691684_3261360779632456720_n.jpg?oh=09573c614f3fce1787a60f2ab67d32f9&oe=577115BA">
                     <img src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xta1/v/t1.0-9/12047087_10205404293691684_3261360779632456720_n.jpg?oh=09573c614f3fce1787a60f2ab67d32f9&oe=577115BA" alt="" />
                 </a>
             </li>
         </ul>
     </div>
 </div>
-
-
-    <section class="Interest01">
-        <div class="InterestImageContainer JunkieFixTop">
-            <h1>The Ultimate Tech Junkie</h1>
-
-            <h3>If It Powers On, Let Me Tinker With it!</h3>
-
-            <div class="JunkieCol">
-                <p>Since 2009 I have been deploying servers, configuring networks, upgrading computers, and troubleshooting software issues. The utilization of Google has allowed me to push the limits of technology to automate, entertain, and record the world around us.  </p>
-            </div><!--
-
-            --><div class="JunkieCol">
-                <p>Having real world experience in IT has improved my productivity and proficiency in web development. Switching between operating systems, learning new software, and staying up to date with the latest tech has given me a competitive edge in a fast paced field.</p>
-            </div>
-
-                <div class="center">
-                    <div class="smartphone">
-                        <div class="content">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 90%"></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 60%"></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 70%"></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="tablet">
-                        <div class="content">
-                            <div class="wrap">
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li style="width: 90%"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li style="width: 60%"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li style="width: 70%"></li>
-                                    <li style="width: 50%"></li>
-                                </ul>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li style="width: 90%"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li style="width: 60%"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li style="width: 70%"></li>
-                                    <li style="width: 80%"></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="laptop">
-                        <div class="content">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 90%"></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 60%"></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 70%"></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li style="width: 50%"></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section class="Interest02">
-        <div class="InterestImageContainer InterestImageContainerL">
-            <div class="InterestLeftContainer">
-                <h1>Coffee Culture</h1>
-
-                <h3>"I like coffee because it gives me the illusion that I might be awake."</h3>
-
-                <p>Coffee - possibly the most overused word developers mention in a portfolio. Personally it's not the coffee I love; it's the rich blend of culture that it ignites. Meeting and socializing with other developers promotes the collaboration of like-minded people. What better place to meet people than Starbucks or the local espresso!
-                </p>
-
-                <p>Environments that encourage learning are the most conducive to success. Exchanging ideas and collaborating with others is the key to building successful ideas.</p>
-            </div>
-
-            <div class="InterestRightContainer">
-
-                <main class="tableCoffee">
-                    <div class="cup">
-                        <div class="ear"></div>
-                        <div class="coffee"></div>
-                        <div class="spill">
-                            <div class="highlight"></div>
-                            <div class="highlight"></div>
-                            <div class="highlight"></div>
-                        </div>
-                    </div>
-                </main>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section class="Interest03">
-    <div class="InterestImageContainer InterestImageContainerL">
-
-        <section class="BottomAlign">
-            <div class="InterestLeftContainerMarvel">
-                <div class="heroes">
-                    <div class="hulk">
-                        <div class="head"><div class="mouth"></div></div>
-                        <div class="right-arm"></div>
-                        <div class="fist"></div>
-                        <div class="left-arm"></div>
-                        <div class="body"></div>
-                        <div class="right-leg"></div>
-                        <div class="left-leg"></div>
-                    </div>
-
-                    <div class="captain">
-                        <div class="head">A</div>
-                        <div class="body"><div class="star"></div></div>
-                        <div class="arms"></div>
-                        <div class="shield"><div class="star"></div></div>
-                        <div class="hands"></div>
-                        <div class="legs"></div>
-                        <div class="boots"></div>
-                    </div>
-
-                    <div class="ironman">
-                        <div class="helmet"><div class="mask"></div></div>
-                        <div class="right-arm"></div>
-                        <div class="left-arm"></div>
-                        <div class="body"><div class="power"></div></div>
-                        <div class="right-leg"></div>
-                        <div class="left-leg"></div>
-                    </div>
-
-                    <div class="thor">
-                        <div class="helmet"></div>
-                        <div class="head">
-                            <div class="beard"></div>
-                        </div>
-                        <div class="cap"></div>
-                        <div class="arm-right"></div>
-                        <div class="arm-left"></div>
-                        <div class="body"></div>
-                        <div class="hammer"></div>
-                        <div class="legs"></div>
-                        <div class="feet"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="InterestRightContainerMarvel MarvelText">
-            <h1>Avengers: The Initiative</h1>
-
-            <h3>"Have you ever tried shawarma?...I don't know what it is, but I wanna try it."</h3>
-
-            <p>
-                Hollywoods reintroduction of classic comics to the big screen has been a captivating experience that millions enjoy. The real superheroes are the movie directors that use modern day technology to create a form of art years before it’s released. Marvel has learned to invest into technologies relevant to the future.
-            </p>
-
-            <p>
-                As web development rapidly changes it is difficult to continually to know what to invest into. Learning a new language, framework, or tool without understanding where it fits in the scope of development is impractical. Improving the user experience, encouraging code maintainability, and scaling for the masses are the tools worth investing in.
-            </p>
-           
-        </div>
-
-    </div>
-</section>
 
 

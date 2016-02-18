@@ -47,6 +47,10 @@ li.image a:hover {
     padding: 50px 30px;
     border-bottom: #dddddd solid 1px;
 
+    @media only screen and (min-width: 40.063em) { 
+        padding-top: 125px !important;
+    }
+
     h1 {
         font-family: "pratersanstwo";
         font-weight: 600;
@@ -61,11 +65,11 @@ li.image a:hover {
     }
 
     h2 {
-      font-family: "ff-prater-sans-web";
+      font-family: "Roboto";
       font-size: 1.6em;
       font-weight: 100;
       margin-top: 0;
-      color: #3498db;
+      color: #555;
       line-height: 1.3em;
     }
 
@@ -118,7 +122,6 @@ li.image a:hover {
 
         h2 {
             margin-top: 0;
-            color: #3498db;
         }
     }
 

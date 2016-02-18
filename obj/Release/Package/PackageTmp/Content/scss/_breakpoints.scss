@@ -1,0 +1,26 @@
+/** The numbers match Bootstraps breakpoints. 
+ ---------------------------------------------------------*/
+$tablet: 40.063em; // Tablet 768 
+$small: 64.063em; // Small Desktop 992px
+$large: 90.063em; // Large Desktop 1200px
+
+
+/** Mixing function is to write shorthand media query 
+ ---------------------------------------------------------*/
+@mixin small {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$small}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$large}) {
+    @content;
+  }
+}

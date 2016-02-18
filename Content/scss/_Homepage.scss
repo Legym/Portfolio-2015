@@ -37,7 +37,6 @@
 
     @media only screen and (min-width: 90.063em) { 
         padding: 30px $HomepageContainerXDesktop;
-        height: 600px;
         background-position-y: 7em;
     }
 }
@@ -64,10 +63,8 @@
         text-align: center;
         position: relative;
         top: -12px;
-        background: #f8f8f8 url(http://www.adhamdannaway.com/wp-content/themes/ad/images/bg-grey.png) repeat;
         display: inline-block;
         width: 45%;
-        font-family: "jaf-bernino-sans-comp";
         font-size: 1.2em;
         color: #333;
     }
