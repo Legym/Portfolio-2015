@@ -6,28 +6,27 @@
     <title>@ViewBag.Title Mygel Bergstresser | Front End Developer & Web Designer</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="~/Content/img/Fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/Content/img/Fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Content/img/Fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/Content/img/Fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Content/img/Fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/Content/img/Fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/Content/img/Fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/Content/img/Fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/img/Fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/Content/img/Fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/img/Fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/Content/img/Fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/img/Fav/favicon-16x16.png">
+    <link rel="manifest" href="~/Content/img/Fav/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     
     <link href="~/Content/css/PrimaryDir.css" rel="stylesheet" />
     <link href="~/Content/css/Compressed/normalize.css" rel="stylesheet" />
-    <link href="~/Content/css/Compressed/Styled.css" rel="stylesheet" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <script src="~/content/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -45,19 +44,26 @@
             <div class="logo">
                 <a href="/">
                     @*<img src="/Content/img/logo.png">*@
-                    <div class="logo-img"></div>
+                    <div class="sprite sprite-logo"></div>
                 </a>
             </div>
+
+            <nav id="Social-Media">
+                <ul>
+                    <li><a target="_blank" href="https://github.com/Legym"><i class="fa fa-github fa-2x"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/MygelBergstresser"><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/mygel-bergstresser-1b83baa3"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                </ul>
+            </nav>
 
             <a id="nav-toggle" href="#"><span></span></a>
 
             <nav id="Navigation">
                 <ul>
                     <li><a href="/About/">About</a></li>
-                    <li><a href="/Portfolio/">Portfolio</a></li>
-                    <li><a href="/Process/">Workflow</a></li>
+                    <li><a href="/Portfolio/">Projects</a></li>
+                    @*<li><a href="/Services/">Services</a></li>*@
                     <li><a href="/Contact/">Contact</a></li>
-
                 </ul>
             </nav>
         </div>

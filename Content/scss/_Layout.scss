@@ -38,12 +38,16 @@
 
 .logo {
     display: inline-block;
-    position: absolute;
-    top: 0px;
-    width: 89px;
-    z-index: 3;
+    position: relative;
     display: none;
+    top: -15px;
+    width: 89px;
+    z-index: 5;
     float: left;
+
+    @include small {
+        top: -8px;
+    }
 
     .logo-img {
         background: url('/Content/img/logo.png') no-repeat;
@@ -53,6 +57,27 @@
 
         &:hover {
             background: url('/Content/img/logo-hover.png') no-repeat;
+        }
+    }
+}
+
+#Social-Media {
+    display: inline-block;
+    line-height: 63px;
+    position: relative;
+    left: 2%;
+
+    li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .fa-2x {
+        font-size: 2.1em;
+        color: white;
+
+        &:hover {
+            color: #2B9CD1;
         }
     }
 }
@@ -140,7 +165,7 @@
 
     @media only screen and (min-width: 40.063em) { 
         position: relative;
-        top: 13px;
+        top: 6px;
     }
 
     @media only screen and (min-width: 717px) { 
@@ -190,5 +215,23 @@
 
     a:hover {
         color: white;
+    }
+}
+
+.sprite {
+    background-image: url('../img/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-logo {
+    width: 89px;
+    height: 89px;
+    background-position: -5px -5px;
+    
+    &:hover {
+        width: 89px;
+        height: 89px;
+        background-position: -104px -5px;
     }
 }

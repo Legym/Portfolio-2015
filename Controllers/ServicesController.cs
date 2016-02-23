@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Portfolio.Controllers
 {
-    public class ProcessController : Controller
+    public class ServicesController : Controller
     {
-        // GET: Process
+        // GET: Services
         public ActionResult Index()
         {
             return View();

@@ -6,6 +6,7 @@ $(document).ready(function () {
         });
     });
 
+
     $("#logo").ready(function () {
         $(".logo").delay(500).slideDown(700, function () {
             // Animation complete.

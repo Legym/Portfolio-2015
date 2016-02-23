@@ -239,6 +239,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Controllers\ProcessController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -265,7 +266,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Portfolio\Index.cshtml" />
-    <Content Include="Views\Process\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Content\img\Fav\manifest.json" />
     <Content Include="Content\Files\MygelBergstresserResume.pdf" />
@@ -317,6 +317,7 @@
     <None Include="Properties\PublishProfiles\mygelb.pubxml" />
     <None Include="Properties\PublishProfiles\MygelBergstresser.pubxml" />
     <Content Include="Views\Grace\Index.cshtml" />
+    <Content Include="Views\Services\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
