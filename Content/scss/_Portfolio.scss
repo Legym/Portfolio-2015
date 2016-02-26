@@ -167,11 +167,13 @@ b.PortStyle {
     }
 
     .portfolio-slideshow {
-        background-color: #2B9CD1;
+        /*background-color: #2B9CD1;*/
+        background-image: url('../img/Portfolio/profile-background.jpg');
+        background-size: cover;
 
         .proj-content img {
             max-width: 100%;
-            padding: 10px;
+            padding: 5px;
             background-color: white;
             margin: 0 auto;
 
@@ -367,11 +369,11 @@ b.PortStyle {
 
 
 
-.arrow-down {
+/*.arrow-down {
 	width: 0; 
 	height: 0; 
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	margin: 0 auto;
 	border-top: 20px solid #2B9CD1;
-}
+}*/

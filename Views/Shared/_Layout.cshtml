@@ -22,7 +22,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="~/Content/img/Fav/favicon-16x16.png">
     <link rel="manifest" href="~/Content/img/Fav/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="~/Content/img/Fav/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     
     <link href="~/Content/css/PrimaryDir.css" rel="stylesheet" />
@@ -98,10 +98,12 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 
+    <script src="~/Content/js/vendor/Chart.min.js"></script>
     <script src="~/Content/js/vendor/fancybox/jquery.fancybox.pack.js"></script>
     <script src="/content/js/main.js"></script>
 
-    
+
+    @RenderSection("chartjs", false)
 
 
 
@@ -118,10 +120,6 @@
 
     </script>
 
-    <!-- CSS Animations were used by incredibly people -->
-    <!--https://twitter.com/mariosmaselli(Marvel Animations)-->
-    <!--https://dribbble.com/shots/1702943-My-Desk(Coffee Cup)-->
-    <!--http://codepen.io/leonard/pen/zqhea-->
 
 </body>
 </html>
