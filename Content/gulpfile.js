@@ -12,7 +12,7 @@ var uglify       = require('gulp-uglify'); // Pass through Uglification
 var rename       = require('gulp-rename'); // Rename files after compilation
 var autoprefixer = require('gulp-autoprefixer'); // Automatically add CSS prefixes for greater CSS3 browser support
 var notify       = require("gulp-notify"); // Ability to send error notifications
-var importCss    = require('gulp-import-css');
+var importCss    = require('gulp-import-css'); // Bundles multiple CSS
 
 // Lint Task
 gulp.task('lint', function() {

@@ -55,6 +55,18 @@
 
 var FEATURES = {
 
+    headerSlideDown: function () {
+        var waypoint = new Waypoint({
+            element: document.getElementById('header'),
+            handler: function (direction) {
+                if (direction === 'down') {
+                    $('#header').addClass('about-show animated slideInDown');
+                    this.destroy()
+                }
+            },
+        });
+    },
+
     openNavigation: function() {
         $("#navigation").addClass('load');
 
@@ -169,46 +181,80 @@ var FEATURES = {
 
     aboutSection1: function () {
 
+        var pieData = [
+            {
+                value: 25,
+                label: 'Java',
+                color: '#811BD6'
+            },
+            {
+                value: 10,
+                label: 'Scala',
+                color: '#9CBABA'
+            },
+            {
+                value: 30,
+                label: 'PHP',
+                color: '#D18177'
+            },
+            {
+                value: 35,
+                label: 'HTML',
+                color: '#6AE128'
+            }
+        ];
+
         var waypoint = new Waypoint({
-            element: document.getElementById('Interest02'),
+            element: document.getElementById('Interest01'),
             handler: function (direction) {                
                 if (direction === 'down') {
-                    $.notify("Hello World");
-                    this.destroy()
+                    //$.notify("This is Interest01");
+                    $('#Interest01').addClass('about-show animated zoomIn');
+
+                    var context = document.getElementById('skills').getContext('2d');
+                    var skillsChart = new Chart(context).Doughnut(pieData);
+                    this.destroy()                    
                 }
-            }
+            },
+            offset: '90%'
         });
 
-        //var pieData = [
-        //    {
-        //        value: 25,
-        //        label: 'Java',
-        //        color: '#811BD6'
-        //    },
-        //    {
-        //        value: 10,
-        //        label: 'Scala',
-        //        color: '#9CBABA'
-        //    },
-        //    {
-        //        value: 30,
-        //        label: 'PHP',
-        //        color: '#D18177'
-        //    },
-        //    {
-        //        value: 35,
-        //        label: 'HTML',
-        //        color: '#6AE128'
-        //    }
-        //];
+        var waypoint = new Waypoint({
+            element: document.getElementById('Interest02'),
+            handler: function (direction) {
+                if (direction === 'down') {
+                    //$.notify("This is Interest02");
+                    $('#Interest02').addClass('about-show animated zoomIn');
 
-        //var context = document.getElementById('skills').getContext('2d');
-        //var skillsChart = new Chart(context).Doughnut(pieData);
+                    var context = document.getElementById('skills2').getContext('2d');
+                    var skillsChart2 = new Chart(context).Pie(pieData);
+                    this.destroy()
+                }
+            },
+            offset: '90%'
+        });
 
-        //var context = document.getElementById('skills2').getContext('2d');
-        //var skillsChart2 = new Chart(context).Pie(pieData);
+        var waypoint = new Waypoint({
+            element: document.getElementById('Interest03'),
+            handler: function (direction) {
+                if (direction === 'down') {
+                    //$.notify("This is Interest03");
+                    $('#Interest03').addClass('about-show animated zoomIn');
 
-        //var context = document.getElementById('skills3').getContext('2d');
-        //var skillsChart3 = new Chart(context).Pie(pieData);
+                    var context = document.getElementById('skills3').getContext('2d');
+                    var skillsChart3 = new Chart(context).Pie(pieData);
+                    this.destroy()
+                }
+            },
+            offset: '90%'
+        });
+
+
+
+
+
+
+
+ 
     }
 };

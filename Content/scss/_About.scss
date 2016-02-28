@@ -346,10 +346,7 @@ li.image a:hover {
     }
 }
 
-.InterestLeftContainer {
-
-    @media only screen and (min-width: 40.063em) { 
-    }
+.InterestLeftContainer {    
 
     @media only screen and (min-width: 64.063em) {
         width: 50%;
@@ -656,4 +653,15 @@ li.image a:hover {
     @media only screen and (min-width: 90.063em) {
 
     } 
+}
+
+
+
+
+#Interest01, #Interest02, #Interest03, #header {
+   visibility: hidden;
+}
+
+.about-show  {
+    visibility: visible !important;
 }

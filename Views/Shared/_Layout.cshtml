@@ -26,12 +26,10 @@
     <meta name="theme-color" content="#ffffff">
     
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <link href="~/Content/css/app.css" rel="stylesheet" />
    
     <script src="~/content/js/vendor/modernizr-2.8.3.min.js"></script>
-
-    @RenderSection("styles", false)
-    @RenderSection("fancybox", false)
 
 </head>
 <body class="@RenderSection("BodyClass", false)">
@@ -39,7 +37,7 @@
     <div>
         <header id="header">
             <div class="HeaderContainer">
-                <div class="logo">
+                <div id="logo" class="logo">
                     <a href="/">
                         <div class="sprite sprite-logo"></div>
                     </a>

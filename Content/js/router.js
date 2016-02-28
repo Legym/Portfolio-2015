@@ -71,6 +71,7 @@
 			init: function() {
 			    FEATURES.openNavigation();
 			    FEATURES.backToTop();
+			    FEATURES.headerSlideDown();
 			}
 		},
 

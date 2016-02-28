@@ -1,19 +1,20 @@
 ﻿@import url('css/external-css/jquery.mmenu.all.min.css');
 @import url('css/external-css/normalize.css');
 @import url('css/external-css/animate.css');
+@import url('css/external-css/slick.css');
+@import url('js/vendor/fancybox/jquery.fancybox.css');
 
+@import "fonts";
 @import "breakpoints";
 
 @import "WidthContainers";
-@import "fonts";
 
 @import "Layout";
 @import "Universal";
+
 @import "About";
 @import "Contact";
 @import "Homepage";
 @import "Portfolio";
 @import "Workflow";
-
-/* test */
 @import "Buttons";

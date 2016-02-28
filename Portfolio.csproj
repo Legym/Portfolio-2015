@@ -85,6 +85,7 @@
     <Content Include="Content\css\external-css\animate.css" />
     <Content Include="Content\css\external-css\jquery.mmenu.all.min.css" />
     <Content Include="Content\css\external-css\normalize.css" />
+    <Content Include="Content\css\external-css\slick.css" />
     <Content Include="Content\fonts\helveticaltstd-boldcond.svg" />
     <Content Include="Content\fonts\helveticaltstd-cond.svg" />
     <Content Include="Content\fonts\pratersanstwo.svg" />
