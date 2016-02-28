@@ -1,46 +1,11 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "About";
     Layout = "~/Views/Shared/_Layout.cshtml";
 
+    @section BodyClass {about}
+
     @section fancybox {
         <link href="~/Content/js/vendor/fancybox/jquery.fancybox.css" rel="stylesheet" />
-    }
-
-    @section chartjs {
-        <script>
-        var pieData = [
-           {
-               value: 25,
-               label: 'Java',
-               color: '#811BD6'
-           },
-           {
-               value: 10,
-               label: 'Scala',
-               color: '#9CBABA'
-           },
-           {
-               value: 30,
-               label: 'PHP',
-               color: '#D18177'
-           },
-           {
-               value: 35,
-               label: 'HTML',
-               color: '#6AE128'
-           }
-        ];
-
-        var context = document.getElementById('skills').getContext('2d');
-        var skillsChart = new Chart(context).Doughnut(pieData);
-
-        var context = document.getElementById('skills2').getContext('2d');
-        var skillsChart2 = new Chart(context).Pie(pieData);
-
-        var context = document.getElementById('skills3').getContext('2d');
-        var skillsChart3 = new Chart(context).Pie(pieData);
-</script>
     }
 }
 
@@ -91,7 +56,7 @@
     </div>
 </div>
 
-<section class="Interest02">
+<section id="Interest02" class="Interest02">
     <div class="InterestImageContainer InterestImageContainerL">
         <div class="InterestLeftContainer">
             <h1>Lorem ipsum dolor sit amet</h1>

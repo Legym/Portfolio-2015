@@ -1,22 +1,20 @@
 {
-  "name": "efelledev",
-  "version": "1.0.0",
-  "description": "",
+  "name": "District404",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.1"
   },
   "devDependencies": {
     "gulp-autoprefixer": "^2.3.1",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-imagemin": "^2.4.0",
+    "gulp-import-css": "^0.1.2",
     "gulp-jshint": "^1.11.2",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.0.0-alpha.1",
-    "gulp-sourcemaps": "^1.5.2",
+    "gulp-sass": "^2.2.0",
     "gulp-uglify": "^1.2.0"
   }
 }

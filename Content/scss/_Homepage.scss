@@ -196,10 +196,14 @@
     h1 {
         font-family: "pratersanstwo";
         font-weight: 600;
-        font-size: 1.4em;
+        font-size: 1em;
         margin: 0;
         transform: translateY(0);
         animation: homepage1 5s infinite;
+    
+        @include small {
+            font-size: 1.4em;
+        }        
     }
 
     p {
@@ -254,14 +258,23 @@
     width: 49%;
     display: inline-block;
     text-align: right;
+    margin-top: 60px;
+
+    @include small {
+        margin-top: inherit;
+    }
 
     h1 {
         font-family: "pratersanstwo";
         font-weight: 600;
-        font-size: 1.4em;
+        font-size: 1em;
         margin: 0;
         transform: translateY(0);
         animation: homepage2 3s infinite;
+
+        @include small {
+            font-size: 1.4em;
+        }
     }
 
     p {
