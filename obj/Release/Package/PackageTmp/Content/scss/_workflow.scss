@@ -1147,21 +1147,11 @@ ul.Step5Listing {
     }
 
     li {
-          display: inline-block;
-  margin-left: 1.4em;
-  font-family: 'Open-Sans';
-  color: gray;
+        display: inline-block;
+        margin-left: 1.4em;
+        font-family: 'Open-Sans';
+        color: gray;
     }
-
-    @media only screen and (min-width: 64.063em) {
-          bottom: 2.5em;
-    }
-
-    @media only screen and (min-width: 90.063em) { 
-
-    }
-
-
 }
 
 .Copy {

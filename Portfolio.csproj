@@ -85,6 +85,7 @@
     <Content Include="Content\css\external-css\animate.css" />
     <Content Include="Content\css\external-css\jquery.mmenu.all.min.css" />
     <Content Include="Content\css\external-css\normalize.css" />
+    <Content Include="Content\css\external-css\skeleton.css" />
     <Content Include="Content\css\external-css\slick.css" />
     <Content Include="Content\fonts\helveticaltstd-boldcond.svg" />
     <Content Include="Content\fonts\helveticaltstd-cond.svg" />
@@ -197,6 +198,10 @@
     <Content Include="Content\js\base.js" />
     <Content Include="Content\js\output\district.js" />
     <Content Include="Content\js\router.js" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\chartist.css" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\chartist.js" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\chartist.min.css" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\chartist.min.js" />
     <Content Include="Content\js\vendor\Chart.min.js" />
     <Content Include="Content\js\vendor\fancybox\blank.gif" />
     <Content Include="Content\js\vendor\fancybox\fancybox_loading%402x.gif" />
@@ -542,6 +547,18 @@
     <Content Include="Content\js\vendor\waypoints\package.json" />
     <Content Include="Content\js\vendor\waypoints\README.md" />
     <Content Include="Content\js\vendor\waypoints\testem.json" />
+    <Content Include="Content\js\vendor\bower_components\chartist\.bower.json" />
+    <Content Include="Content\js\vendor\bower_components\chartist\bower.json" />
+    <Content Include="Content\js\vendor\bower_components\chartist\CHANGELOG.md" />
+    <Content Include="Content\js\vendor\bower_components\chartist\CODINGSTYLE.md" />
+    <Content Include="Content\js\vendor\bower_components\chartist\CONTRIBUTING.md" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\chartist.css.map" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\chartist.min.js.map" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\scss\chartist.scss" />
+    <Content Include="Content\js\vendor\bower_components\chartist\dist\scss\settings\_chartist-settings.scss" />
+    <Content Include="Content\js\vendor\bower_components\chartist\LICENSE-MIT" />
+    <Content Include="Content\js\vendor\bower_components\chartist\LICENSE-WTFPL" />
+    <Content Include="Content\js\vendor\bower_components\chartist\README.md" />
     <None Include="Properties\PublishProfiles\Localhost.pubxml" />
     <None Include="Properties\PublishProfiles\Mygelb - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\mygelb.pubxml" />

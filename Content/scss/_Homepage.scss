@@ -28,7 +28,7 @@
     }
 
     @media only screen and (min-width: 64.063em) {
-        padding: 30px $HomepageContainerDesktop;
+        padding: 20px $HomepageContainerDesktop;
         height: 560px;    
         background-image: url('/Content/img/Hompage-Picture2.jpg');
         background-position-y: 7em;
@@ -36,7 +36,7 @@
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 30px $HomepageContainerXDesktop;
+        padding: 20px $HomepageContainerXDesktop;
         background-position-y: 7em;
     }
 }

@@ -53,8 +53,7 @@ gulp.task('scripts', function() {
         "js/vendor/mmenu/src/js/jquery.mmenu.all.min.js",
         "js/vendor/fancybox/jquery.fancybox.js",
         "js/vendor/slick-1.5.9/slick/slick.min.js",
-        "js/vendor/Chart.min.js",
-        "js/vendor/notify.min.js",
+        //"js/vendor/notify.min.js",
         "js/vendor/waypoints/lib/noframework.waypoints.min.js",        
         "js/base.js",
         "js/router.js"

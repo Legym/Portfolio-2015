@@ -1,12 +1,19 @@
-﻿#header {
+﻿.load {
+    display: block;
+}
+
+
+#header {
     width: 100%;
     height: 50px;
     background-color: black;
     padding: 10px 0;
-    display: none;
+    z-index: 1;
+    position: relative;
 
-    @media only screen and (min-width: 40.063em) { 
+    @include small {
         height: 40px;
+        width: 100%;
         padding: 7px 0;
         background: url(/Content/img/edge.png) repeat-x;
         background-position-y: -30px;
@@ -16,179 +23,236 @@
         top: 0;
         padding-bottom: 0;
     }
-}
 
-.HeaderContainer {
-    width: $HeaderContainerMobile;
-    padding: 5px 5%;
-
-    @media only screen and (min-width: 40.063em) { 
-        padding: 0 $HeaderContainerTablet;
+    .pre-load {
+        display: none;
     }
 
-    @media only screen and (min-width: 64.063em) {
-        padding: 0 $HeaderContainerDesktop;
-    }
+    .HeaderContainer {
+        width: $HeaderContainerMobile;
+        padding: 5px 5%;
 
-    @media only screen and (min-width: 90.063em) { 
-        padding: 0 $HeaderContainerXDesktop;
-        width: 60%;
-    }
-}
+        @media only screen and (min-width: 40.063em) { 
+            padding: 0 $HeaderContainerTablet;
+        }
 
-.logo {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    width: 89px;
-    z-index: 3;
-    display: none;
-    float: left;
+        @media only screen and (min-width: 64.063em) {
+            padding: 0 $HeaderContainerDesktop;
+        }
 
-    .logo-img {
-        background: url('/Content/img/logo.png') no-repeat;
-        height: 89px;
-        width: 100%;
-        display: inline-block;
-
-        &:hover {
-            background: url('/Content/img/logo-hover.png') no-repeat;
+        @media only screen and (min-width: 90.063em) { 
+            padding: 0 $HeaderContainerXDesktop;
+            width: 60%;
         }
     }
-}
 
-#Navigation {
-    display: none;
-    width: 100%;
-    height: auto;
-    background-color: #222;
-    position: absolute;
-    left: 0;
-    top: 60px;
-    text-align: center;
-    z-index: 2;
-    
-    ul {
-        text-decoration: none;
-        list-style: none;
-    }
-
-    li {
-        border-top: #212121 solid 1px;
-        border-bottom: #363636 solid 1px;
-    }
-
-    a {
-        color: white;
-        display: block;
-        height: 70px;
-        line-height: 70px;
-        font-family: helveticaltstd;
-        font-weight: 400;
-        font-size: 1.2em;
-        text-transform: uppercase;
-    }
-
-    a:hover {
-        color: #2B9CD1;
-    }
-
-    @media only screen and (min-width: 718px) { 
+    .logo {
         display: inline-block;
-        position: relative;
-        width: auto;
+        position: absolute;
         top: 0;
-        background-color: transparent;
-        float: right;
+        width: 89px;
+        z-index: 5;
 
+        @include small {
+            top: -8px;
+            position: relative;
+            float: left;
+        }
+
+        .logo-img {
+            background: url('/Content/img/logo.png') no-repeat;
+            height: 89px;
+            width: 100%;
+            display: inline-block;
+
+            &:hover {
+                background: url('/Content/img/logo-hover.png') no-repeat;
+            }
+        }
+    }
+
+    #Social-Media {
+        display: none;
+
+        @include small {
+            display: inline-block;
+            line-height: 63px;
+            position: relative;
+            left: 2%;
+        }
 
         li {
             display: inline-block;
-            padding: 0 15px;
-            border-top: none;
-            border-bottom: none;
+            margin-left: 15px;
         }
 
-        a {
-            line-height: 50px;
-            height: 53px;
+        .fa-2x {
+            font-size: 2.1em;
+            color: white;
+
+            &:hover {
+                color: #2B9CD1;
+            }
         }
+    }
+
+    #nav-toggle { 
+        display: inline-block;
+        float: right; 
+
+        @media only screen and (min-width: 40.063em) { 
+            position: relative;
+            top: 6px;
+        }
+    }
+
+    #nav-toggle { cursor: pointer; padding: 15px 35px 16px 0px; }
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+      cursor: pointer;
+      border-radius: 1px;
+      height: 5px;
+      width: 35px;
+      background: white;
+      position: absolute;
+      display: block;
+      content: '';
+    }
+    #nav-toggle span:before {
+      top: -10px; 
+    }
+    #nav-toggle span:after {
+      bottom: -10px;
+    }
+
+    #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+      transition: all 500ms ease-in-out;
+    }
+
+    /*#nav-toggle.active span {
+      background-color: transparent;
+    }
+    #nav-toggle.active span:before, #nav-toggle.active span:after {
+      top: 0;
+    }
+    #nav-toggle.active span:before {
+      transform: rotate(45deg);
+    }
+    #nav-toggle.active span:after {
+      transform: rotate(-45deg);
+    }*/
+    
+}
+
+    .menu-active {
+        color: #2B9CD1 !important;
+    }
+
+
+    .footer {
+        text-align: center;
+
+        p, a {
+            font-family: Roboto;
+        }
+    }
+
+
+    .FotterColor {
+
+        a   { 
+            color: gray;
+            }
 
         a:hover {
+            color: white;
+        }
+    }
+
+    .sprite {
+        background-image: url('../img/spritesheet.png');
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .sprite-logo {
+        width: 89px;
+        height: 89px;
+        background-position: -5px -5px;
+    
+        &:hover {
+            width: 89px;
+            height: 89px;
+            background-position: -104px -5px;
+        }
+}
+
+.mm-navbar-bottom-1 {
+    bottom: 10px;
+
+    .fa-2x {
+        font-size: 1.6em;
+        color: white !important;
+    }
+}
+
+.mm-panels {
+
+    ul {
+        padding: 0 20px;
+        display: block;
+        right:0;
+        left:0;
+        margin: -20px 0 auto !important;
+    }
+
+    li {
+        color: #E6E6E6;
+        -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+        -webkit-tap-highlight-color: transparent !important;
+    }
+
+    a {        
+        padding: 15px 0 !important;
+        font-family: pratersanstwo;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1.3em;
+        -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+        -webkit-tap-highlight-color: transparent !important;
+
+        &:hover {
             color: #2B9CD1;
         }
     }
+
+    i {
+        color: inherit;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
 }
 
-.menu-active {
+.mm-menu {
+    
+    @include medium {
+        width: 320px !important;
+    }
+}
+
+
+html.mm-right.mm-opening .mm-slideout {
+
+
+    @include medium {
+        -webkit-transform: translate3d(-320px,0,0);
+        transform: translate3d(-320px,0,0);
+    }
+}
+
+.mm-menu.mm-theme-dark {
+    background: #222;
+}
+
+.mm-navbar-bottom a:hover {
     color: #2B9CD1 !important;
-}
-
-
-.footer {
-    text-align: center;
-
-    p, a {
-        font-family: Roboto;
-    }
-}
-
-
-#nav-toggle { 
-    display: inline-block;
-    float: right; 
-
-    @media only screen and (min-width: 40.063em) { 
-        position: relative;
-        top: 13px;
-    }
-
-    @media only screen and (min-width: 717px) { 
-        display: none;
-    }
-}
-
-#nav-toggle { cursor: pointer; padding: 15px 35px 16px 0px; }
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: white;
-  position: absolute;
-  display: block;
-  content: '';
-}
-#nav-toggle span:before {
-  top: -10px; 
-}
-#nav-toggle span:after {
-  bottom: -10px;
-}
-
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  transition: all 500ms ease-in-out;
-}
-#nav-toggle.active span {
-  background-color: transparent;
-}
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
-}
-#nav-toggle.active span:after {
-  transform: rotate(-45deg);
-}
-
-.FotterColor {
-
-    a   { 
-        color: gray;
-        }
-
-    a:hover {
-        color: white;
-    }
 }

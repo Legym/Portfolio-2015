@@ -28,7 +28,7 @@
     }
 
     @media only screen and (min-width: 64.063em) {
-        padding: 30px $HomepageContainerDesktop;
+        padding: 20px $HomepageContainerDesktop;
         height: 560px;    
         background-image: url('/Content/img/Hompage-Picture2.jpg');
         background-position-y: 7em;
@@ -36,7 +36,7 @@
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 30px $HomepageContainerXDesktop;
+        padding: 20px $HomepageContainerXDesktop;
         background-position-y: 7em;
     }
 }
@@ -191,14 +191,19 @@
     width: 49%;
     display: inline-block;
     margin-top: 60px;
+    vertical-align: top;
 
     h1 {
         font-family: "pratersanstwo";
         font-weight: 600;
-        font-size: 1.4em;
+        font-size: 1em;
         margin: 0;
         transform: translateY(0);
         animation: homepage1 5s infinite;
+    
+        @include small {
+            font-size: 1.4em;
+        }        
     }
 
     p {
@@ -206,7 +211,7 @@
     }
 
     @media only screen and (min-width: 40.063em) { 
-        margin-top: 40px;
+        margin-top: inherit;
 
         h1 {
             font-size: 2.2em;
@@ -253,14 +258,23 @@
     width: 49%;
     display: inline-block;
     text-align: right;
+    margin-top: 60px;
+
+    @include small {
+        margin-top: inherit;
+    }
 
     h1 {
         font-family: "pratersanstwo";
         font-weight: 600;
-        font-size: 1.4em;
+        font-size: 1em;
         margin: 0;
         transform: translateY(0);
         animation: homepage2 3s infinite;
+
+        @include small {
+            font-size: 1.4em;
+        }
     }
 
     p {
