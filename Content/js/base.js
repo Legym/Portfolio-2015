@@ -68,8 +68,6 @@ var FEATURES = {
     },
 
     openNavigation: function() {
-        $("#navigation").addClass('load');
-
         $("#navigation").mmenu({
             extensions: [
                 //"pagedim-black",
@@ -81,7 +79,7 @@ var FEATURES = {
 
             offCanvas: {
                 position: "right",
-                //zposition: "front"
+                zposition: "front"
             },
 
             "navbars": [
@@ -139,12 +137,6 @@ var FEATURES = {
             $('li', this).stop().animate({
                 'height': '5px'
             }, 250);
-        });
-    },
-
-    aboutFancyBox: function () {
-        $(".fancybox").fancybox({
-            padding: 0
         });
     },
 

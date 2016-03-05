@@ -75,13 +75,13 @@ var FEATURES = {
                 //"pagedim-black",
                 //"effect-menu-slide",
                 "theme-dark",
-                //"pageshadow",
+                "pageshadow",
                 "border-none"
             ],
 
             offCanvas: {
                 position: "right",
-                zposition: "front"
+                //zposition: "front"
             },
 
             "navbars": [
@@ -114,6 +114,8 @@ var FEATURES = {
     },
 
     portfolioSlider: function () {
+
+        /* Header Slideshow*/
         $('.portfolio-slideshow').slick({
             lazyLoad: 'ondemand',
             slidesToShow: 1,
@@ -123,53 +125,20 @@ var FEATURES = {
             fade: true,
             asNavFor: '.slider-nav'
         });
-        $('.slider-nav').slick({
-            lazyLoad: 'ondemand',
-            centerPadding: '1px',
-            arrows: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            asNavFor: '.portfolio-slideshow',
-            dots: false,
-            centerMode: true,
-            focusOnSelect: true,
-            responsive: [
-                {
-                    breakpoint: 1400,
-                    settings: {
-                        centerPadding: '20px',
-                        slidesToShow: 5
-                    }
-                },
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        centerPadding: '20px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 970,
-                    settings: {
-                        centerPadding: '20px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 740,
-                    settings: {
-                        centerPadding: '20px',
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        centerPadding: '1px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
+
+        /* Display projects in grid*/
+        $('.entry').hover(function () {
+            var li = $('li', this);
+
+            for (var i = 0; i < $(li).length; i++) {
+                $($(li)[i]).stop().animate({
+                    'height': '18px'
+                }, 300 + (i * 150));
+            }
+        }, function () {
+            $('li', this).stop().animate({
+                'height': '5px'
+            }, 250);
         });
     },
 
@@ -188,44 +157,118 @@ var FEATURES = {
                     //$.notify("This is Interest01");
                     $('#Interest01').addClass('about-show animated slideInLeft');
 
-                    // Our labels and three data series
-                    var data = {
-                        labels: ['Week1', 'Week2', 'Week3', 'Week4', 'Week5', 'Week6'],
-                        series: [
-                          [5, 4, 3, 7, 5, 10],
-                          [3, 2, 9, 5, 4, 6],
-                          [2, 1, -3, -4, -2, 0]
-                        ]
-                    };
+                    var header = $('.stats__header');
+                    var bar = $('.stats__item-bar');
+                    var nums = $('.stats__item-num');
+                    var overlay = $('.stats__overlay');
+                    var back = $('.stats__overlay-back');
+                    var isOpen = false;
 
-                    // We are setting a few options for our chart and override the defaults
-                    var options = {
-                        // Don't draw the line chart points
-                        showPoint: false,
-                        // Disable line smoothing
-                        lineSmooth: false,
-                        // X-Axis specific configuration
-                        axisX: {
-                            // We can disable the grid for this axis
-                            showGrid: false,
-                            // and also don't show the label
-                            showLabel: false
-                        },
-                        // Y-Axis specific configuration
-                        axisY: {
-                            // Lets offset the chart a bit from the labels
-                            offset: 40,
-                            // The label interpolation function enables you to modify the values
-                            // used for the labels on each axis. Here we are converting the
-                            // values into million pound.
-                            labelInterpolationFnc: function (value) {
-                                return '$' + value + 'm';
-                            }
+                    var vYear = $('#year');
+                    var vAvg = $('#avg');
+                    var vGames = $('#games');
+                    var vGoal = $('#goals');
+
+                    entrance();
+
+                    bar.on('click', showOverlay);
+                    back.on('click', showOverlay);
+
+                    function entrance() {
+                        bar.addClass('active');
+                        header.addClass('active');
+                        header.on('transitionend webkitTransitionend', function () {
+                            nums.css('opacity', '1');
+                            bar.css('transition-delay', '0');
+                            header.off('transitionend webkitTransitionend');
+                        });
+                    }
+
+                    function showOverlay() {
+                        if (!isOpen) {
+                            overlay.addClass('active').removeAttr('style');
+                            bar.css('transition', 'all 0.4s cubic-bezier(0.86, 0, 0.07, 1)')
+                            .removeClass('active');
+                            header.removeClass('active');
+                            nums.css('opacity', '0');
+                            isOpen = true;
+
+                            updateInfo($(this).parent().index());
+                        } else {
+                            overlay.css('transition', 'all 0.4s cubic-bezier(0.755, 0.05, 0.855, 0.06)').removeClass('active');
+                            bar.addClass('active').removeAttr('style');
+                            header.addClass('active');
+                            nums.css('opacity', '1');
+                            isOpen = false;
                         }
-                    };
+                    }
 
-                    // All you need to do is pass your configuration as third parameter to the chart function
-                    new Chartist.Line('.ct-chart', data, options);
+                    var data = [
+                      {
+                          year: '2007-2008',
+                          goals: '65',
+                          games: '82',
+                          avg: '0.79'
+
+                      },
+                      {
+                          year: '2008-2009',
+                          goals: '56',
+                          games: '79',
+                          avg: '0.7'
+
+                      },
+                      {
+                          year: '2009-2010',
+                          goals: '50',
+                          games: '72',
+                          avg: '0.69'
+
+                      },
+                      {
+                          year: '2010-2011',
+                          goals: '32',
+                          games: '79',
+                          avg: '0.40'
+
+                      },
+                      {
+                          year: '2011-2012',
+                          goals: '38',
+                          games: '78',
+                          avg: '0.48'
+
+                      },
+                      {
+                          year: '2012-2013',
+                          goals: '32',
+                          games: '48',
+                          avg: '0.66'
+
+                      },
+                      {
+                          year: '2013-2014',
+                          goals: '51',
+                          games: '78',
+                          avg: '0.65'
+
+                      },
+                      {
+                          year: '2014-2015',
+                          goals: '50',
+                          games: '76',
+                          avg: '0.66'
+
+                      }
+                    ];
+
+                    function updateInfo(index) {
+                        vYear.text(data[index].year);
+                        vAvg.text(data[index].avg);
+                        vGoal.text(data[index].goals);
+                        vGames.text(data[index].games);
+                    }
+
 
                     this.destroy()                    
                 }
@@ -240,44 +283,6 @@ var FEATURES = {
                     //$.notify("This is Interest02");
                     $('#Interest02').addClass('about-show animated slideInLeft');
 
-                    // Our labels and three data series
-                    var data = {
-                        labels: ['Week1', 'Week2', 'Week3', 'Week4', 'Week5', 'Week6'],
-                        series: [
-                          [5, 4, 3, 7, 5, 10],
-                          [3, 2, 9, 5, 4, 6],
-                          [2, 1, -3, -4, -2, 0]
-                        ]
-                    };
-
-                    // We are setting a few options for our chart and override the defaults
-                    var options = {
-                        // Don't draw the line chart points
-                        showPoint: false,
-                        // Disable line smoothing
-                        lineSmooth: false,
-                        // X-Axis specific configuration
-                        axisX: {
-                            // We can disable the grid for this axis
-                            showGrid: false,
-                            // and also don't show the label
-                            showLabel: false
-                        },
-                        // Y-Axis specific configuration
-                        axisY: {
-                            // Lets offset the chart a bit from the labels
-                            offset: 40,
-                            // The label interpolation function enables you to modify the values
-                            // used for the labels on each axis. Here we are converting the
-                            // values into million pound.
-                            labelInterpolationFnc: function (value) {
-                                return '$' + value + 'm';
-                            }
-                        }
-                    };
-
-                    // All you need to do is pass your configuration as third parameter to the chart function
-                    new Chartist.Line('.ct-chart2', data, options);
 
                     this.destroy()
                 }
@@ -292,44 +297,33 @@ var FEATURES = {
                     //$.notify("This is Interest03");
                     $('#Interest03').addClass('about-show animated slideInLeft');
 
-                    // Our labels and three data series
-                    var data = {
-                        labels: ['Week1', 'Week2', 'Week3', 'Week4', 'Week5', 'Week6'],
-                        series: [
-                          [5, 4, 3, 7, 5, 10],
-                          [3, 2, 9, 5, 4, 6],
-                          [2, 1, -3, -4, -2, 0]
-                        ]
+                    $.fn.jQuerySimpleCounter = function (options) {
+                        var settings = $.extend({
+                            start: 0,
+                            end: 100,
+                            easing: 'swing',
+                            duration: 400,
+                            complete: ''
+                        }, options);
+
+                        var thisElement = $(this);
+
+                        $({ count: settings.start }).animate({ count: settings.end }, {
+                            duration: settings.duration,
+                            easing: settings.easing,
+                            step: function () {
+                                var mathCount = Math.ceil(this.count);
+                                thisElement.text(mathCount);
+                            },
+                            complete: settings.complete
+                        });
                     };
 
-                    // We are setting a few options for our chart and override the defaults
-                    var options = {
-                        // Don't draw the line chart points
-                        showPoint: false,
-                        // Disable line smoothing
-                        lineSmooth: false,
-                        // X-Axis specific configuration
-                        axisX: {
-                            // We can disable the grid for this axis
-                            showGrid: false,
-                            // and also don't show the label
-                            showLabel: false
-                        },
-                        // Y-Axis specific configuration
-                        axisY: {
-                            // Lets offset the chart a bit from the labels
-                            offset: 40,
-                            // The label interpolation function enables you to modify the values
-                            // used for the labels on each axis. Here we are converting the
-                            // values into million pound.
-                            labelInterpolationFnc: function (value) {
-                                return '$' + value + 'm';
-                            }
-                        }
-                    };
 
-                    // All you need to do is pass your configuration as third parameter to the chart function
-                    new Chartist.Line('.ct-chart3', data, options);
+                    $('#number1').jQuerySimpleCounter({ end: 12, duration: 3000 });
+                    $('#number2').jQuerySimpleCounter({ end: 55, duration: 3000 });
+                    $('#number3').jQuerySimpleCounter({ end: 359, duration: 2000 });
+                    $('#number4').jQuerySimpleCounter({ end: 246, duration: 2500 });
 
                     this.destroy()
                 }

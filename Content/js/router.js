@@ -83,7 +83,6 @@
 
 	    about: {
 	        init: function () {
-	            FEATURES.aboutFancyBox();
 	            FEATURES.aboutSection1();
 	        }
         }

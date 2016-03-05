@@ -158,6 +158,7 @@
     <Content Include="Content\img\Icon6.jpg" />
     <Content Include="Content\img\logo-hover.png" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\logo.svg" />
     <Content Include="Content\img\LogoBak.svg" />
     <Content Include="Content\img\Portfolio\profile-background.jpg" />
     <Content Include="Content\img\proj-nwedison.jpg" />
@@ -443,13 +444,12 @@
     <Content Include="Content\scss\_About.scss" />
     <Content Include="Content\scss\_Buttons.scss" />
     <Content Include="Content\scss\_Contact.scss" />
-    <Content Include="Content\scss\_fonts.scss" />
+    <Content Include="Content\scss\_Fonts.scss" />
     <Content Include="Content\scss\_Homepage.scss" />
     <Content Include="Content\scss\_Layout.scss" />
     <Content Include="Content\scss\_Portfolio.scss" />
     <Content Include="Content\scss\_Universal.scss" />
     <Content Include="Content\scss\_WidthContainers.scss" />
-    <Content Include="Content\scss\_workflow.scss" />
     <Content Include="Content\package.json" />
     <Content Include="Content\fonts\helveticaltstd-blkcond.OTF" />
     <Content Include="Content\fonts\helveticaltstd-blkcondobl.OTF" />
@@ -468,7 +468,7 @@
     <Content Include="Content\fonts\pratersanstwo.ttf" />
     <Content Include="Content\fonts\pratersanstwo.woff" />
     <Content Include="Content\fonts\pratersanstwo.woff2" />
-    <Content Include="Content\scss\_breakpoints.scss" />
+    <Content Include="Content\scss\_Breakpoints.scss" />
     <Content Include="Content\js\vendor\mmenu\.gitignore" />
     <Content Include="Content\js\vendor\mmenu\.jshintrc" />
     <Content Include="Content\js\vendor\mmenu\bower.json" />

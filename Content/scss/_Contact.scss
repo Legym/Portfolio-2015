@@ -33,7 +33,7 @@
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 60px $ContactContainerDesktop;
+        padding: 60px 20%;
         padding-top: 140px;
     }    
 }
@@ -76,14 +76,10 @@
     }
 
     @media only screen and (min-width: 90.063em) { 
-        padding: 60px $ContactContainerDesktop;
+        padding: 60px 20%;
         padding-top: 125px;
 
     }    
-}
-
-.ContactTop {
-
 }
 
 .ContactTopBottom {
@@ -95,25 +91,6 @@
     }
 }
 
-.ContactIntro {
-
-
-    @media only screen and (min-width: 40.063em) { 
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    @media only screen and (min-width: 64.063em) {
-        width: 100%; 
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    @media only screen and (min-width: 90.063em) { 
-        display: inline-block;
-        vertical-align: top;
-    }
-}
 
 .ContactMessage {
     display: inline-block;

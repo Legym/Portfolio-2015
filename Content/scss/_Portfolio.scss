@@ -119,53 +119,6 @@ b.PortStyle {
 		margin-left: 65px;
 	}
 
-    .slider-nav {
-
-        article {
-            height: 250px;
-        }
-
-        #slider-proj, .slick-slide {            
-            background-repeat: no-repeat !important;
-            background-position: center !important;
-            outline: none;
-            cursor: default;
-            background-size: 218px 152px !important;
-
-            @media only screen and (min-width: 480px) { 
-                background-size: 140px 106px!important;
-            }
-
-            @media only screen and (min-width: 740px) { 
-                background-size: 218px 160px!important;
-            }
-
-            @media only screen and (min-width: 970px) {
-                background-size: 271px 187px!important;
-            }
-
-            @media only screen and (min-width: 1200px) { 
-                background-size: 225px 160px!important;
-            }
-
-            @media only screen and (min-width: 1400px) { 
-                background-size: 300px 200px!important;
-            }
-
-            &:after {
-                content: none;
-            }
-
-            .proj-content {
-                display: none;
-            }
-
-            .section5-title {
-                display: none;
-            }
-        }
-    }
-
     .portfolio-slideshow {
         /*background-color: #2B9CD1;*/
         background-image: url('../img/Portfolio/profile-background.jpg');
@@ -187,24 +140,14 @@ b.PortStyle {
         #slider-proj {
             outline: none;
             cursor: default;
-            
-
+                        
             @include small {              
                 padding-top: 150px;
-            }
-
-            @media only screen and (min-width: 64.063em) {
-
-            }
-
-            @media only screen and (min-width: 90.063em) { 
-
             }
         }
 
         article {
             
-
             @include small {
                 height: 400px;
             }
@@ -253,14 +196,10 @@ b.PortStyle {
 
 	article {
 		position: relative;
-		text-align: center;
-
-
 
 		&:hover {
 			cursor: pointer;
 		}
-
 	}
 
 	.slick-center {
@@ -300,79 +239,8 @@ b.PortStyle {
 
 }		    
 
-.slick-arrow {
-    outline: none;
-}
-
-.wrap {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.project-detail {    
-    text-align: center;
-
-    @include small {
-        text-align: left;
-    }
-
-    h1, a {
-        margin-top: 0;
-        font-family: pratersanstwo;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: white;
-        margin-bottom: 15px;
-    }
-
-    ul {
-        padding-left: 60px;
-
-        li {
-            list-style: square;
-            font-family: 'Roboto';
-            margin-bottom: 10px;
-            color: white;
-            font-size: 1.05em;
-            letter-spacing: 1px;
-        }
-    }
-
-    p {
-        letter-spacing: 1px;
-        line-height: 1.2em;
-        font-family: 'Roboto';
-        color: white;
-        font-size: 1.05em;
-        margin-top: 0;
-        letter-spacing: 1px;
-    }
-
-    a {
-        font-size: 30px;
-        color: #FFF;
-        text-decoration: none;
-        border-bottom: 2px solid rgba(255, 255, 255, .0);
-        padding: 0 0 0 2px;
-        -webkit-transition: all 0.30s ease-in-out;
-        -moz-transition: all 0.30s ease-in-out;
-        -ms-transition: all 0.30s ease-in-out;
-        -o-transition: all 0.30s ease-in-out;
-
-        &:hover {
-	        animation: borderslide .5s;
-	        border-bottom: 4px solid rgba(255, 255, 255, 1);
-	        padding-bottom: 3px;
-        }
-    }
-}
-
 
 .PortHeader {
-
-    body {
-      background-color: #f0f0f0;
-    }
 
     .entry {
       position: relative;
@@ -384,6 +252,7 @@ b.PortStyle {
       float: left;
       box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
     }
+
     .entry:hover img {
       right: 0px;
       top: -5px;
@@ -392,11 +261,13 @@ b.PortStyle {
       -webkit-transform: scale(0.9, 0.9);
       transform: scale(0.9, 0.9);
     }
+
     .entry:hover aside {
       left: -125px;
       transition: all 0.75s ease;
       opacity: 0;
     }
+
     .entry:hover i {
       left: 110px;
       opacity: 1;
@@ -405,6 +276,7 @@ b.PortStyle {
       -webkit-transform: scale(0.7, 0.7);
       transform: scale(0.7, 0.7);
     }
+
     .entry i {
       border-radius: 100%;
       background-color: rgba(0, 0, 0, 0.4);
@@ -427,9 +299,11 @@ b.PortStyle {
       -webkit-transform: scale(1, 1);
       transform: scale(1, 1);
     }
+
     .entry i:after {
       content: '+';
     }
+
     .entry aside {
       width: 100px;
       padding: 65px 25px 30px 25px;
@@ -457,25 +331,30 @@ b.PortStyle {
       width: inherit;
       height: inherit;
     }
+
     .entry a:hover {
       cursor: pointer;
     }
+
     .entry a img {
       position: absolute;
       top: 0px;
       right: -125px;
       transition: all 0.5s ease;
     }
+
     .entry ul {
       position: absolute;
       display: block;
       bottom: -5px;
       width: inherit;
+      text-align: center;
     }
+
     .entry li {
       display: inline-block;
       height: 5px;
-      width: 100px;
+      width: 32%;
       background-color: red;
       overflow: hidden;
       bottom: 0px;
